@@ -1,6 +1,7 @@
 # Primeiros passos com JS.
 
 <h2>Primeira aula 01</h2>
+(Módulo A)
 
 ---
 na primeira aula apredemos que os scripts JS devem ser incluídos no final do corpo do documento __HTML__,<br>
