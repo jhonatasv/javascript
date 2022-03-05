@@ -77,3 +77,59 @@ Dentro de uma __Template strings__ podemos usar __placeholders__ no seu interior
 `alert('a soma dos Números é, ' +(soma))`
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals">Exemplo</a>
+
+---
+
+(Formatando Números)
+
+`toFixed()`
+
+exemplo sem __toFixed()__
+
+`var n1 = 1545.5, Resultando  n1 1545.5` <br>
+
+exemplo com __toFixed()__
+nesse segundo exemplo vemos que foi adicionado a segunda casa decimal ao (50)
+
+`n1.toFixed(2),  Resultando n1 1545.50` <br>
+
+---
+
+como troca
+caracteres determinado como exemplo o ponto por virgula com  `replace()`
+
+`n1.toFixed(2).replace('.', ',')`
+`Resultando 1545,50`
+
+
+O método __replace()__ retorna uma nova string com ou como correspondência de um ou todas as alterações padrão por um caractere determinado (). O padrão pode ser uma string ou uma RegExp, a substituição pode ser uma string ou uma função a ser chamada para cada correspondência. Se o padrão for, apenas a primeira vez será alterado.
+
+A string original não é modificada.
+
+---
+
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace">Mais exemplos</a>
+
+
+O método `toLocaleString()` retorna uma string com uma representação sensível a linguagem deste número.
+
+(exemplos)
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+Resultando 'R$ 1,545.50'
+
+__pt-BR__ segnificar eu quero localizar para o Brasil, <br>
+o __Style__ _currency_ Segnificar dinheiro/Moeda e o <br> segundo __currency__ Segnificar se vai ser _REAl do Brasil_
+
+
+
+(como converter em Dolares)
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+
+Resultando 'US$ 1,545.50'
+
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString">Mais exemplos</a>
+
+
