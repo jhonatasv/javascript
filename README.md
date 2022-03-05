@@ -130,6 +130,8 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
 
 Resultando 'US$ 1,545.50'
 
+No __node__ ele não faz a inversão da vígula e o ponto mas no Navegador ele faz corretamente
+
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString">Mais exemplos</a>
 
 
