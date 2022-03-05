@@ -61,3 +61,19 @@ o.toString();           // retorna [object Object]`
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/ToString">Mais Exemplo</a>
 
+
+<hr>
+
+(Template strings)
+
+Dentro de uma __Template strings__ podemos usar __placeholders__ no seu interior. um placeholder é representado pelos símbolos `${}` e podem ser usados para facilitar a exibição de conteúdos de variáveis ou expressões.
+
+(com __Template strings__) <br>
+
+`alert(crases A soma enter é,  ${soma}crases)`
+
+(sem) <br>
+
+`alert('a soma dos Números é, ' +(soma))`
+
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals">Exemplo</a>
