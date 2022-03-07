@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de Boas-vidas</title>
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        h1 {
+            font-size: 2.6em;
+
+        }
+
+        button {
+          padding: 15px;
+          border-radius: 5px;
+          border-style: none;
+          background-color: rgba(25, 87, 84, 0.644);
+          font-size: 1em;
+          color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Boas-Vidas</h1>
+        <button onclick="clicou()">Inicie o desafio</button>
+    </main>
+
+    <script>
+    function clicou() {
+       let nome = prompt('Qual é o seu nome?')
+       let idade = prompt(`Olá, ${nome}, Quantos Anos Você tem?`)
+        alert(`Acabei de conhecer o ${nome}, que tem ${idade} anos de idade!`)
+    }
+    </script>
+</body>
+</html>
