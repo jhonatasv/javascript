@@ -21,7 +21,6 @@ Dentro dos parêntes do método `alert()`, temos uma __string__ entre aspas (que
 <h2>Módulo B</h2>
 
 ---
- Aula 5 - Variáveis e tipos Primitivos
 
 Aula 6 - tratramento de dados
 
@@ -59,7 +58,7 @@ Todo objeto possui um método `.toString()`  que é chamado automaticamente quan
 o.toString();           // retorna [object Object]`
 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/ToString">Mais Exemplo</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/ToString">Mais Exemplo em developer mozilla</a>
 
 
 <hr>
@@ -76,7 +75,7 @@ Dentro de uma __Template strings__ podemos usar __placeholders__ no seu interior
 
 `alert('a soma dos Números é, ' +(soma))`
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals">Exemplo</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals">Exemplo em developer mozilla</a>
 
 ---
 
@@ -108,7 +107,7 @@ A string original não é modificada.
 
 ---
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace">Mais exemplos</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace">Mais exemplos em developer mozilla</a>
 
 
 O método `toLocaleString()` retorna uma string com uma representação sensível a linguagem deste número.
@@ -132,6 +131,95 @@ Resultando 'US$ 1,545.50'
 
 No __node__ ele não faz a inversão da vígula e o ponto mas no Navegador ele faz corretamente
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString">Mais exemplos</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString">Mais exemplos em developer mozilla</a>
+
+---
+
+Aula 7 - tratramento de dados
+
+Opedadores logicos
+
+Aritméticos
+
+Esses são todos os operadores aritméticos da linguagem **JavaScript**
+
+**(+)** <br>
+**(-)** <br>
+**(*)** <br>
+**(/)** <br>
+**(%)** <br>
+__(**)__
 
 
+
+para exemplificar, esses são os operandos que são aquele que vão fazer os operadores funcionarem. todos esses oparadores aqui são operadores que a gente chama de binários, são operadores que precisam de **2 operandos.** <br>
+
+5 (+) 2 <br>
+5 (-) 2 <br>
+5 (*) 2 <br>
+5 (/) 2 <br>
+5 (%) 2 <br>
+5 (**) 2
+
+Resultado
+
+5 (+) 2 = __7__<br>
+5 (-) 2 = __3__<br>
+5 (*) 2 = __10__<br>
+5 (/) 2 = __2.5__<br>
+5 (%) 2 = __1__<br>
+5 (**) 2  = __25__
+
+A multiplicação é feita por um **asterisco**, e não pelo sinal de *(x)* ou pelo sinal de *ponto* como a matemática coloca.
+
+Sempre que você quiser multiplicar um valor pelo outro, usa o __(*)__
+
+
+A divisão, é o proximo é bem fácil também identificar, é a **(/)**
+
+Então o 5/2 para o JavaScript, é **divisão real** 
+isso é aquela divisão que leva números reais, que leva a vírgula
+
+existe também a divisão inteira. inclusive o próximo operador precisa que você saiba fazer divisão inteira.
+__divisão inteira é aquela em que você não usa vírgula__
+quando você for precisar colocar vírgula, você para de dividir.
+
+basicamente é assim, __5 % 2__, que é o próximo operador, ele não é usado para calcular porcentagem, ele é o operador de resto da divisão inteira.
+
+<a href="https://www.youtube.com/watch?v=hZG9ODUdxHo&ab_channel=CursoemV%C3%ADdeo">exemplo de cálculo no minuto 6:25</a>
+
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_aritmeticos">saiba mais em developer mozilla</a>
+
+
+E o último operador, ele surgiu no javaScript nas últimas versões, Ele é a potência.
+Esse __5 (**) 2__ significa 5 ao quadrado, e 5 ao quadrado é _25_
+
+
+(Precedência de Operadores)
+
+
+Resumo <br>
+*cuidado*,
+A precedência de operadores determina a ordem em que os operadores são processados. Operadores com maior precedência são processados primeiro.
+
+exemplo simple
+
+__5 + 3 / 2__
+
+ser por acaso sua Resposta for *4*, eu sinto te informar você errou a conta.
+
+explicação, quando uma mesma expressão tem soma e divisão, primeira a gente faz a divisão.
+então na verdade <br> 5 + 3 / 2 não dá *4*, ele vai dar *6.5* 
+
+
+em vez de fazer <br>5 + 3 = *8* <br>
+8 / 2 = *4*, ele na verdade faz primeiro o <br>3 / 2 = *1.5*, <br>
+5 + 1.5 = *6.5* <br>
+que é o resultado
+
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">saiba mais em developer mozilla</a>
+
+
+se eu quise fazer <br>*5 + 3 / 2*, e eu quero fazer 5 + 3 primeiro e depois dividir por dois, Nesse caso é só você colocar parêntenses extamente como a matemática faz <br>(5 + 3) / 2 <br>
+Se você utilizar os parênteses Você muda a ordem de procedência, isso é, você vai fazer primeiro <br> 5 + 3 = 8 <br>
+8/2 = 4
