@@ -220,6 +220,11 @@ que é o resultado
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">saiba mais em developer mozilla</a>
 
 
-se eu quise fazer <br>*5 + 3 / 2*, e eu quero fazer 5 + 3 primeiro e depois dividir por dois, Nesse caso é só você colocar parêntenses extamente como a matemática faz <br>(5 + 3) / 2 <br>
-Se você utilizar os parênteses Você muda a ordem de procedência, isso é, você vai fazer primeiro <br> 5 + 3 = 8 <br>
-8/2 = 4
+se você quise fazer <br>**5 + 3 / 2**, e eu quero fazer *5 + 3* primeiro e depois dividir por dois, Nesse caso é só você colocar parêntenses extamente como a matemática faz <br>(5 + 3) / 2 <br>
+Se você utilizar os parênteses Você muda a ordem de procedência, isso é, você vai fazer primeiro <br> **5 + 3 = 8** <br>
+**8/2 = 4**
+
+
+---
+
+(Precedência)
