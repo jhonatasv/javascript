@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Números</title>
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Verdana, Tahoma, sans-serif;
+            font-family: 1em;
+        }
+
+        button {
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Trabalhando com Números</h1>
+        <button onclick="clicou()">Clique para calcular</button>
+        <p>O resultado vem aqui...</p>
+    </main>
+
+    <script>
+        alert('Seja bem-vindo(a) ao meu site!')
+        function clicou() {
+            let numero = prompt('digite um número:')
+            let calculo = `O dobro de ${numero} é `
+            document.getElementById('p').textContent = ''
+        }
+    </script>
+</body>
+</html>
