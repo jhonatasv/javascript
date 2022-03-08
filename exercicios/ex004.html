@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dados com JS</title>
+    <title>Trabalhando com Dados v2.0</title>
     <style>
         main {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            height: 100vh;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.2em;
         }
+
         button {
-            padding: 10px;
-            font-size: 1em;
+            padding: 15px;
         }
     </style>
 </head>
 <body>
     <main>
-        <h1>Trabalhando com dados v1.0</h1>
-        <button onclick="clicou()">clique para começa</button>
+        <h1>Trabalhando com Dados v2.0</h1>
+        <button onclick="clicou()">Clique para começar</button>
+        <p id="texto">aqui vai aparece o resultado...</p>
     </main>
 
     <script>
         function clicou() {
-           let nome = prompt('Qual é o seu Nome?')
-            alert(`Olá, ${nome} Sejá bem Vindo!`)
+         let nome = prompt('Qual é o seu Nome?')
+         document.getElementById('texto').textContent = `Olá, ${nome} è um grande prazer te conhecer!`
         }
     </script>
 </body>
