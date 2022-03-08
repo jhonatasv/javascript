@@ -221,10 +221,35 @@ que é o resultado
 
 
 se você quise fazer <br>**5 + 3 / 2**, e eu quero fazer *5 + 3* primeiro e depois dividir por dois, Nesse caso é só você colocar parêntenses extamente como a matemática faz <br>(5 + 3) / 2 <br>
-Se você utilizar os parênteses Você muda a ordem de procedência, isso é, você vai fazer primeiro <br> **5 + 3 = 8** <br>
+Se você utilizar os parênteses Você muda a ordem de procedência, isso é, você vai fazer primeiro <br> **(5 + 3) = 8** <br>
 **8/2 = 4**
 
 
 ---
 
 (Precedência)
+
+**( )** <br>
+__(**)__ <br>
+ __(*) ( / )  ( % )__ <br>
+ __(+) (-)__
+
+
+em qualquel linguagem  de programação, tudo, em primeiro lugar, é analisado todos os **parêntes**, depois dos parênteses vai fazer as **potências**, em seguida das potências, nòs termos a **multiplicaçâo** a **divisâo** e o **resto da divisão**
+
+Você perceber que os três aqui estâo na mesma linha? É por que eles tem a mesma ordem de precedência, não necessariamente a _multiplicação_ vem antes, qualquer um desses três vem antes e se por acaso mais de um deles tiver a mesma expressâo, você vai fazer da *esquerda* para *direita* quem aparecer primeiro.
+
+E por fim a gente vai fazer
+as somas e as subtraçôes
+
+---
+
+(Atribuição simples)
+
+`var a = 5 + 3` <br> R=**8** <br>
+`var b = a % 5` <br>
+(8/5 = 1,6) (5*1 = 5 prá 8 resta 3) R=**3** <br>
+`var c = 5 * b ** 2  `<br>  (3 * 3 = 9)  (5 * 9 =  45) R=**45** <br>
+`var d = 10 - a / 2` <br> (8/2 = 4) (10-4 =6) R=6 <br>
+`var e =  6 * 2 / d` <br> (6 * 2 = 12) (12/6 = 2 ) R=**2** 
+`var f =  b % e + 4 /e` <br> (3 * 2 = 1,5 ) (4/2 = 3) (1 + 2 = 3)  R=**3**<br>
