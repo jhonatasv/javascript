@@ -253,3 +253,72 @@ as somas e as subtraçôes
 `var d = 10 - a / 2` <br> (8/2 = 4) (10-4 =6) R=6 <br>
 `var e =  6 * 2 / d` <br> (6 * 2 = 12) (12/6 = 2 ) R=**2** 
 `var f =  b % e + 4 /e` <br> (3 * 2 = 1,5 ) (4/2 = 3) (1 + 2 = 3)  R=**3**<br>
+
+
+---
+(Auto-atribuiçôes)
+
+São atribuicôes á própria variável, por exemplo,
+Criei uma atruibuição simples,
+
+`var n = 3`
+
+se na próxima linha eu fiz <br> `n = n + 4` <br>
+agora vou somar o que está depois do recebe, vou soma **n + 4**
+e o resultado vou jogar dentro de **n.** <br> agora _n + 4_ passar a vale **7**
+
+Lembre-se, A variavel e como se fosse a vaga de um carro, para colocar um segundo carro eu teho que tirar o primeiro, foi exatamente isso que aconteceu.
+
+eu tinha 3, deixou de valer 3 e passou a valer 7. isso é a auto-atribuiçâo
+
+eu posso fazer coisas do tipo
+`n = n - 5` que está valendo 7 agora, -5 dá 2
+então o *n* deixar de valer 7 e passa a valer *2*.
+
+E eu posso fazer qualquer tipo de atribuição
+`n = n * 4`
+eu estou multiplicando esse *2* por *4*, então vai virar *8*. Deixa de valer *2* e passa a valer *8*.
+
+Outra coisa que posso fazer `n = n / 2` Eu vou dividir o *8* por *2* vai dar 4, ele vai deixar de valer 8 e passar a valer *4* na **variável n.**
+
+`n = n ** 2`
+Também posso fazer uma exponenciação, posso pegar esse n elevar ao quadradro e está valendo *4*, 4 ao quadradro dá 16. Ele deixar de valer 4 e passar a valer **16**.
+
+`n = n % 5`
+por fim, posso fazer o resto da divisão. Se eu pego esse 16 e divido por 5 vai dar *3* vezes *5* dá **15**, para 16 resta **1**.
+
+Tudo isso que aconteceu aqui fez a Variável **n**
+partir de 3, assumir vários valores, e terminar com *1* **isso são Auto-atribuiçôes**
+E eu posso simplificar
+
+
+(Simplifiçôes)
+
+Simplifiçôes todas essas auto-atribuições <br>
+
+
+`var n = 3` <br> essa 
+primeira não é auto-atribuição, é atribuição simplies.
+Se eu pego uma variável, por exemplo <br>
+`n = n + 4 ` 
+Eu posso reescrever isso de  uma maneira encurtada
+que é o <br> `n += 4`. Esse **+=** ´so serve, preste antenção, **se a mesma váriável receber ela + 4**
+Exemplo `n = n`
+
+se for `n = x + 4`, não funcionar
+mas se **n = n** recerber ele mesmo + 4 eu posso usar o **+=** Sem problema.
+
+(Formas resulmindas) <br>
+`n = n + 4` /  `n+=4`
+
+`n = n - 5` /  `n-=5`
+
+`n = n * 4` /  `n*=4`
+
+`n = n / 2` /  `n/=2`
+
+`n = n ** 4` /  `n**=5` <br>
+exponenciação
+
+`n = n % 5` /  `n*=5` <br>
+Resto da divisão
