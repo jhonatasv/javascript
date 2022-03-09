@@ -344,9 +344,9 @@ ele vai tira uma unidade. Então, se ele está valendo *6* nesse exato momento e
 Essa parte você entedeu, só que nas linguagens de programação quando a gente vai avançando, você vai ver que  a gente  vai fazer muti **x = x + 1**
  A variável recebe a variável + 1
 
- então, exite um simplicador ainda maior que é o **operador de incremento** e eu posso simplificar **x +=1**, que já estava simplificado, para **x ++**, o mesmo acontece com o **-=1** e eu posso simplificar para **x--**
+ então, exite um simplicador ainda maior que é o **operador de incremento** e eu posso simplificar **x +=1**, que já estava simplificado, para **x++**, o mesmo acontece com o **-=1** e eu posso simplificar para **x--**
 
  (Simplificação ainda maior) <br>
-`x = x + 1` / `x ++` <br>
+`x = x + 1` / `x++` <br>
 
-`x = x - 1` / `x --`
+`x = x - 1` / `x--`
