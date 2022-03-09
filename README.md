@@ -322,3 +322,31 @@ exponenciação
 
 `n = n % 5` /  `n*=5` <br>
 Resto da divisão
+
+---
+
+(Operadores de incremento)
+
+`var x = 5`
+
+Então, o 5 vai para a variável x. Eu posso fazer operaçôes simples, como por exemplo
+`x = x + 1`
+1 é sinal de que o *x* vai deixar de valer *5* e vai passar a valer **6**
+
+`x = x - 1`
+ele vai tira uma unidade. Então, se ele está valendo *6* nesse exato momento ele vai passar a valer 5
+
+(Simplificação) <br>
+`x = x + 1` / `x +=1` <br>
+
+`x = x - 1` / `x -=1`
+
+Essa parte você entedeu, só que nas linguagens de programação quando a gente vai avançando, você vai ver que  a gente  vai fazer muti **x = x + 1**
+ A variável recebe a variável + 1
+
+ então, exite um simplicador ainda maior que é o **operador de incremento** e eu posso simplificar **x +=1**, que já estava simplificado, para **x ++**, o mesmo acontece com o **-=1** e eu posso simplificar para **x--**
+
+ (Simplificação ainda maior) <br>
+`x = x + 1` / `x ++` <br>
+
+`x = x - 1` / `x --`
