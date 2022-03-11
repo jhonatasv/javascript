@@ -135,7 +135,7 @@ No __node__ ele não faz a inversão da vígula e o ponto mas no Navegador ele f
 
 ---
 
-Aula 7 - tratramento de dados
+Aula 7 - Operadores (Parte 1)
 
 Opedadores logicos
 
@@ -351,3 +351,7 @@ Essa parte você entedeu, só que nas linguagens de programação quando a gente
 `x = x + 1` / `x++` <br>
 
 `x = x - 1` / `x--`
+
+---
+
+Aula 8 - Operadores(Parte 2)
