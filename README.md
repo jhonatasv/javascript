@@ -425,3 +425,35 @@ Resultados:
 `9 <= 7 -> false`  <br>
 `5 == 5 -> true`  <br>
 `4 != 4 -> false`
+
+
+posso reunir algumas expressôes.
+`var a = 8, var b = 15`
+`a <= b - 10 ` R= **false**
+
+a, que é 8, è menor ou igual a b-10? você percebe que quando eu tenho operadores relacionais e operadores aritméticos na mesma linha, ou mesma expressâo, primeiro eu faço os aritmèticos e depois eu vou fazer os relacionais. Entâo, b-10 vai dar 5. E, 8 è menor ou igual a 5? nâo, * não é menor ou igual, è menor
+
+
+
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 4:14)</a>
+
+
+
+(exemplos mais claros)
+
+A primeira que está aqui embaixo è, o preço è maior ou igual a 200,50?
+`preço >=200.50`
+O que estou testando è: <br>  o preço è maior ou igual a 200 reais e 50 centeavos, por exemplo ?
+
+`idade < 18`
+a idade é menor que 18 ? o que ele está perguntado è: <br> A pessoa é menor de 18 anos? 18 anos não entra nessa comparação. tem que ser 17 para trás.
+
+`curso== 'JavaScript'`
+O curso é igual a JavaScript?
+Entâo, eu posso testar tambèm variáveis **string**. A string curso è igual a string JavaScript?
+
+
+`n1 != n2`
+O Primeiro número è diferente do segundo?
+
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 7:13)</a>
