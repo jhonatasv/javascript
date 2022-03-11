@@ -139,7 +139,7 @@ Aula 7 - Operadores (Parte 1)
 
 Opedadores logicos
 
-Aritméticos
+**Aritméticos**
 
 Esses são todos os operadores aritméticos da linguagem **JavaScript**
 
@@ -355,3 +355,73 @@ Essa parte você entedeu, só que nas linguagens de programação quando a gente
 ---
 
 Aula 8 - Operadores(Parte 2)
+
+no javaScript exite Operadores
+
+aritméticos <br>
+atribuição  
+Relacionais <br>
+lógicos
+ternário
+
+na aula 7 (parte 1)
+a gente abrangeu os dois operadores, o **aritmético** e o de **atribuição**
+
+E nessa aula vamos aprender <br>*Relacionais* <br>
+*lógicos* <br>
+*ternário*
+
+**Relacionais**
+
+Os operadores relacionais do JavaScript são da grande maioria da linguagem de programação. são os operadores de *maior*, *menor*, *maior ou igual*, *menor ou igual*
+
+
+__(>) maior <br>
+(<) menor <br>
+(>=) maior ou igual <br>
+(<=) menor ou igual <br>
+(==) igual <br>
+(!=) diferente__
+
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">Dica para saber a diferença entre o maior e menor <br>(minuto 2:30)</a>
+
+vou colocar valores qualquer, vou usar só valores inteiros, mas tambèm serve em valores reais, que são aquele valores que tenha vírgula <br>
+
+**5 (>) 2 <br>
+7 (<) 4  <br>
+8 (>=) 8  <br>
+9 (<=) 7  <br>
+5 (==) 5  <br>
+4 (!=) 4**
+
+de todas essas expressões que a gente acabou de gerar. È importante dizer o seguinte: *para toda a expressão que tenha um operador relacional ligado á ela, o resultado dessa expressão vai ser sempre um valor __booleano__, vai ser um valor do tipo __vardedeiro__ ou __falso__.*
+
+
+vamos analisa o primeiro, `5 > 2` <br> o valor **5** é maior do que o valor **2**? Sim. Então, se o valor *5* é maior do que valor *2*, o Resultado dessa expressão é **true**, que é o valor verdadeiro
+`5 > 2` **(true)**<br> 
+
+No segundo `7 < 4 ` <br>
+O *7* é menor do que *4*? não. o 7 não é menor do que *4*. Então, o resultado é **false**,
+
+No proximo
+`8 >= 8 ` <br> 8 é **maior ou igual** a 8? Note que eu falo **Maior ou igual**. Eu não falo **maior e igual**
+Uma coisa não pode ser maior e igual á outra. Ou é maior ou igual. 8 não é maior do que 8, mas ele é igual. Então, isso é verdadeiro
+
+No proximo
+`9 <= 7 ` O 9 é menor ou igual a 7? nâo. O 9 è maior. Ele nem é menor, e nem é igual. Então é **false**. 
+
+aqui embaixo tem o sinal de igual e percebe o seguinte:
+ a igualdade no JavaScript não é *1 sinal de igual*. nos já vimos várias vezes durante a aulas que um símbolo de igula no JavaScript é a mesma coisa que muitas outras lingugens de programação, a gente lê como **recebe**. Ele é um operador de atribuição. Ele não é um operador de igualdade.  o operador de igualdade do JavaScript é esse aqui. `5 == 5` sendo assim *5* è igual a *5*? sim. Então é **true**
+
+
+ E por último,  `4 != 4`,<br>
+  4 Esse **!=** quer dizer __"não igual"__. E uma coisa que não é igual, è **diferente** Então, 4 é difente de 4 ? não. 4 é igual a qutro. Então é **false**
+
+Resultados:
+
+`5 > 2 -> true` <br>
+`7 < 4 -> false`  <br>
+`8 >= 8 -> true`  <br>
+`9 <= 7 -> false`  <br>
+`5 == 5 -> true`  <br>
+`4 != 4 -> false`
