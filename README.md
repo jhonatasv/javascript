@@ -311,6 +311,7 @@ mas se **n = n** recerber ele mesmo + 4 eu posso usar o **+=** Sem problema.
 (Formas resulmindas) <br>
 `n = n + 4` /  `n+=4`
 
+
 `n = n - 5` /  `n-=5`
 
 `n = n * 4` /  `n*=4`
@@ -320,7 +321,7 @@ mas se **n = n** recerber ele mesmo + 4 eu posso usar o **+=** Sem problema.
 `n = n ** 4` /  `n**=5` <br>
 exponenciação
 
-`n = n % 5` /  `n*=5` <br>
+`n = n % 5` /  `n%=5` <br>
 Resto da divisão
 
 ---
