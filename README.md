@@ -457,3 +457,35 @@ Entâo, eu posso testar tambèm variáveis **string**. A string curso è igual a
 O Primeiro número è diferente do segundo?
 
 <a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 7:13)</a>
+
+---
+
+(identidade)
+
+operadores relacionais que a gente chama de operadores de identidade.
+
+por exemplo
+ `5 == 5`
+ 5 é igual a 5? sim. Então é **true**
+
+ agora, se eu tiver `5 =='5'`? è a mesma frase, foi exatamente igual
+ Esse 5 é igual ao outro '5'?
+
+ para o JavaScript, 5 é, sim igual a '5'.
+isso porque o sinal de igualdade não testa o tipo. Eu tenho **valor 5 inteiro** lá no início, E eu tenho  **valor '5' em string**
+
+O que o javaScript faz é analisar se esse cinco tem o mesmo valor que o valor que o outro, e são valores de tipo difenrentes. Mas, eles têm a mesma Grandeza.
+
+para isso exite um outro operador, que é **o operador de identidade, tambem conhecido como operador de igualdade restrita**, que no lugar de dois sinais de igual, são três sinais de igual. <br>
+`5 === '5'`. Nesse caso, eu estou testando se os dois cinco são idênticos, e **idêntico é ser do mesmo valor e do mesmo tipo.**
+Nesse caso eles têm o mesmo valor. Mas eles nâo têm o mesmo tipo. Entâo ele è **false**
+
+e uma dúvidade pode surgir: <br> `5 === 5` R= **true**
+Eles são indênticos.
+
+
+Resultados: <br>
+`5 == 5` R= **true** <br>
+`5 =='5'` R= **true** <br>
+`5 === '5'` R= **false** <br>
+`5 === 5` R= **true**
