@@ -23,15 +23,17 @@
     <main>
         <h1>Trabalhando com Números</h1>
         <button onclick="clicou()">Clique para calcular</button>
-        <p>O resultado vem aqui...</p>
+        <p id="resultado">O resultado vem aqui...</p>
     </main>
 
     <script>
         alert('Seja bem-vindo(a) ao meu site!')
         function clicou() {
-            let numero = prompt('digite um número:')
-            let calculo = `O dobro de ${numero} é `
-            document.getElementById('p').textContent = ''
+            let numero = parseInt(prompt('digite um número:'))
+            let multiplicar = ` ${numero * 2}`
+            let divisaoReal = ` ${numero / 2}`
+            let calculo = `O dobro de ${numero}  é ${multiplicar} e a metade è ${divisaoReal}`
+            document.getElementById('resultado').textContent = `${calculo}`
         }
     </script>
 </body>

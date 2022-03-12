@@ -358,11 +358,11 @@ Aula 8 - Operadores(Parte 2)
 
 no javaScript exite Operadores
 
-aritméticos <br>
+**aritméticos <br>
 atribuição  
 Relacionais <br>
 lógicos
-ternário
+ternário**
 
 na aula 7 (parte 1)
 a gente abrangeu os dois operadores, o **aritmético** e o de **atribuição**
@@ -489,3 +489,12 @@ Resultados: <br>
 `5 =='5'` R= **true** <br>
 `5 === '5'` R= **false** <br>
 `5 === 5` R= **true**
+
+---
+
+(operadores lógicos)
+Que noo javaScript são três: a exclamaÇao, os dois "&" comerciais e os dois pipes, que são dois traços em pé.
+
+`!`
+`&&`
+`||`
