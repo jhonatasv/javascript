@@ -31,10 +31,10 @@
     function clicou() {
         let numero = parseInt(prompt('Digite um número:'))
         let segundoNumero = parseInt(prompt('Digite outro número:'))
+       
         let soma = `${numero + segundoNumero}`
         let resultado = `A soma entre ${numero} e ${segundoNumero} é igual a ${soma}!`
         document.getElementById('resultado').textContent = `${resultado}`
-        document.querySelectorAll(`${numero}`).style.color = 'red'
     }
     </script>
 </body>
