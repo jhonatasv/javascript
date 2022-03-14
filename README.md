@@ -493,7 +493,7 @@ Resultados: <br>
 ---
 
 (operadores lógicos)
-Que noo javaScript são três: a exclamaÇao, os dois "&" comerciais e os dois pipes, que são dois traços em pé.
+Que no javaScript são três: a exclamaÇao, os dois "&" comerciais e os dois pipes, que são dois traços em pé.
 
 `!`
 `&&`
