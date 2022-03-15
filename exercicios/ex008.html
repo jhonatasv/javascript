@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Número com JS</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
         main {
             display: flex;
             flex-direction: column;
             align-items: center;
             font-family: Verdana, Tahoma, sans-serif;
             font-size: 1.2em;
+            margin-top: 45px;
         }
 
         button {
-            padding: 16px;
-            font-size: 18px;
+            padding: 18px;
+            font-size: 16px;
+            margin: 15px 0 10px 0;
         }
 
         p {
             font-size: 16px;
+            margin: 7px;
         }
 
     </style>
@@ -30,15 +37,26 @@
         <h1>Vários cáculos em JS</h1>
         <button onclick="clicou()">Clique para calcular</button>
         <p id="resultado">O resultado vai aparecer aqui...</p>
+        <p id="valor_absoluto"></p>
+        <p id="parte_inteira"></p>
+        <p id="inteiro"></p>
         <p id="raiz_quadrada"></p>
+        <!-- <p id="raiz_cubica"></p> -->
     </main>
     <script>
      function clicou() {
        let numero = Number(prompt('Digite um nùmero'))
-    //    let raiz_quadrada = Math.pow(`${numero /0.5}`)
-      
-       document.getElementById('resultado').textContent = `O numero a ser analisado aqui séra o ${numero}`
-       document.getElementById('raiz_quadrada') .textContent = `testando ${raiz_quadrada}`
+       let valor_absoluto = `O seu valor é ${numero}`
+       let parte_inteira = `A sua parte inteira é ${numero}`
+       let inteiro = `O valor inteiro mais pròximo é ${numero}`
+       let raiz_quadrada = `A sua raiz quadra é ${Math.sqrt(numero)}` // A função Math.sqrt() retorna a raiz quadrada de um número
+    
+        document.getElementById('resultado').textContent = `O numero a ser analisado aqui séra o ${numero}`
+        document.getElementById('valor_absoluto').textContent = `${valor_absoluto}`
+         document.getElementById('parte_inteira').textContent = `${parte_inteira}`
+        document.getElementById('raiz_quadrada').textContent = `${raiz_quadrada}`
+        document.getElementById('inteiro').textContent = `${inteiro}`
+    
     }
     </script>
 </body>
