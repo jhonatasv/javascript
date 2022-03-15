@@ -530,7 +530,7 @@ E por acaso numa mesma expressão eu tiver um __"e"__, um __"ou"__ e um __"não"
 
 <hr>
 
-Operadores (**Trenário**)
+Operadores (**Ternário**)
 
 `?`
 `:`
