@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Número com JS</title>
+    <title>Contador de Cliques</title>
     <style>
         main {
             display: flex;
@@ -27,19 +27,25 @@
 </head>
 <body>
     <main>
-        <h1>Vários cáculos em JS</h1>
-        <button onclick="clicou()">Clique para calcular</button>
-        <p id="resultado">O resultado vai aparecer aqui...</p>
-        <p id="raiz_quadrada"></p>
+        <h1>Contador de Cliques</h1>
+        <div>
+            <button onclick="contar()">Clique em mim</button>
+            <button onclick="zerar()">Zerar o contador</button>
+        </div>
+        <p id="contar">O Contador está com 0 cliques</p>
     </main>
     <script>
-     function clicou() {
-       let numero = Number(prompt('Digite um nùmero'))
-    //    let raiz_quadrada = Math.pow(`${numero /0.5}`)
-      
-       document.getElementById('resultado').textContent = `O numero a ser analisado aqui séra o ${numero}`
-       document.getElementById('raiz_quadrada') .textContent = `testando ${raiz_quadrada}`
-    }
+        function contar() {
+            // let começa = 0
+            // let contando =  ++ 1
+
+          document.getElementById('contar').textContent = `O Contador está com ${contando} cliques`
+        }
+
+        // function clicou() {
+            
+        //     document.getElementById('contar').textContent = ``
+        // }
     </script>
 </body>
 </html>

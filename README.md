@@ -495,6 +495,35 @@ Resultados: <br>
 (operadores lógicos)
 Que no javaScript são três: a exclamaÇao, os dois "&" comerciais e os dois pipes, que são dois traços em pé.
 
-`!`
-`&&`
-`||`
+`!` **Negaçâo** <br>
+`&&` **conjunçâo** <br>
+`||` **disjunção**
+
+`!` sempre que aparecer **!** quer dizer *negação*, quer dizer **não**
+
+`&&` comerciais, isso é uma *conjunção*. ou a gente chama de **"e"** é nosso e logico.
+
+
+`||` E o ùltimo, que são dois pipes, são *disjunção* ou entâo é o nosso **ou** logico
+
+
+vamos começa pelo operador de *negação* `!` , o **"não"**, Ele é tratado como operador unário, isto é, ele só tem um operando. Ou seja, depois da exclamaçâo ou eu coloco **"true"** ou **"false**.
+
+segundo operador de conjunção são os dois `&&` comerciais. Esse operadores, assim como o de *disjunção* também, ele é um operador binário. isto é eu tenho dois valores lógicos, um de cada lado
+
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 13:00)</a>
+
+
+E por fim, a **disjunção** que são os dois pipes `||` também um operador binário que tem dois valores lógicos, um de cada lado. Dependendo da posição deles e do resultado lógico, eu tenho tambèm o valor lógico de resultado. E na **disjunção** basta que um deles seja verdadeiro para o resultado ser verdadeiro.
+
+
+exemplo <br> 
+`var a = 5` <br> `var b = 8`
+
+`a > b && b % 2 == 0`
+
+vamos entender o seguinte, quando eu tenho operadores aritméticos, relacionais e lógicos na mesma expressão, olha a ordem que é feita. *primeira vou fazer todos os operadores __aritméticos__ depois vou fazer os operadores __relacionais__ e depois os operadores __lógicos__.*
+
+E por acaso numa mesma expressão eu tiver um __"e"__, um __"ou"__ e um __"não"__, a ordem de execução é sempre essa, <br> primeiro o __"não" `!`__, <br> depois o __"e" `&&`__, <br> e por ultimo __"ou" `||`__.
+
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 16:56)</a>
