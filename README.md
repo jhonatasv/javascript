@@ -527,3 +527,19 @@ vamos entender o seguinte, quando eu tenho operadores aritméticos, relacionais 
 E por acaso numa mesma expressão eu tiver um __"e"__, um __"ou"__ e um __"não"__, a ordem de execução é sempre essa, <br> primeiro o __"não" `!`__, <br> depois o __"e" `&&`__, <br> e por ultimo __"ou" `||`__.
 
 <a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 16:56)</a>
+
+<hr>
+
+Operadores (**Trenário**)
+
+`?`
+`:`
+
+operadores ternário é composto por dois símbolos que aparecem na mesma expressão, a interrogação **?** e os dois pontos **:**. ele se chama ternário porque tem três partes. Dá uma olhada nos blocos que aparecem aqui embaixo.
+
+**teste `?` true `:` false**
+
+
+esses três blocos são os blocos de teste, o bloco verdaeiro e o bloco false. È por isso, que esse operador se chama ternário, porque juna três operandos.
+
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 19:15)</a>
