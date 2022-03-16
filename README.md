@@ -543,3 +543,7 @@ operadores ternário é composto por dois símbolos que aparecem na mesma expres
 esses três blocos são os blocos de teste, o bloco verdaeiro e o bloco false. È por isso, que esse operador se chama ternário, porque juna três operandos.
 
 <a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 19:15)</a>
+
+
+Aula 9 - OEntendendo o *DOM*
+

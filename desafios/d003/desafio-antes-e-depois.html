@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes e depois</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+         font-family: 'Courier New', Courier, monospace;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            font-size: 17px;
+        }
+
+        button {
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main> 
+        <h1>Antes e depois</h1>
+        <button onclick="clicou()">Antecessor e Sucessor</button>
+    
+    <script>
+        function clicou() {
+           let numero = Number(prompt('Digite um número inteiro qualquer'))
+    
+            let antes = `Antes de ${numero}, termos o número ${numero -= 1}`
+            let  depois = `Depois de ${numero += 1}, termos o número ${numero  += 1}`
+    
+           alert(`${antes}  \n${depois}`) // \n - quebra de linha (new line) 
+        }
+    </script>
+    </main>
+</body>
+</html>
