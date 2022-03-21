@@ -549,8 +549,44 @@ Aula 9 - Entendendo o *DOM*
 
 Dom é um acrônimo para *Document Object Model* que é modelo de objetos para documentos, basicamente é um conjunto de objetos dentro do seu navegador que vai dar acesso aos componentes internos do seu website. O *Dom* ele não funciona dentro do *node js* por exemplo, O Dom está presente quando estou rodando JavaScript dentro do meu navegador.
 é uma coisa importante que você deve conhecer e deve saber fazer é a sua *ávore Dom* do seu site, basicamente a ávore *Dom* começa da raiz e essa raiz dentro do navedaor é chamada de **windows**, então tudo dentro do javaScript está dentro de um objeto chamado window que quer dizer janela então aquela janela do seu navegador é um objeto Dom e ele se chama **window**,
-dentro do window eu tenho vários outros objetos como 
-`window`
-`locatio` <br>
-`document` 
+dentro do window eu tenho vários outros objetos como <br>
+`window` <br>
+`location` <br>
+`document` <br>
+`history`
+
+exemplos: eu tenho o `location` que diza localização do seu site, qual é a url, qual é a página atua, foi a página anterior <br>
+
+temos o `document` que é o documento atual <br>
+
+e o `history` que vai guardando de onde você veio para onde você vai, isso facilita a navegação dentro do seu site, exitem muitos outros objetos
+
+dentro do `document` no nosso caso exite outros objeto muito importante é o bjeto `HTML`, que é exatamente a parte **HTML** do meu site, dentro de HTML eu tenho basicamnte dois objetos ou filhos que a gente chama, o *child* que é o head e o body que é a cabaçalho e a parte de corpo.
+
+<a href="https://www.youtube.com/watch?v=WWZX8RWLxIk&ab_channel=CursoemV%C3%ADdeo">Complemento (minuto 10:08)</a>
+
+<hr>
+
+(Selecionado elementos no Dom)
+
+ dentro da ávore Dom exitem vários métos para isso, alguns exemplo deles
+
+**por Marca** <br>
+em primeiro lugar vamos como selecionar por *Marca* ou *tag name*
+`getElementsByTagName()`
+
+**por ID** <br>
+`getElementById()`
+
+**por Nome** <br>
+se eu tenho uma propriedade name então vou utilizar o getElementsByName, pecebe aqui que ele tem o **s** no plura, então eu preciso usar o colchete [ ], quando eu tenho mais de um objeto da mesma *classe* ou *Nome* eu vou usar muito **por marca** e tabem por <br>
+`getElementsByName`
+
+**por Classe**
+`getElementsByClassName`
+
+**por Seletor**
+
+
+
 

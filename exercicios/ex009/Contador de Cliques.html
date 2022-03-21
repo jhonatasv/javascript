@@ -14,20 +14,21 @@
             <button onclick="contar()">Clique em mim</button>
             <button onclick="zerar()">Zerar o contador</button>
         </div>
-        <p id="contar">O Contador está com 0 cliques</p>
+        <p>O Contador está com <span id="contar">0</span> cliques</p>
     </main>
     <script>
         function contar() {
-            let comeca = 0
-            let contando = `${comeca +=1}` 
+            let comecando = 0
+            let contando = `${comecando += 1}` 
 
-          document.getElementById('contar').textContent = `O Contador está com ${contando} cliques`
+            document.getElementById('contar').textContent = `${contando}`
+         
         }
 
-        // function zerar() {
-            
-        //     document.getElementById('contar').textContent = ``
-        // }
+
+        function zerar() {
+            document.getElementById('contar').textContent = ''
+        }
     </script>
 </body>
 </html>
