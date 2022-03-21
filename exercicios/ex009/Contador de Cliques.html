@@ -5,25 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contador de Cliques</title>
-    <style>
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: Verdana, Tahoma, sans-serif;
-            font-size: 1.2em;
-        }
-
-        button {
-            padding: 16px;
-            font-size: 18px;
-        }
-
-        p {
-            font-size: 16px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -36,13 +18,13 @@
     </main>
     <script>
         function contar() {
-            // let começa = 0
-            // let contando =  ++ 1
+            let comeca = 0
+            let contando = `${comeca +=1}` 
 
           document.getElementById('contar').textContent = `O Contador está com ${contando} cliques`
         }
 
-        // function clicou() {
+        // function zerar() {
             
         //     document.getElementById('contar').textContent = ``
         // }
