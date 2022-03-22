@@ -567,7 +567,7 @@ dentro do `document` no nosso caso exite outros objeto muito importante é o bje
 
 <hr>
 
-(Selecionado elementos no Dom)
+(Selecionar elementos no Dom)
 
  dentro da ávore Dom exitem vários métos para isso, alguns exemplo deles
 
@@ -575,19 +575,30 @@ dentro do `document` no nosso caso exite outros objeto muito importante é o bje
 em primeiro lugar vamos como selecionar por *Marca* ou *tag name*
 `getElementsByTagName()`
 
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByTagName">Exemplo: getElementsByTagName </a>
+
 **por ID** <br>
 `getElementById()`
 
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById">Exemplos: getElementById</a>
+
 **por Nome** <br>
-se eu tenho uma propriedade name então vou utilizar o getElementsByName, pecebe aqui que ele tem o **s** no plura, então eu preciso usar o colchete [ ], quando eu tenho mais de um objeto da mesma *classe* ou *Nome* eu vou usar muito **por marca** e tabem por <br>
+se eu tenho uma propriedade name então vou utilizar o **getElementsByName**, pecebe aqui que ele tem o **s** no plura, então eu preciso usar o colchete [ ], quando eu tenho mais de um objeto da mesma *classe* ou *Nome* eu vou usar muito **por marca** e tabem por <br>
 `getElementsByName`
 
-**por Classe**
+
+
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByName"> Exemplos: getElementsByName</a>
+
+
+**por Classe** <br>
 `getElementsByClassName`
 
-**por Seletor**
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByClassName">Exemplo: getElementsByClassName</a>
+
+**por Seletor** <br>
 `querySelector()`
 
 
-
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector">Exemplos: querySelector</a>
 

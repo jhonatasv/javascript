@@ -7,4 +7,6 @@ function contar() {
 
 function zerar() {
     document.getElementById('contando').textContent = ''
+
+    
 }
