@@ -586,6 +586,7 @@ se eu tenho uma propriedade name então vou utilizar o getElementsByName, pecebe
 `getElementsByClassName`
 
 **por Seletor**
+`querySelector()`
 
 
 

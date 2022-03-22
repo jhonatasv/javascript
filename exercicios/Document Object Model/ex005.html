@@ -17,12 +17,17 @@
     <p>Aprendendo a usar o <strong>Dom</strong> em JavaScript</p>
     <div id="smg">Clique em mim</div>
     <script>
-      var p1 = document.getElementsByTagName('p')[1]
+    //   var paragraph = document.getElementsByTagName('p')[0]
 
-        document.write(p1.innerHTML)
-        document.getElementsByName
+    //     document.write(paragraph.innerHTML)
 
-        document.getElementById('smg').textContent = ''
+        //  document.getElementById('smg').textContent = 'testando'
+
+       var div = document.querySelector('div#smg')
+       
+      var b = div.style.color = 'red'
+       b.textContent = 'opa'
+
     </script>
 </body>
 </html>
