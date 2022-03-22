@@ -1,9 +1,10 @@
 function contar() {
-    let comecando = 0
-    let contando = `${comecando += 1}` 
-    document.getElementById('contar').textContent = `${contando}`
+
+    let star = 0 ++
+    let contando = star ++ 
+    document.getElementById('contar').textContent = `${star}`
 }
 
 function zerar() {
-    document.getElementById('contar').textContent = ''
+    document.getElementById('contando').textContent = ''
 }
