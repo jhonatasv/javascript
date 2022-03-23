@@ -544,6 +544,7 @@ esses três blocos são os blocos de teste, o bloco verdaeiro e o bloco false. �
 
 <a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 19:15)</a>
 
+<hr>
 
 Aula 9 - Entendendo o *DOM*
 
@@ -602,3 +603,6 @@ se eu tenho uma propriedade name então vou utilizar o **getElementsByName**, pe
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector">Exemplos: querySelector</a>
 
+<hr>
+
+Aula 10 - Eventos *Dom*
