@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+  margin-top: 15px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: normal;
+    transition: all 0.5s ease-in;
+}
+
+button:hover{
+    background-image: linear-gradient( to right, rgb(255, 255, 255), rgba(0, 174, 255, 0.26));
+    transform: scale(1.04);
+    font-weight: normal;
+}
+
+p {
+    margin: 10px;
+}
