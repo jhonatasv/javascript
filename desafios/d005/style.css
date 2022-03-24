@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border-style: none;
 }
 
 body {
@@ -22,6 +23,15 @@ button {
    padding: 10px;
    margin-bottom: 15px;
    font-size: 1em;
+   border-radius: 5px;
+   background-color:  #bdbdbd;
+   transition: all 0.3s ease-out;
+}
+
+button:hover {
+    background-color: #3d3b3bde;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-out;
 }
 
 p {
