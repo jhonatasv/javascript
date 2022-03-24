@@ -12,7 +12,7 @@ function clicou() {
 
 
   let calculo_hectometros = distancia / 100
-  let arredonda_Hm = calculo_hectometros.toLocaleString()     //O método toFixed() retorna uma string correspondente ao número usando, arredondando o número para a quantidade de casas decimais especificadas.
+  let arredonda_Hm = calculo_hectometros.toLocaleString()     
   document.querySelector('.hm').textContent = `${arredonda_Hm} hectômetros (Hm)`
 
  
@@ -26,9 +26,8 @@ function clicou() {
 
   
   let calculo_centimetros = distancia * 10000
-  //  let arredonda_Cm = calculo_centimetros
-   let retorna = calculo_centimetros.toLocaleString()
-  document.querySelector('.cm').textContent = `${retorna} centímetros (cm)`
+  let arredonda_Cm = calculo_centimetros.toLocaleString()
+  document.querySelector('.cm').textContent = `${arredonda_Cm} centímetros (cm)`
 
   let calculo_milimetros = distancia * 1000
   let arredonda_Mm = calculo_milimetros.toLocaleString()
