@@ -7,7 +7,7 @@ function clicou() {
 
 
   let calculo_quilometros = distancia / 1000
-  let arredonda_km = calculo_quilometros.toLocaleString() // O método substr()retorna uma parte da string O especificado no índice.
+  let arredonda_km = calculo_quilometros.toLocaleString() //O método toLocaleString() retorna uma string com uma representação sensível a linguagem deste número.
   document.querySelector('.km').textContent = `${arredonda_km} quilômetros(Km)`
 
 
@@ -21,7 +21,7 @@ function clicou() {
 
 
   let calculo_decimetros = distancia * 10
-  let arredonda_Dm = calculo_decimetros.toLocaleString()  //O método toLocaleString() retorna uma string com uma representação sensível a linguagem deste número.
+  let arredonda_Dm = calculo_decimetros.toLocaleString()  
   document.querySelector('.dm').textContent =`${arredonda_Dm} decímetros (dm)`
 
   
