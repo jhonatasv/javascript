@@ -1,6 +1,9 @@
-let dollarQuote = Number(prompt('Antes de mais nada, Quanto está a cotação do Dólar agora?'))
+ let dollarQuote = Number(prompt('Antes de mais nada, Quanto está a cotação do Dólar agora?'))
 
 function converter() {
-    let wallet = Number(prompt('Quantos R$ você tem na Carteira?'))
-    document.querySelector('.result') = `opa`
+    let wallet = parseFloat(prompt('Quantos R$ você tem na Carteira?')).toFixed(2)
+    let dollarConverter = wallet / dollarQuote
+    let dollarValue = dollarConverter.toFixed(2)
+    document.querySelector('#valor').textContent = `Você tem ${wallet}R$ em reais. que em dolares é ${dollarValue}`
+   
 }
