@@ -4,6 +4,6 @@ function converter() {
     let wallet = parseFloat(prompt('Quantos R$ você tem na Carteira?')).toFixed(2)
     let dollarConverter = wallet / dollarQuote
     let dollarValue = dollarConverter.toFixed(2)
-    document.querySelector('#valor').textContent = `Você tem ${wallet}R$ em reais. que em dolares é ${dollarValue}`
-   
+    // document.querySelector('#valor').textContent = `Você tem ${wallet} R$ em reais. que em dolares é ${dollarValue}`
+    document.querySelector('#valor').innerHTML = `<p>Você tem (${wallet} R&#36) em reais. que em dolares é (${dollarValue} US&#36)</p>`
 }
