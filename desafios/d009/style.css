@@ -30,12 +30,14 @@ button {
     font-size: 17px;
     letter-spacing: 1px;
     border-radius: 4px;
-    transition: all 0.05s step-end;
+    transition: all 0.05s cubic-bezier(0.53, -0.34, 0, 1.51);
+
 }
 
 button:hover{
     background-image: linear-gradient(to left, rgba(22, 231, 102, 0.363), rgba(61, 61, 214, 0.308));
     color: white;
+    transform: scale(0.95);
 }
 
 p {
