@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    border-style: none;
 }
 
 html,
@@ -28,8 +29,15 @@ button {
     padding: 10px;
     font-size: 17px;
     letter-spacing: 1px;
+    border-radius: 4px;
+    transition: all 0.05s step-end;
+}
+
+button:hover{
+    background-image: linear-gradient(to left, rgba(22, 231, 102, 0.363), rgba(61, 61, 214, 0.308));
+    color: white;
 }
 
 p {
- margin: 10px;
+    margin: 10px;
 }
