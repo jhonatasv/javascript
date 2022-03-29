@@ -15,8 +15,7 @@
 
 
 
-
- function reajuster() {
+function reajuster() {
     let nome = prompt('Qual é o nome do funcionaro?')
     let wage = Number(prompt(`Qual é o salário de ${nome}`))
     let readjusting = parseInt(prompt(`O salário de ${nome} vai ser reajustado em qual porcentagem?`))  
@@ -27,8 +26,9 @@
     
     let aumento = (wage * readjusting) / 100
     let total = wage + aumento
-    let round_total = total.toLocaleString() 
+    let round_total = total.toFixed(2)
+    
     document.querySelector('.aumento').textContent = `Com um aumento de ${readjusting}%, o salário vai aumentar R$${aumento} no próximo mês`
     document.querySelector('.total').textContent = `E a partir daí, ${nome} vai passar a ganhar R$${round_total}`
- }
+}
  
