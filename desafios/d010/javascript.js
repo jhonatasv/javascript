@@ -1,7 +1,8 @@
 function calcular() {
-    let a = Number(prompt('Qual é valor de a?'))
-    let b = Number(prompt('Qual é o valor de b?'))
-    let c = Number(prompt('Qual é o valor de c?'))
+    let a = parseInt(prompt('Qual é o valor de a?'))
+    let b = parseInt(prompt('Qual é o valor de b?'))
+    let c = parseInt(prompt('Qual é o valor de c?'))
+
 
     document.querySelector('#bhaskara').innerHTML = '<h2>Resolvendo Bhaskara</h2>'
     document.querySelector('.equacao').innerHTML = `A equaçâo atual é <strong><sup>2</sup> + 6x + 2 = 0</strong>`
