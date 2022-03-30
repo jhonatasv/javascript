@@ -28,7 +28,7 @@ function calcular() {
     let c = parseInt(prompt('Qual é o valor de c?'))
 
     
-    let delta = (b * b) - 4 * a * c  
+    let delta = Math.pow(b,c) - (4 * a * c)  
     // outro metodo para calcular o valor de delta Math.pow(b,2) - (4 * a * c)
     
 
