@@ -28,16 +28,17 @@ function calcular() {
     let c = parseInt(prompt('Qual é o valor de c?'))
 
     
-    let delta = Math.pow(b,2) - (4 * a * c)
-    // outro metodo para calcular o valor de delta Math.pow(b,2) - (4 * a * c)
+    let delta =  Math.pow(b,2) - (4 * a * c)
+    // outro metodo para calcular o valor de delta (b * b) - 4 * a * c
     
 
     //primeira raiz
-    let raiz_1 = (-b + Math.sqrt(delta)) / 2 * a
+    let raiz_1 =  (-b + Math.sqrt(delta)) / (2 * a)
     document.querySelector('.raiz_1').textContent = `Primeira raiz ${raiz_1}`
   
+
     //segunda raiz
-    let raiz_2 = (-b - Math.sqrt(delta)) / 2 * a
+    let raiz_2 = (-b - Math.sqrt(delta)) / (2 * a) 
     document.querySelector('.raiz_2').textContent = `Segunda Raiz ${raiz_2}`
 
     document.querySelector('#bhaskara').innerHTML = '<h2>Resolvendo Bhaskara</h2>'
