@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <main class="main">
+        <section class="conteiner">
         <h1>Contador de Cliques</h1>
-        <section>
-            <button onclick="contar()">Clique em mim</button>
-            <button onclick="zerar()">Zerar o contador</button>
+            <div>
+                <button onclick="contar()">Clique em mim</button>
+                <button onclick="zerar()">Zerar o contador</button>
+            </div>
             <p id="contando">O Contador está com <span id="contar">0</span> cliques</p>
         </section>
     </main>
