@@ -1,13 +1,12 @@
-function contar() {
+let star = 0
 
-    let star = 0
-    let contando = star ++ 
-    typeof(contando)
-    let mais = contando ++ 
-    document.getElementById('contar').textContent = `${star}`
+function contar() {
+    star ++
+    document.querySelector('#contando').innerHTML = `O contador está com <mark>${star}</mark> cliques.`
 }
 
-function zerar() {
-    document.getElementById('contando').textContent = ''
 
+function zerar() {
+    star = 0
+    document.getElementById('contando').textContent = ''
 }
