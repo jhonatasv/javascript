@@ -22,5 +22,5 @@ function contar() {
 function zerar() {
     star = 0
     document.querySelector('#contando').textContent = ''
-    document.querySelector('#contando').textContent = `você clicou ${cliques + 1}`
+    document.querySelector('#contando').innerHTML = `você clicou ${cliques + 1} vezes &#x1F928`
 }
