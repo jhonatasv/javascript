@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+html,
+body{
+    font-size: 1.2em;
+    background-color: cadetblue;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'PT Mono', monospace;
+    font-size: 32px;
+    margin: 5px;
+}
+
+button{
+    padding: 7px;
+    font-size: 16px;
+    width: 150px;
+    margin: 10px; border-radius: 6px 2px 6px 5px;
+    transition: all 0.5s ease-in;
+}
+
+button:hover{
+    transform: scale(1.03);
+    background-color: rgba(9, 49, 27, 0.63);
+    color: white;
+}
+
+p{
+    font-size: 20px;
+}
