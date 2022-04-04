@@ -35,3 +35,12 @@ button:hover{
     color: white;
     box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.644);
 }
+
+p {
+    margin: 8px;
+}
+
+.resultado {
+    color: red;
+    font-weight: 500;
+}
