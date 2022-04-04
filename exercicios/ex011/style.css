@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+html,
+body {
+    font-size: 1.1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(13, 105, 75, 0.281);
+}
+
+button {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 10px;
+    transition: all 0.5s cubic-bezier(0.69, 0.1, 0, 0.76);
+}
+
+button:hover{
+    transform: scale(0.9);
+    background-color: rgba(40, 66, 66, 0.363);
+    color: white;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.644);
+}
