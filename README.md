@@ -411,7 +411,7 @@ No proximo
 `9 <= 7 ` O 9 é menor ou igual a 7? nâo. O 9 è maior. Ele nem é menor, e nem é igual. Então é **false**. 
 
 aqui embaixo tem o sinal de igual e percebe o seguinte:
- a igualdade no JavaScript não é *1 sinal de igual*. nos já vimos várias vezes durante a aulas que um símbolo de igula no JavaScript é a mesma coisa que muitas outras lingugens de programação, a gente lê como **recebe**. Ele é um operador de atribuição. Ele não é um operador de igualdade.  o operador de igualdade do JavaScript é esse aqui. `5 == 5` sendo assim *5* è igual a *5*? sim. Então é **true**
+ a igualdade no JavaScript não é *1 sinal de igual*. nos já vimos várias vezes durante a aulas que um símbolo de igual no JavaScript é a mesma coisa que muitas outras lingugens de programação, a gente lê como **recebe**. Ele é um operador de atribuição. Ele não é um operador de igualdade.  o operador de igualdade do JavaScript é esse aqui. `5 == 5` sendo assim *5* è igual a *5*? sim. Então é **true**
 
 
  E por último,  `4 != 4`,<br>
