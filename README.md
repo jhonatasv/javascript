@@ -53,10 +53,11 @@ Eu posso utilizar o `String()` Assim como eu utilizei "Number", número, eu poss
 
 Todo objeto possui um método `.toString()`  que é chamado automaticamente quando o objeto precisa ser representado como um valor em texto ou quando o objeto é referenciado de uma maneira que requeira uma string. Por padrão, o método toString() é herdado de todo objeto descendente de  Object. Se e o método não é sobrescrito em um objeto personalizado, toString() retorna "[object type]", onde type é o tipo do objeto. O código a seguir ilustra isso:
 
+```
+var o = new Object();
+    o.toString();          // retorna [object Object]
 
-`var o = new Object();
-o.toString();           // retorna [object Object]`
-
+```
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/ToString">Mais Exemplo em developer mozilla</a>
 
@@ -85,21 +86,32 @@ Dentro de uma __Template strings__ podemos usar __placeholders__ no seu interior
 
 exemplo sem __toFixed()__
 
-`var n1 = 1545.5, Resultando  n1 1545.5` <br>
+```
+var n1 = 1545.5 
+
+n1
+1545.5
+```
 
 exemplo com __toFixed()__
 nesse segundo exemplo vemos que foi adicionado a segunda casa decimal ao (50)
 
-`n1.toFixed(2),  Resultando n1 1545.50` <br>
+```
+var n1 = 1545.5, 
+
+n1.toFixed(2)
+'1545.50'
+```
 
 ---
 
 como troca
 caracteres determinado como exemplo o ponto por virgula com  `replace()`
 
-`n1.toFixed(2).replace('.', ',')`
-`Resultando 1545,50`
-
+```
+n1.toFixed(2).replace('.', ',')
+'1545,50'
+```
 
 O método __replace()__ retorna uma nova string com ou como correspondência de um ou todas as alterações padrão por um caractere determinado (). O padrão pode ser uma string ou uma RegExp, a substituição pode ser uma string ou uma função a ser chamada para cada correspondência. Se o padrão for, apenas a primeira vez será alterado.
 
@@ -113,25 +125,29 @@ A string original não é modificada.
 O método `toLocaleString()` retorna uma string com uma representação sensível a linguagem deste número.
 
 (exemplos)
+```
+n1.toLocaleString()
+'1.545,5'
+```
 
+```
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
-
-Resultando 'R$ 1,545.50'
+'R$ 1.545,50'
+```
 
 __pt-BR__ segnificar eu quero localizar para o Brasil, <br>
 o __Style__ _currency_ Segnificar dinheiro/Moeda e o <br> segundo __currency__ Segnificar se vai ser _REAl do Brasil_
 
+__(como converter em Dolares)__
 
-
-(como converter em Dolares)
-
+```
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+'US$ 1.545,50'
+```
 
-Resultando 'US$ 1,545.50'
+*No __node__ ele não faz a inversão da vígula e o ponto mas no Navegador ele faz corretamente*
 
-No __node__ ele não faz a inversão da vígula e o ponto mas no Navegador ele faz corretamente
-
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString">Mais exemplos em developer mozilla</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString">Number.prototype.toLocaleString() em developer mozilla</a>
 
 ---
 
@@ -188,7 +204,7 @@ basicamente é assim, __5 % 2__, que é o próximo operador, ele não é usado p
 
 <a href="https://www.youtube.com/watch?v=hZG9ODUdxHo&ab_channel=CursoemV%C3%ADdeo">exemplo de cálculo no minuto 6:25</a>
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_aritmeticos">saiba mais em developer mozilla</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_aritmeticos">Expressões e operadores em developer mozilla</a>
 
 
 E o último operador, ele surgiu no javaScript nas últimas versões, Ele é a potência.
@@ -212,15 +228,18 @@ explicação, quando uma mesma expressão tem soma e divisão, primeira a gente 
 então na verdade <br> 5 + 3 / 2 não dá *4*, ele vai dar *6.5* 
 
 
-em vez de fazer <br>5 + 3 = *8* <br>
-8 / 2 = *4*, ele na verdade faz primeiro o <br>3 / 2 = *1.5*, <br>
+em vez de fazer 
+<br>5 + 3 = *8* <br>
+8 / 2 = *4* 
+<br>ele na verdade faz primeiro o 
+<br>3 / 2 = *1.5*, <br>
 5 + 1.5 = *6.5* <br>
 que é o resultado
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">saiba mais em developer mozilla</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">Precedência de Operadores em developer mozilla</a>
 
 
-se você quise fazer <br>**5 + 3 / 2**, e eu quero fazer *5 + 3* primeiro e depois dividir por dois, Nesse caso é só você colocar parêntenses extamente como a matemática faz <br>(5 + 3) / 2 <br>
+se você quise fazer <br>**5 + 3 / 2**, <br>e eu quero fazer *5 + 3* primeiro e depois dividir por dois, Nesse caso é só você colocar parêntenses extamente como a matemática faz <br>(5 + 3) / 2 <br>
 Se você utilizar os parênteses Você muda a ordem de procedência, isso é, você vai fazer primeiro <br> **(5 + 3) = 8** <br>
 **8/2 = 4**
 
@@ -250,7 +269,7 @@ as somas e as subtraçôes
 `var b = a % 5` <br>
 (8/5 = 1,6) (5*1 = 5 prá 8 resta 3) R=**3** <br>
 `var c = 5 * b ** 2  `<br>  (3 * 3 = 9)  (5 * 9 =  45) R=**45** <br>
-`var d = 10 - a / 2` <br> (8/2 = 4) (10-4 =6) R=6 <br>
+`var d = 10 - a / 2` <br> (8/2 = 4) (10-4 =6) R=**6** <br>
 `var e =  6 * 2 / d` <br> (6 * 2 = 12) (12/6 = 2 ) R=**2** <br>
 `var f =  b % e + 4 /e` <br> (3 * 2 = 1,5 ) (4/2 = 3) (1 + 2 = 3)  R=**3**<br>
 
@@ -264,7 +283,7 @@ Criei uma atruibuição simples,
 `var n = 3`
 
 se na próxima linha eu fiz <br> `n = n + 4` <br>
-agora vou somar o que está depois do recebe, vou soma **n + 4**
+agora vou somar o que está depois do recebe, vou soma <br> **n + 4**
 e o resultado vou jogar dentro de **n.** <br> agora _n + 4_ passar a vale **7**
 
 Lembre-se, A variavel e como se fosse a vaga de um carro, para colocar um segundo carro eu teho que tirar o primeiro, foi exatamente isso que aconteceu.
@@ -291,6 +310,7 @@ Tudo isso que aconteceu aqui fez a Variável **n**
 partir de 3, assumir vários valores, e terminar com *1* **isso são Auto-atribuiçôes**
 E eu posso simplificar
 
+---
 
 (Simplifiçôes)
 
@@ -318,8 +338,8 @@ mas se **n = n** recerber ele mesmo + 4 eu posso usar o **+=** Sem problema.
 
 `n = n / 2` /  `n/=2`
 
+exponenciação <br>
 `n = n ** 4` /  `n**=5` <br>
-exponenciação
 
 `n = n % 5` /  `n%=5` <br>
 Resto da divisão
@@ -632,20 +652,38 @@ porem para disparar um evento, para tratar um evento, eu preciso te explicar ant
 
 Uma função é um procedimento de JavaScript - um conjunto de instruções que executa uma tarefa ou calcula um valor. Para usar uma função, você deve defini-la em algum lugar no escopo do qual você quiser chamá-la.
 
-Então por exemplo: eu vou programa dez linhas, essas dez linhas a gente chama de bloco, então imagina que esse bloco tivesse 10 linhas, essas 10 linhas não vão ser executados auomaticamente, o primeiro passa é colocar lá dentro de um bloco, um bloco em JavaScript ele é delimitado entre os sinais de chavas **{ }**, esse bloco você tem que nomear ele como uma **function** que quer dizer função antes do bloco assim <br>`function { bloco de códico aqui
-}`,  <br>
+Então por exemplo: eu vou programa dez linhas, essas dez linhas a gente chama de bloco, então imagina que esse bloco tivesse 10 linhas, essas 10 linhas não vão ser executados auomaticamente, o primeiro passa é colocar lá dentro de um bloco, um bloco em JavaScript ele é delimitado entre os sinais de chavas **{ }**, esse bloco você tem que nomear ele como uma **function** que quer dizer função antes do bloco assim 
 
-no JavaScript exite isso aqui: **função anônima**, é uma função que simplesmente não tem nome, só que para o método possa funcionar, _eu tenho que dar um nome para essa função e geralmente os nomes das funções são_ **ações** que nós podemos fazer, <br> `function ações() { bloco de códico aqui
-}`,  <br> 
+```
+function  {
+  bloco de códico aqui
+}
+
+```
+
+no JavaScript exite isso aqui: **função anônima**, é uma função que simplesmente não tem nome, só que para o método possa funcionar, _eu tenho que dar um nome para essa função e geralmente os nomes das funções são_ **ações** que nós podemos fazer, 
+
+```
+function açães() {
+  bloco de códico aqui
+}
+
+```
 
 geralmente funçôes de evento, eles são nomes de açâo, você vai colocar o nome da **ação** que vai acontecer e fecha parênteses. 
 
 e opcionalmente voê pode também colocar dentro desses *parênteses* alguns **parâmetros**, pode ser um, ou pode ser vários **parâmetros**
-<br> `function ações(parâmetros) { bloco de códico aqui
-}`, <br>
+
+```
+function açães(parâmetros) {
+  bloco de códico aqui
+}
+
+```
 
 <a href="https://www.youtube.com/watch?v=wWnBB-mZIvY"> exemplo de forma visual em (minuto 10:43):</a>
 
 
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions">Funções em developer mozilla:</a>
+
