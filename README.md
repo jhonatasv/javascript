@@ -8,8 +8,9 @@ na primeira aula apredemos que os scripts JS devem ser incluídos no final do co
 posicionando a tag  `<script></script>` logo acima da tag de fechamento `</body>`
 
 Nosso Primiero comando é
-
-` window.alert('Olá, Mundo!')`
+```
+window.alert('Olá, Mundo!')
+```
 
 
 A palavra `window` (opctional) é um objeto que indica uma referência á janela atual do navegaor. A palavra ``alert()`` é um método capaz de de disparar uma mine-janela de alerta para avisar algo ao usuário.
@@ -47,9 +48,9 @@ existe duas maneiras
 Eu posso utilizar o `String()` Assim como eu utilizei "Number", número, eu posso utilizar o __String__ ou o valor que eu quiser.
 
 (Exemplo) 
-
- `alert('a soma dos Números é, ' + String(soma))`
-
+```
+ alert('a soma dos Números é, ' + String(soma))
+```
 
 Todo objeto possui um método `.toString()`  que é chamado automaticamente quando o objeto precisa ser representado como um valor em texto ou quando o objeto é referenciado de uma maneira que requeira uma string. Por padrão, o método toString() é herdado de todo objeto descendente de  Object. Se e o método não é sobrescrito em um objeto personalizado, toString() retorna "[object type]", onde type é o tipo do objeto. O código a seguir ilustra isso:
 
@@ -69,12 +70,14 @@ var o = new Object();
 Dentro de uma __Template strings__ podemos usar __placeholders__ no seu interior. um placeholder é representado pelos símbolos `${}` e podem ser usados para facilitar a exibição de conteúdos de variáveis ou expressões.
 
 (com __Template strings__) <br>
-
-`alert(crases A soma enter é,  ${soma}crases)`
+```
+alert(`A soma enter é,  ${}`)
+```
 
 (sem) <br>
-
-`alert('a soma dos Números é, ' +(soma))`
+```
+alert('a soma dos Números é, ' +(soma))
+```
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals">Exemplo em developer mozilla</a>
 
@@ -119,7 +122,8 @@ A string original não é modificada.
 
 ---
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace">Mais exemplos em developer mozilla</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace">String.prototype.replace()
+em developer mozilla</a>
 
 
 O método `toLocaleString()` retorna uma string com uma representação sensível a linguagem deste número.
@@ -170,12 +174,12 @@ __(**)__
 
 para exemplificar, esses são os operandos que são aquele que vão fazer os operadores funcionarem. todos esses oparadores aqui são operadores que a gente chama de binários, são operadores que precisam de **2 operandos.** <br>
 
-5 (+) 2 <br>
-5 (-) 2 <br>
-5 (*) 2 <br>
-5 (/) 2 <br>
-5 (%) 2 <br>
-5 (**) 2
+5 **( + )** 2 <br>
+5 **( - )** 2 <br>
+5 __( * )__ 2 <br>
+5 **( / )** 2 <br>
+5 **( % )** 2 <br>
+5 __( ** )__ 2
 
 Resultado
 
