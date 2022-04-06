@@ -668,7 +668,7 @@ function  {
 no JavaScript exite isso aqui: **função anônima**, é uma função que simplesmente não tem nome, só que para o método possa funcionar, _eu tenho que dar um nome para essa função e geralmente os nomes das funções são_ **ações** que nós podemos fazer, 
 
 ```
-function açães() {
+function ação() {
   bloco de códico aqui
 }
 
@@ -679,7 +679,7 @@ geralmente funçôes de evento, eles são nomes de açâo, você vai colocar o n
 e opcionalmente voê pode também colocar dentro desses *parênteses* alguns **parâmetros**, pode ser um, ou pode ser vários **parâmetros**
 
 ```
-function açães(parâmetros) {
+function ação(parâmetros) {
   bloco de códico aqui
 }
 
