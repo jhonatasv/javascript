@@ -609,19 +609,19 @@ Aula 10 - Eventos *Dom*
 
 <a href="https://www.youtube.com/watch?v=wWnBB-mZIvY"> exemplo de forma visual em (minuto 06:26):</a>
 
-evento é tudos aquilo que possa acontecer com qualquer elemento, mas no nosso exeplo essa **div** e se você começar a analisar, o que pode acontecer com essa **div** um monte de coisa, o mais comum: *eventos de mouse, então eu posso por exemplo chegar com curso do mouse e mover o mouse até encostar, até chegar dentro da* **div**, quando chega o mouse dentro da **div** vai disparar um evento o **mouseenter** que o mouse entrou na **div**, 
+evento é tudos aquilo que possa acontecer com qualquer elemento, mas no nosso exemplo essa **div** e se você começar a analisar, o que pode acontecer com essa **div** um monte de coisas, o mais comum: *eventos de mouse, então eu posso por exemplo chegar com curso do mouse e mover o mouse até encostar, até chegar dentro da* **div**, quando chega o mouse dentro da **div** vai disparar um evento o **mouseenter** que o mouse entrou na **div**, 
 
 <br>outra coisa que eu posso fazer é continuar movendo o mouse por dentro da **div**. Nesse momento ver ser disparado várias vezes o método **mousemove**, que enquanto tiver movendo dentro da **div** ele vai disparar o evento **mousemove**.
 
-<br> se eu pegar o mouse e clicar segurar, eu tenho o disparo do **mousedown**, no momento em que eu soltar botão do mouse eu disparo outro evento o **mouseup** ou mouse up, 
+<br> se eu pegar o mouse e clicar e segurar, eu tenho o disparo do **mousedown**, no momento em que eu soltar o botão do mouse eu disparo outro evento o **mouseup**, 
 
-<br>eu também tem o movimento do click inteiro, apertar e solta rapidamente eu tenho o evento **click** e da mesma maneira que com o **mouseenter**, quando eu mover o mouse para fora dessa **div** ele vai disparar evento **mouseout** ou mouse out. Então olha só a gente viu seis métodos, seis eventos que podem ser disparados só com o movimento do mouse, existem outros esses não são os únicos e se por acaso você dá uma pesquisa nos eventos que podem acontecer dentro de elementos em javascript 
+<br>eu também tem o movimento do click inteiro, apertar e solta rapidamente eu tenho o evento **click** e da mesma maneira que com o **mouseenter**, quando eu mover o mouse para fora dessa **div** ele vai disparar evento **mouseout**. Então olha só a gente viu seis métodos, seis eventos que podem ser disparados só com o movimento do mouse, existem outros esses não são os únicos e se por acaso você dá uma pesquisa nos eventos que podem acontecer dentro de elementos em javascript 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/Events">saiba mais em developer mozilla:</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/Events">Event reference em developer mozilla:</a>
 
 Só como curiosidade, agora com o eventos dos celulares, você tem os **"Touch events"** que sâo diferentes dos **Mouse events**
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/Events">saiba mais em developer mozilla:</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Touch_events">Touch events em developer mozilla:</a>
 
 porem para disparar um evento, para tratar um evento, eu preciso te explicar antes o que é uma função ou uma funcionalidade.
 
@@ -634,13 +634,18 @@ Uma função é um procedimento de JavaScript - um conjunto de instruções que 
 
 Então por exemplo: eu vou programa dez linhas, essas dez linhas a gente chama de bloco, então imagina que esse bloco tivesse 10 linhas, essas 10 linhas não vão ser executados auomaticamente, o primeiro passa é colocar lá dentro de um bloco, um bloco em JavaScript ele é delimitado entre os sinais de chavas **{ }**, esse bloco você tem que nomear ele como uma **function** que quer dizer função antes do bloco assim <br>`function { bloco de códico aqui
 }`,  <br>
-no JavaScript exite isso aqui: **função anônima**, é uma função que simplesmente não tem nome, só que para que o métoo possa funcionar, _eu tenho que dar um nome para essa função e geralmente os nomes das funções são_ **ações** que nós podemos fazer, <br> `function ações() { bloco de códico aqui
-}`,  <br> geralmente funçôes de evento, eles são nomes de açâo, você vai colocar o nome da **ação** que vai acontecer e fecha parênteses. 
+
+no JavaScript exite isso aqui: **função anônima**, é uma função que simplesmente não tem nome, só que para o método possa funcionar, _eu tenho que dar um nome para essa função e geralmente os nomes das funções são_ **ações** que nós podemos fazer, <br> `function ações() { bloco de códico aqui
+}`,  <br> 
+
+geralmente funçôes de evento, eles são nomes de açâo, você vai colocar o nome da **ação** que vai acontecer e fecha parênteses. 
 
 e opcionalmente voê pode também colocar dentro desses *parênteses* alguns **parâmetros**, pode ser um, ou pode ser vários **parâmetros**
 <br> `function ações(parâmetros) { bloco de códico aqui
 }`, <br>
+
 <a href="https://www.youtube.com/watch?v=wWnBB-mZIvY"> exemplo de forma visual em (minuto 10:43):</a>
 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions">saiba mais em developer mozilla:</a>
+
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions">Funções em developer mozilla:</a>
