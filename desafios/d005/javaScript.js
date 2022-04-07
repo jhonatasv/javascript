@@ -3,7 +3,7 @@ function clicou() {
 
   let paragraph= document.querySelector('#texto')
 
-  let novo_Texto = paragraph.textContent = `A distância de ${distancia} metros, corresponde a...`
+  paragraph.textContent = `A distância de ${distancia} metros, corresponde a...`
 
 
   let calculo_quilometros = distancia / 1000

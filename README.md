@@ -691,3 +691,21 @@ function ação(parâmetros) {
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions">Funções em developer mozilla:</a>
 
+<hr>
+
+<h2>Módulo D</h2>
+
+**Aula 11 - Condições (part 1)**
+
+
+
+<hr>
+
+**Aula 12 - Condições (part 1)**
+
+<hr>
+
+**Aula 13 - Condições (part 1)**
+
+
+
