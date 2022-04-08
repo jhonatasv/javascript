@@ -697,7 +697,123 @@ function ação(parâmetros) {
 
 **Aula 11 - Condições (part 1)**
 
+<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 2:56</a>
 
+Antes de falar das nossas condiçôes, precisamos fala de  **sequências**, porque todos os código feito até o momento foram código sequenciais. Entâo, veja o exemplo, o meu primeiro comando que aparecer aqui
+```
+var n = 3
+```
+com esse comando, acabamos de declarar uma variável e colocar um valor dentro dela
+
+No próximo comando, eu faço, por exemplo
+```
+n += 2
+```
+essa segunda linha vai pegar o valor de **n**, que é 3, e vai somar mais *2* e jogar o resultado, que é **5**, dentro do próprio **n** é por fim, o último comando
+```
+window.alert(n)
+```
+Esse último comando vai mostrar uma janela de alerta no navegador
+
+Sendo assim, eu te pergunto: o primeiro comando, o segundo comando e o terceiro nesse caso aqui, tem como executar o primeiro, depois o terceiro e por fim o segundo? Não.
+
+Eu tenho que executar o primeiro, segundo e o terceiro, não posso mudar a ordem. Outra coisa, eu posso por exemplo, executar o priemiro, terceiro e não executar o do meio em alguma situação? também não porque é só olhar o fluxo. *O fluxo que está representado aqui* tem que ser, já que ele é uma *sequência*, têm que se executar 
+``` 
+var n = 3
+n+= 2
+window.alert(n)
+``` 
+
+**Codiçôes**
+
+<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 3:43</a>
+
+Veja começa na primeira bolinha e termina na última bolinha.
+
+![condições](https://user-images.githubusercontent.com/88457552/162501311-e4020634-fdba-452b-a005-a7748074c6d8.PNG)
+
+Então, basicamente eu tenho dois comandos e eu tenho um comando aqui embaxio. No meio está vazio porque, dependendo de alguma coisa, eu quero executar um determinado comando. E se não der certo eu executo outro comando. por exemplo, como eu represento isso aqui do lado?
+
+seria por exemplo, um losango. vou representar como losango. Ele vai fazer um filtro
+
+tipo uma placa de tânsito. Sabe aquele placa que você está andando de carro, mas chega uma hora que você só pode virar á esquerda ou virar á direita, extamanete. imagina essa placa, <br>
+O meu programa está sendo executado de cima para baixo, esatamente como está aqui
+
+![condições2](https://user-images.githubusercontent.com/88457552/162501528-2086839e-bc07-4132-afc4-cbc4f9168451.PNG)
+
+Chegou aqui embaixo, eu vou ter duas possibilidades. Existe uma **bifucarçâo**, exatamente como está sendo representado aqui na imagem embaixo, Essa **bifucarçâo**, vai me levar para dois caminhos possíveis
+
+![condições3](https://user-images.githubusercontent.com/88457552/162501805-c417bc8f-95ce-461a-a83e-0a2b2c09cf7e.PNG)
+
+para um lado, se acontecer alguma coisa.
+
+![bifucarçâo](https://user-images.githubusercontent.com/88457552/162505761-7758aaaf-5892-4bac-80db-d9a68f285856.PNG)
+
+
+
+E pro outro lado, se essa coisa não acontecer. Meu programa, agora não será executado de cima para baixo, do início ao fim. **Exite uma bifurcação no meio do caminho.** *Depois que eu executo um dos lados dessa bifurcação*
+
+
+![bifucarçâo2](https://user-images.githubusercontent.com/88457552/162506859-a46c9694-9109-41c6-ae94-015604302ba6.PNG)
+
+*ele vão se encontra de novo e então fluxo do meu programa vai terminar* vai seguir normalmente até o fim dele, até esse último ponto. Então, basicamente eu não sigo mais uma linha vertical. eu tenho desvios, E a gente chama esse primeiro desvio de **condicional**.
+
+<br>Esse desvio *condicional* é muito importante. **Ele faz parte dos fundamentos da programaçâo. Toda a linguagem de programação que a genete conhece dita imperativa**
+aquelas lingugens mais populares, elas têm vários tipos de condições e o JavaScript é uma linguagem popular. Então, ela tembèm tem esse tipo de estrutura.
+
+![condições4](https://user-images.githubusercontent.com/88457552/162502008-3b4f8af3-e051-4ec3-b470-c22acc2a6bc8.PNG)
+
+vamos isolar apenas a condição, vamos começar pelo *losango* (essa marcação em amarelo). 
+
+![Capturar1](https://user-images.githubusercontent.com/88457552/162511034-75940902-ed7a-4943-bd29-0d113090afea.PNG)
+
+Pro losango em JavaScript, a gente vai ultizar a **estrutura** `if`, Então vou colocar ``if`` e vou botar uma condição qualquel. *E nessa condição, eu tenho duas possibilidade:* **a possibilidade da esquerda** e a
+**a possibilidade da direita**
+
+![if](https://user-images.githubusercontent.com/88457552/162511767-5e43b619-b45b-4f2c-bee3-73bd984284e6.PNG)
+
+
+Vamos começa com a possibilidade da esquerda, Essa parte será representada como? Eu vou criar um bloco. você sabe que um bloco é um par de chaves, abertura e fechamento de chaves **{ }**, e aqui dentro vou colocar o bloco. Logo falaremos agora sobre esse bloco, 
+
+
+![if 2](https://user-images.githubusercontent.com/88457552/162515605-4ff86f12-703e-409e-a167-2557c88d2410.PNG)
+
+Agora vamos passar para a outra parte, O lado direito, Nesse caso, esse que está marcado aqui embaixo. para eu fazer o lado direito, eu tenho que utilizar uma palavra tambèm, que é a palavra ``else`` _que quer dizer **senão**._ 
+<br>``if`` quer dizer **"se"**. <br>**Else**  é o oposto de **"se"**
+Então, eu tenho um bloco para fazer, Eu vou fazer também um bloco, isto é, eu abro e fecho chaves. Entâo, essa é a estrutrura. Ela tem dois blocos.
+
+![is4](https://user-images.githubusercontent.com/88457552/162517110-8e3aa51e-0e01-4ca5-b763-6ec6e31d3020.PNG)
+
+Um bloco é pra quando o ``if`` der positivo, isto é, são os comandos com os executados caso essa condição aqui seja verdadeira. 
+
+![true](https://user-images.githubusercontent.com/88457552/162519422-cd3851ad-d4ac-4e76-bff3-3afcf9d8d2ab.PNG)
+
+*e esse bloco não precisa ter apenas um comando não, pode ter varios comandos, sem problema nenhum.* Esse bloco de verdadeiro é como se fosse esse bloco aqui de cima. Está vendo? Do lado esquerdo
+
+
+![flase](https://user-images.githubusercontent.com/88457552/162528079-af612830-57df-45df-bb28-882fe243ac9b.PNG)
+
+Já o bloco aqui de baixo, o último vai ser executado caso essa condição que está aqui em cima ja **falsa.** _E mais uma vez, esse bloco que está escrito **false** aqui embaixo, podem ser vários comandos. não precisa ser apenas um só_ e ele está localizado no bloco da direita.
+
+Essa é uma maneira mais completa de representar as condições. O conceito é esse **Condições é uma estrutura de controle muito imprtante para programação.**
+
+<hr>
+
+<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 8:16</a>
+
+*Existe dois tipos de condição*
+e eu vou te explicar a diferença entre eles. Na verdade, exitem mais tipos. Nessa aula, a gente vai ver dois tipos de condição, Aqui embaixo a gente vai ter uma condição bem Simple, que ela só tem um tipo de bloco. 
+
+![condição simples](https://user-images.githubusercontent.com/88457552/162532462-3c29714e-f2be-4508-af6d-6864c8e8ad2f.PNG)
+
+Então eu tenho apenas o bloco do verdadeiro. o bloco do falso não existe.Eu já vou dar um Exemplo típico do uso desse tipo de estrutura, E essa estrutura, por ser simples, é considerada, é chamada tecnicamente de **condição simples.**
+
+![consição mais](https://user-images.githubusercontent.com/88457552/162533911-90d40567-1da7-4e6e-a880-05d4842d38ed.PNG)
+
+já a da direita tem o **if** e o **else** e os dois blocos relacionados.  
+<br>se na primeira **condição simples.** a condição for falsa, nada vai acontecer em especial. o fluxo do programa continua funcionado sem problemas. 
+
+<br>caso a da segunda seja **verdadeira** que tem o **if** e o **else** vai acontecer uma coisa e caso seja **falsa** tem outra coisa para fazer.
 
 <hr>
 
@@ -706,6 +822,3 @@ function ação(parâmetros) {
 <hr>
 
 **Aula 13 - Condições (part 1)**
-
-
-
