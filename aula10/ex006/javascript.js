@@ -1,18 +1,20 @@
+
+// let area = document.querySelector('#area')
+
 area.addEventListener('click', clicar)
 area.addEventListener('mouseenter', entrar)
 area.addEventListener('mouseout', saiu)
 
 function clicar() {
-   let area = document.querySelector('#area')
-    element = area.innerText = 'clicou'
-    area.style.color = 'black' // se não colocar (const, let ou var) o escopo ficar Global
+   area.innerText = 'clicou'  
+   area.style.background = 'black' // se caso não sejá atribuído o (const, let ou var) o escopo ficar Global
 }
 
 function entrar() {
-    element = area.innerText = 'entrou'
+    area.innerText = 'entrou'
 }
 
 function saiu() {
-    element = area.innerText = 'saiu'
-    area.style.color = 'white'
+    area.innerText = 'saiu'
+    area.style.background = 'green'
 }
