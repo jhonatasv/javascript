@@ -819,6 +819,73 @@ já a da direita tem o **if** e o **else** e os dois blocos relacionados.
 
 **Aula 12 - Condições (part 1)**
 
+**Condições Aninhadas**
+
+vou colocar uma condição **composta**, como a gente viu na aula anterior, ela só nos dá duas opções: sim ou não.
+
+![condições aninhadas](https://user-images.githubusercontent.com/88457552/162822605-c868a4e7-726a-4b52-b14a-80a0bf09c2cb.PNG)
+
+
+ Só que exite uma possibilidade de criar o que eu escrevi aqui em baixo: **condições Aninhadas** O que seria isso? Bem simples, **eu vou pegar uma condição composta e vou colocar outras condições dentro dela.**
+
+
+![part2](https://user-images.githubusercontent.com/88457552/162823310-2b01f8a6-6a95-4daf-866c-a2201b2b6b9d.PNG)
+
+por exemplo na minha condição que acabei de representar, dê uma analisada aqui. Lembrando o que a gente viu no vídeo anterior, Nessa condição, se for verdade faz aquele bloco que está sendo representado ali do lado, senão, eu faço outro bloco.
+
+![condições aninhadas part3](https://user-images.githubusercontent.com/88457552/162823668-ab2cca0f-31f6-43ac-9ce1-8219073d726f.PNG)
+
+Eu coloco outra condição e isso amplia muito as minhas possibilidades. Essa minha condição vai ter duas possibilidades. *Eu posso executar um bloco e fazer outra condição dentro, e ir Aninhado, vem de ninho, um dentro do outro.* Nesse meu caso aqui, eu não vou ficar colocando um dentro do outro não, vou colocar só dois níveis. **Mas lembrando que pode fazer vários níveis.**
+Aqui, se for verdade eu faço uma e se for mentira eu faço outra. **Então agora eu tenho três possibilidades, é só você olhar a quantidade de blocos que têm aqui em cima.** 
+
+![condições aninhadas part4](https://user-images.githubusercontent.com/88457552/162830396-44ea82ac-a1b1-4717-b439-66e5ae63d4d3.PNG)
+
+Sendo assim, quando eu tenho uma condição Aninhada, eu tenho exatamente isso que está aqui em cima, uma condição dentro da outra. Na verdade o que você está vendo ali, está puxando a condição de cima, está puxando para os dois lados. _Eu poderia puxar para os lados e criar duas condições, uma dentro de cada. **Não exite uma regra de Aninhamento.**_ 
+
+Mas é muito mais comum você fazer desse jeito aqui. tão comum que o JavaScript tem uma estrutura, um comando bem especial que é o **else if.** A gente vai ver como ele funcionar, Mas a gente vai se deter aqui, a representar essa estrutura que está aqui em cima. Onde a gente tem um **if** dentro do outro. 
+
+![condições aninhadas part5](https://user-images.githubusercontent.com/88457552/162834559-ab818302-6280-491b-a789-2cf5b56c58ba.PNG)
+
+
+vamos fazer a sua relação ecrita em JavaScript. Então eu tenho aqui, a minha condição principal, a minha condição 1, eu tenho um **if** aqui, *vou fazer a linha de indentação.*
+
+ _Lembrando que não é identação, é **indetação** que vem de indente que é recuo em ingles._ Então eu escrevo uma coisa dentro da outra, escrevo uma coisa aninhada á outra, exatamente como está aparecendo aqui em cima. 
+ 
+
+
+  Se por acaso a condição 1 for verdadeira, ele faz um bloco 1.
+
+ ![condições aninhadas part6](https://user-images.githubusercontent.com/88457552/162836221-52c8977e-e877-4c29-b490-a00d4c90c521.PNG)
+
+  Agora se não, que é a parte de baixo, ele não vai fazer o bloco 2, que seria uma **condição composta.** Ele vai fazer outra condição. 
+  
+  ![condições aninhadas part7](https://user-images.githubusercontent.com/88457552/162836471-6375a398-b1bb-4bf0-af42-bcd3a2de7e60.PNG)
+
+
+  
+  E vai fazer um outro **if**. Então vou colocar lá, se a condição 2 for satifeita, eu faço o bloco 2. 
+
+
+![condições aninhadas part8](https://user-images.githubusercontent.com/88457552/162837448-6c60808b-701b-4695-9b4c-b36ec2b586db.PNG)
+
+
+  **È importante que você perceba o seguinte: para execurta o bloco 2, a condição 1 tem que ser falsa porque se ela for verdadeira já executa o bloco 1**
+
+  È uma questão de raciocínio lógico. Se a condição 1 for falsa e a condção 2 for verdadeira ele faz o bloco 2.
+  
+  ![condições aninhadas part9](https://user-images.githubusercontent.com/88457552/162838470-addcfa5f-7ac4-439a-a90a-56ffcf44cc43.PNG)
+ 
+
+Agora se a condição 1 for falsa e a condição 2 for falsa, ele faz o bloco 3. *E nada me impede de no lugar do bloco 3 colocar outra condição. Eu estaria aumentando um nível no meu Aninhamento.* 
+
+a gente não vai adicionar muitos níveis. Mas sim, eles são possíveis dentro da programação.
+
+
+![condições aninhadas part11](https://user-images.githubusercontent.com/88457552/162839447-a3e8f763-a425-40e9-83fc-c5f2d71da9c4.PNG)
+
+ Então claramente 
+ aqui em cima, eu tenho uma condição dentro da outra. Eu acabei de tracejar em volta da condição exatamente como tinha feito lá na gráfico anterior. E como eu já disse várias vezes a essa estrutura a gente dá o nome de **Condição Aninhada.**
+
 <hr>
 
 **Aula 13 - Condições (part 1)**
