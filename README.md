@@ -891,3 +891,56 @@ a gente não vai adicionar muitos níveis. Mas sim, eles são possíveis dentro 
 **Aula 13 - Condições (part 2)**
 
 
+**Condição múltipla** 
+que serve para valores fixos. È muito útil no mundo da programação principalmente quando eu quero trabalhar com valores fixos, como acabei de falar. Ela não serve muito para intervalo de valores como tinhamos visto,
+
+![condição múltipla](https://user-images.githubusercontent.com/88457552/163270043-0c3b9492-1012-40e7-8a62-36ee38383942.PNG)
+
+__Essa condição múltipla, ela tem a possibilidade não só do *sim* e *não*, ela tem a possibilidade de outros valores, de valores fixos.__ Então por exemplo
+
+![condição múltipla 2](https://user-images.githubusercontent.com/88457552/163270491-28cfcf9d-d823-465c-adc1-629a4d218ef6.PNG)
+
+se for um determinado valor faz um bloco, se for outro valor faz outro. Então eu consigo representar esse tipo de estrutura aqui, dessa maneira. Então eu tenho uma condição, na verdade uma expressão. E dessa expressão eu testo vários valores e depois eu volto para o fluxo normal do meu programa.
+
+![condição múltipla 3](https://user-images.githubusercontent.com/88457552/163271732-4f844a11-20c6-4df7-b5c1-2c31f30db1c0.PNG)
+
+**Esse tipo de estrutura condicional aqui é minha condição múltipla. Ela não é aplicável para toos tipo de situação. O _if_ com _else if_ que a gente acabou de ver é aplicar para todo tipo de situação, mas essa aqui é muito útil em situações pontuais, específicas.**  <br>Para representar essa estrutura que está aqui, A gente representa da seguinte maneira _tem um comando dentro do JavaScript que é o comando `switch`._ 
+
+![switch](https://user-images.githubusercontent.com/88457552/163274775-ae3989f3-4a22-4c54-aa90-c9aca96ffcf7.PNG)
+
+Então vou colocar `switch`, __nota que não é uma condição, é uma expressão e esse *switch*__ tem um bloco relacionado. Lembrando, a gente viu nas aulas anteriores, um bloco é todo `{ }` de chaves dentro da linguagem JavaScript. cada linguagem tem suas regras. <br>
+Então vou colocar **switch** que está aqui em baixo e vou colocar os valores dentro dela.
+
+![switch 4](https://user-images.githubusercontent.com/88457552/163276114-3fcabcf7-559c-4475-9de8-25f0b9290007.PNG)
+
+Então eu tenho várias possibilidades de valor. Para cada 1 eu vou colocar um case. isto é, se essa expressão for o valor 1 faz aquele primeiro, 
+<br> se for valor 2 faz o segundo, 
+<br> se for o valor 3 faz o outro. __tem uma cláusula aqui embaixo que é o `default`__ que é como se fosse o `else` do `switch`. Se nenhum dos valores aqui de cima forem satisfeito, ele vai fazer o daqui de baixo.
+
+![condição múltipla 5](https://user-images.githubusercontent.com/88457552/163277890-c8208e4a-7257-4751-8026-36135c1ec901.PNG)
+
+ E para cada um dos cases eu tenho um bloco. Então basicamente a estrutura é dessa maneira. Eu vou colocar um case para cada valor e por fim, **opcionalmente, eu posso colocar um `default` que é o padrão.** Assim se nenhum dos de cima forem satisfeitos.
+
+ **Só que eu tenho uma informação importante para te dar antes de prosseguir. Dentro da estrutura _switch isso veio lá da linguagem C._** Existe um detalhezinho que precisa ser seguido. Dentro da cada bloco.
+
+ ![condição múltipla 6](https://user-images.githubusercontent.com/88457552/163279678-d2e34477-2e86-43cc-a48f-f074767e452d.PNG)
+ 
+ _Eu preciso colocar um comando `break`. Então pra cada um eu tenho um `break`. Na última é opcional mas vamos colocar sempre._ **Esse `break` é obrigatório.** 
+ 
+
+ ![condição múltipla 7](https://user-images.githubusercontent.com/88457552/163280434-42b508ab-6349-481c-82d6-79efac92b7f7.PNG)
+
+ E como é que funciona o negócio? Ele vai testar essa expressão que está aqui em cima. Vamos supor que esse expressão resulte no valor 2 que está aqui. Então ele vai desviar
+
+ 
+![condição múltipla 8](https://user-images.githubusercontent.com/88457552/163281061-55b6ce4d-3f61-4bdb-bde6-2419970124dc.PNG)
+
+vai executar os comandos que tiverem nesse bloco, na verdade pode se um ou vários comandos e no final ele vai bater no `break`. 
+
+
+![condição múltipla 9](https://user-images.githubusercontent.com/88457552/163281762-841a32b2-2f1c-4b10-90e6-d623c233e9ec.PNG)
+
+
+
+Quando ele bate no **break**, olha o que vai acontecer com o fluxo ele vai ser desviado lá pra baixo. Se por acaso esse `break` não existir, vai dar problema porque vai continuar executando todos os comandos até achar um `break`.
+
