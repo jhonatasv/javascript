@@ -29,21 +29,21 @@
             
 
 
-// se for menor de 16 não (Vota). entre 16 e 17 (Voto opcinal). de 18 a 65 (Voto Obrigatório). Maior do que 120 (Terror do INSS) 
+// se for menor de 16 não (Vota). entre 16 e 17 (Voto opcional). de 18 a 65 (Voto obrigatório). Maior do que 120 (Terror do INSS) 
 
-let idade = 17
+let idade = 120
 console.log(`Você tem ${idade} anos`)
 
 
-if (idade < 16) { // menor de 16 não vota
-    console.log('não vota')
-} else if (idade < 18) { // entre 16 e 17 e opcinal, 
-    console.log('Voto opcinal entre 16 e 17')
-} else if (idade < 65 && idade < 100) { // se a idade for entre 65 e 100 (Voto opcinal)
-    console.log('Voto obrigatorio')
-} else if(idade > 120) {          // se a idade for maior do que 120 então (terror do INSS)
-    console.log('terror do INSS')
+if (idade < 16) { 
+    console.log('não vota') // menor de 16 não vota
+} else if (idade < 18) { 
+    console.log('Voto opcional entre 16 e 17') // entre 16 e 17
+} else if (idade <= 65) { 
+    console.log('Voto obrigatorio') // se a idade for entre 18 e 65
+} else if(idade >= 120) {          
+    console.log('terror do INSS') // se a idade for maior do que 120
 } else {
-    console.log('voto opcional a partir de 65')
+    console.log('Voto opcional a partir de 65') // se a idade for entre 66 e 119 
 }
 
