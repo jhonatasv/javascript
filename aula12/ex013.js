@@ -32,7 +32,7 @@ switch(diaSem) {
         break
 
     case 4:
-        console.log('Quinta-Feeira')    
+        console.log('Quinta-Feira')    
         break
 
     case 5: 
