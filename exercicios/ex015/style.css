@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+main {
+    text-align: center;
+    font-family: 'PT Mono', monospace;
+}
+
+button {
+    padding: 10px;
+}
+
+p {
+    margin: 10px;
+}
