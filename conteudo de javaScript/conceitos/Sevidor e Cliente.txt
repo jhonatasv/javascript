@@ -1,0 +1,3 @@
+qual é a diferença entre cliente e servidor para a internet?
+
+Servidor é o computador no qual foi configurado em uma rede para oferecer algum tipo de serviço. Já o cliente, é o computador que está do outro lado, que foi configurado para utilizar o serviço que é oferecido pelo servidor
