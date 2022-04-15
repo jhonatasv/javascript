@@ -38,4 +38,15 @@ button:hover {
 
 p {
     font-size: normal;
+    margin: 15px;
+    transition: all 0.5s ease-out;
 }
+
+.green {
+    background-color: rgba(0, 128, 0, 0.582);
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.432);
+}
+
