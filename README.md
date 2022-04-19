@@ -904,7 +904,7 @@ se for um determinado valor faz um bloco, se for outro valor faz outro. Então e
 
 ![condição múltipla 3](https://user-images.githubusercontent.com/88457552/163271732-4f844a11-20c6-4df7-b5c1-2c31f30db1c0.PNG)
 
-**Esse tipo de estrutura condicional aqui é minha condição múltipla. Ela não é aplicável para toos tipo de situação. O _if_ com _else if_ que a gente acabou de ver é aplicar para todo tipo de situação, mas essa aqui é muito útil em situações pontuais, específicas.**  <br>Para representar essa estrutura que está aqui, A gente representa da seguinte maneira _tem um comando dentro do JavaScript que é o comando `switch`._ 
+**Esse tipo de estrutura condicional aqui é minha condição múltipla. Ela não é aplicável para todos tipo de situação. O _if_ com _else if_ que a gente acabou de ver é aplicar para todo tipo de situação, mas essa aqui é muito útil em situações pontuais, específicas.**  <br>Para representar essa estrutura que está aqui, A gente representa da seguinte maneira _tem um comando dentro do JavaScript que é o comando `switch`._ 
 
 ![switch](https://user-images.githubusercontent.com/88457552/163274775-ae3989f3-4a22-4c54-aa90-c9aca96ffcf7.PNG)
 
