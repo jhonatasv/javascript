@@ -12,3 +12,7 @@ main {
 button {
     padding: 10px;
 }
+
+p {
+    font-size: 16px;
+}
