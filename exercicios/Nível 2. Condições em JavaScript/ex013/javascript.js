@@ -1,4 +1,3 @@
-
 function star () {
     let numero1 = Number(prompt('Digite um número:'))
     let numero2 = Number(prompt('Digite um número:'))
@@ -13,8 +12,8 @@ function star () {
         result.innerHTML = `Analisando os valores <mark>${numero1}</mark> e  <mark>${numero2}</mark>, ambos são <strong>IGUAIS</strong>`
     }
 }
-        
-            
+
+
 // function star () {
 //     let numero1 = Number(prompt('Digite um número:'))
 //     let numero2 = Number(prompt('Digite um número:'))
@@ -25,4 +24,3 @@ function star () {
 
 //     document.querySelector('#resultado').innerHTML = `Analisando os valores ${numero1} e ${numero2}, <strong>${teste}<strong>`
 // }
-           
