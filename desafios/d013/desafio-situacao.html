@@ -5,14 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Situação do aluno</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <h1>Situação do aluno</h1>
-        <button id="btn">Entrar com as notas</button>
-        <section id="result">
-            <p>Clique no botão acima para informar as notas do aluno</p>
+        <section class="conteiner">
+            <h1>Situação do aluno</h1>
+            <button id="btn">Entrar com as notas</button>
+            <div id="result">
+                <p>Clique no botão acima para informar as notas do aluno</p>
+            </div>
         </section>
+        <aside class="conteiner-tabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Média</th>
+                        <th>Situação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                       <td>Acima de 6,0</td>
+                       <td>APROVADO</td>
+                    </tr>
+                    <tr>
+                        <td>Entre 3,0 e 6,0</td>
+                        <td>RECUPERAÇÂO</td>
+                    </tr>
+                    <tr>
+                        <td>Abaixo de 3,0</td>
+                        <td>REPROVADO</td>
+                   </tr>
+                </tbody>
+            </table>
+        </aside>
     </main>
 </body>
 </html>
