@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Mono', monospace;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 5px;
+    font-size: 17px;
+}
