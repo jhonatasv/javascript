@@ -12,7 +12,6 @@ function verificar() {
     let variacaoAlta = (currentPrice / previousPrice- 1) * 100
     let variacaoBaixa = (previousPrice / currentPrice - 1) * 100
 
-
     printOut.innerHTML = `<h2>Analisando os Valores informados</h2>`
     printOut.innerHTML += `<p>O produto custava ${precoAntes} e agora custa ${precoAgora}</p>`
     
