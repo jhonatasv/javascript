@@ -6,7 +6,7 @@ main {
     align-items: center;
     font-size: 1.1em;
     row-gap: 10px;
-    font-family: 'PT Mono', monospace;;
+    font-family: 'PT Mono', monospace;
 }
 
 button {
