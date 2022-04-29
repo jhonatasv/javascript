@@ -17,6 +17,15 @@ section {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
 }
 
+.btn {
+    padding: 10px;
+    font-size: 14px;
+}
+
+img {
+    padding-top: 20px;
+}
+
 footer {
     color: white;
     text-align: center;
