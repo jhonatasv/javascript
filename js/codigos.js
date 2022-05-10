@@ -41,7 +41,7 @@ console.log(ano)
 
 
 
-//somando todas as idade usando filter
+//somando todas as idade usando reduce
 
 const idades = [8, 13, 27, 30, 22, 40]
 
