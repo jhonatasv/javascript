@@ -1,3 +1,25 @@
+//Multiplicando itens através do map().
+
+const number = [1, 2, 3, 4, 5]
+
+const numberMultipliedByTwo = number.map(function(number){
+    return number * 2
+})
+
+console.log(numberMultipliedByTwo)
+
+
+//usando Arrow Function
+const doubles = number.map((number) => {
+    return number * 2
+})
+
+console.log(doubles)
+
+
+
+
+
 //Objetos
 
 const person = {
