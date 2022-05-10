@@ -19,6 +19,28 @@ console.log(doubles)
 
 
 
+//retonando uma nova lista usando filter
+
+const ages = [8, 13, 27, 30, 22, 40]
+
+const evenAges = ages.filter(function(age){
+    return age % 2 === 0
+})
+
+console.log(evenAges)
+
+// OU
+
+function numberPAr(number) {
+    return number % 2 == 0
+}
+
+const ano = [8, 13, 27, 30, 22, 40].filter(numberPAr)
+console.log(ano)
+
+
+
+
 
 //Objetos
 
