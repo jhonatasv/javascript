@@ -84,7 +84,7 @@ const {
     lastName, 
     age, 
     hobbies, 
-    dog: { name: dogName}
+    dog: { name: dogName} // acessando um Objeto dentro de outro
 } = person
 
 console.log(primeiroNome)
@@ -99,3 +99,33 @@ console.log(hobbies)
 
 console.log(person.dog.name)
 console.log(dogName)
+
+
+
+
+
+//acessando uma lista com Objetos
+
+const todos = [ 
+    {
+        id: 1,
+        description: 'Estudar programação',
+        isCompleted: false,
+    },
+    {
+        id: 2,
+        description: 'Ler',
+        isCompleted: true,
+
+    },
+    {
+        id: 3,
+        description: 'Treinar',
+        isCompleted: true,
+    }
+]
+
+
+
+const lastDescription = todos[2].description
+console.log(lastDescription)
