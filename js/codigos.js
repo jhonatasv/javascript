@@ -41,6 +41,18 @@ console.log(ano)
 
 
 
+//somando todas as idade usando filter
+
+const idades = [8, 13, 27, 30, 22, 40]
+
+const sumOfAges = idades.reduce(function(idade, acumulador){
+    return acumulador + idade
+}, 0)
+
+console.log(sumOfAges)
+
+
+
 
 //Objetos
 
