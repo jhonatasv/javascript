@@ -1,6 +1,15 @@
 //Loops
 
 
+//Enquanto o (i) que é 0, for menor do que 10, Ele vai Continuar adicionando mais 1 que é (i++)
+for (let i = 0; i < 10; i++) {
+    console.log(i)
+}
+
+
+
+
+
 const cars = ['Ferrari', 'Tesla', 'Mercedes']
 
 
@@ -16,6 +25,7 @@ const cars = ['Ferrari', 'Tesla', 'Mercedes']
 // maneira 2 de fazer
 
 //para cada Car na Lista de Cars a gente vai loga car
+
 // for(let car of cars) {
 //     console.log(car)
 // }
