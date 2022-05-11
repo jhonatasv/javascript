@@ -54,3 +54,19 @@ while (index < 10) {
 
     console.log('index é menor do que 10')
 }
+   
+
+
+//for...in
+
+const person = {
+    name: 'jhonatas',
+    age: 21,
+}
+
+//Acessando propriedades do Objeto
+
+//ele não é muito Perfomático
+for (property in person) {
+    console.log(person[property])
+}
