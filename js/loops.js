@@ -9,15 +9,15 @@ for (let i = 0; i < 10; i++) {
 
 
 
-
+//Trabalhando com Listas
 const cars = ['Ferrari', 'Tesla', 'Mercedes']
 
 
 // maneira 1 de fazer
 
-// for (let i = 0; i < cars.length; i++) {
-//     console.log(cars[i])
-// }
+for (let i = 0; i < cars.length; i++) {
+    console.log(cars[i])
+}
 
 
 
@@ -26,13 +26,13 @@ const cars = ['Ferrari', 'Tesla', 'Mercedes']
 
 //para cada Car na Lista de Cars a gente vai loga car
 
-// for(let car of cars) {
-//     console.log(car)
-// }
+for(let car of cars) {
+    console.log(car)
+}
 
 
 
-// maneira 3 de fazer
+// maneira 3 de fazer, logando com numero da (index) dos cars
 
 cars.forEach(function(car, index) {
     console.log(index)

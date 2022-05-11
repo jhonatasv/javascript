@@ -1,3 +1,4 @@
+// lista com Objetos 
 
 const todos = [ 
     {
@@ -18,21 +19,19 @@ const todos = [
     }
 ]
 
-//convertendo para JSON
 
+//Pegando apenas as (description) da lista de Objetos
+for ( let description of todos) {
+    console.log(description.description)
+}
+
+
+
+
+//convertendo para JSON
 const todosJSON = JSON.stringify(todos)
 console.log(todosJSON)
 
-
-
-
-
-
-/*
-    JSON.parse()
-    O método JSON.parse() analisa uma string JSON, o valor ou um objeto JavaScript descrito pela string. 
-    Uma função reviver opcional pode ser fornecida para executar uma transformação no objeto que será retornado.
-*/
 
 
 //convetendo de volta
