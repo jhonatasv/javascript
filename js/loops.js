@@ -38,3 +38,19 @@ cars.forEach(function(car, index) {
     console.log(index)
     console.log(car)
 })
+
+
+
+//while loop
+
+let index = 0
+
+while (index < 10) {
+    index++
+    //Mesma coisa de baixo
+
+    //index = index + 1
+    //index += 1
+
+    console.log('index é menor do que 10')
+}
