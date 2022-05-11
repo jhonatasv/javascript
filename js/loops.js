@@ -1,0 +1,30 @@
+//Loops
+
+
+const cars = ['Ferrari', 'Tesla', 'Mercedes']
+
+
+// maneira 1 de fazer
+
+// for (let i = 0; i < cars.length; i++) {
+//     console.log(cars[i])
+// }
+
+
+
+
+// maneira 2 de fazer
+
+//para cada Car na Lista de Cars a gente vai loga car
+// for(let car of cars) {
+//     console.log(car)
+// }
+
+
+
+// maneira 3 de fazer
+
+cars.forEach(function(car, index) {
+    console.log(index)
+    console.log(car)
+})
