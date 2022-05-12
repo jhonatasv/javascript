@@ -27,15 +27,16 @@ for ( let description of todos) {
 
 
 
+//for...in
 
-//convertendo para JSON
-const todosJSON = JSON.stringify(todos)
-console.log(todosJSON)
+const person = {
+    name: 'jhonatas',
+    age: 21,
+}
 
+//Acessando propriedades do Objeto
 
-
-//convetendo de volta
-
-const todosList = JSON.parse(todosJSON)
-console.log(todosList)
-
+//ele não é muito Perfomático
+for (property in person) {
+    console.log(person[property])
+}
