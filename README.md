@@ -944,3 +944,9 @@ vai executar os comandos que tiverem nesse bloco, na verdade pode se um ou vári
 
 Quando ele bate no **break**, olha o que vai acontecer com o fluxo ele vai ser desviado lá pra baixo. Se por acaso esse `break` não existir, vai dar problema porque vai continuar executando todos os comandos até achar um `break`.
 
+
+<hr>
+
+<h2>Módulo E</h2>
+
+**Aula 13 - Repetições (part 1)**
