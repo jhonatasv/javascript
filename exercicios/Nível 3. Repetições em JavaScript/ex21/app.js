@@ -7,8 +7,8 @@ btn.addEventListener('click', () => {
    
     while( numero < 10) {
         numero ++
-        res.innerHTML += `${numero}`
+        res.innerHTML += `${numero}&#128073`
     }
-
+    res.innerHTML += `${numero}&#128073;&#127937`
    
 })
