@@ -76,12 +76,13 @@ h1 {
 }
 
 .card-info p {
-    padding: 10px ;
-}
+    padding: 10px;
+} 
 
-a {
+.card-info a {
     color: #020101;
 }
+
 
 img {
     width: 340px;
@@ -93,10 +94,14 @@ img {
 img:hover {
     box-shadow: 0 4px 17px 7px #0000000d;
     transform: scale(1.01);
-    /* z-index: 0; */
 }
+
 .nivel {
     margin: 15px;
     text-indent: 10px;
 }
 
+footer {
+    text-align: center;
+    padding: 10px;
+}
