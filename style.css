@@ -17,8 +17,8 @@ body {
 }
 
 header {
-    background-color: #0000009e;
-    box-shadow: 0 4px 12px 0 #0000000d;
+    background-color: #2D333B;
+    box-shadow: 0 4px 12px 0 #0000002a;
     position: fixed;
     width: 100%;
     top: 0;
@@ -42,7 +42,7 @@ header {
 }
 
 .nav-link:hover {
-    color: rgb(27, 230, 145);
+    color: #1be691;
 }
 
 h1 {
@@ -71,7 +71,7 @@ h1 {
 
 .conteiner .card-info {
     background-color: #00000042;
-    color: rgb(0, 0, 0);
+    color: #000000;
     border-radius: 2px;
 }
 
@@ -91,7 +91,7 @@ img {
 }
 
 img:hover {
-    box-shadow: 0 4px 12px 0 #0000000d;
+    box-shadow: 0 4px 17px 7px #0000000d;
     transform: scale(1.01);
     /* z-index: 0; */
 }
