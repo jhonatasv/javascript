@@ -35,8 +35,14 @@ header {
     column-gap: 20px;
 }
 
+
 .nav-link {
     color: white;
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover {
+    color: rgb(27, 230, 145);
 }
 
 h1 {
