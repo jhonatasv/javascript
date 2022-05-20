@@ -104,4 +104,15 @@ img:hover {
 footer {
     text-align: center;
     padding: 10px;
+    background-color: #2D333B;
+    color: #EDEDED;
+}
+
+footer a {
+    color: white;
+    transition: all 0.5s ease;
+}
+
+footer a:hover {
+    color: #1be691;
 }
