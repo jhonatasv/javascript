@@ -8,16 +8,24 @@
     text-decoration: none;
 }
 
+:root {
+    ---background-header-footer: #2D333B;
+    ---background-card-intem: #c5b8b855;
+    ---color-hover-header-footer: #1be691;
+    ---background-card-info: #4946462d;
+}
+
 html,
 body {
     font-family: 'PT Mono', monospace;
     width: 100%; 
     height: 100vh;
     scroll-behavior: smooth;
+    background-color: #e6ecec8c;
 }
 
 header {
-    background-color: #2D333B;
+    background-color: var(---background-header-footer);
     box-shadow: 0 4px 12px 0 #0000002a;
     position: fixed;
     width: 100%;
@@ -27,7 +35,6 @@ header {
     z-index: 1;
 }
 
-
 .navbar {
     display: flex;
     justify-content: end;
@@ -35,20 +42,19 @@ header {
     column-gap: 20px;
 }
 
-
 .nav-link {
-    color: white;
+    color: #ffffff;
     transition: all 0.5s ease;
 }
 
 .nav-link:hover {
-    color: #1be691;
+    color: var(---color-hover-header-footer);
 }
 
 h1 {
     text-indent: 20px;
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 10%;
+    padding-top: 10%;
     margin-bottom: 10px;
 }
 
@@ -57,21 +63,24 @@ h1 {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-auto-rows: minmax(10px, auto);
     grid-gap: 15px;
-    margin: 0 20px 27%;
+    /* margin: 0 20px 27%; */
+    
+
+    padding: 10px 20px 10%;
+    justify-items: center;
 }
     
-.conteiner .card-intem {
+.card-intem {
     width: 400px;
     padding: 15px 0 0;
     text-align: center;
-    background-color: #EDEDED;
+    background-color: var(---background-card-intem);
     border-radius: 5px;
     box-shadow: 0 4px 12px 0 #0000000d;
 }
 
-.conteiner .card-info {
-    background-color: #00000042;
-    color: #000000;
+.card-info {
+    background-color: var(---background-card-info);
     border-radius: 2px;
 }
 
@@ -82,7 +91,6 @@ h1 {
 .card-info a {
     color: #020101;
 }
-
 
 img {
     width: 340px;
@@ -104,15 +112,15 @@ img:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #2D333B;
+    background-color: var(---background-header-footer);
     color: #EDEDED;
 }
 
 footer a {
-    color: white;
+    color: #ffffff;
     transition: all 0.5s ease;
 }
 
 footer a:hover {
-    color: #1be691;
+    color: var(---color-hover-header-footer);
 }
