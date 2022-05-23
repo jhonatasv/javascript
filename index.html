@@ -20,8 +20,10 @@
         </nav>
     </header>
     <main>
-        <h1 class="description">Desafios</h1>
         <section class="conteiner" id="desafios">
+            <div class="title">
+                <h1>Desafios</h1>
+            </div>
                 <div class="card-intem">
                     <a href="desafios/d001/mensagem.html" target="_blank"><img class="projeto-img" src="https://user-images.githubusercontent.com/88457552/169161588-1211d47d-aa32-47ef-8a91-2214c60fbb63.PNG" alt="desafio Mensagem"></a>
                     <div class="card-info">
@@ -127,9 +129,11 @@
                     </div>
                 </div>    
         </section>
-        <h1 class="description">Exercícios</h1>
-        <p class="description paragraph">Nìvel 1. JavaScript Básico</p>
         <section class="conteiner" id="exercicios">
+            <div class="title">
+                <h1>Exercícios</h1>
+                <p>Nìvel 1. JavaScript Básico</p>
+            </div>
             <div class="card-intem">
                 <a href="exercicios/Nìvel 1. JavaScript Básico/ex001/Primeiro JS.html" target="_blank"><img class="projeto-img" src="https://user-images.githubusercontent.com/88457552/169395900-874c815e-251e-4ae2-84ca-f65343f8d5cb.PNG" alt="Primeiro JavaScript"></a>
                 <div class="card-info">
@@ -211,9 +215,11 @@
                 </div>
             </div>
         </section>
-        <h1 class="description">Exercícios</h1>
-        <p class="description paragraph">Nível 2. Condições em JavaScript</p>
         <section class="conteiner" id="exercicios">
+            <div class="title">
+                <h1>Exercícios</h1>
+                <p>Nível 2. Condições em JavaScript</p>
+            </div>
             <div class="card-intem">
                 <a href="exercicios/Nível 2. Condições em JavaScript/ex011/media-do-aluno.html" target="_blank"><img class="projeto-img" src="https://user-images.githubusercontent.com/88457552/169847944-22f53f66-0299-42a4-840b-62f8f39cded1.PNG" alt="Calculando média e dando 'Parabéns'"></a>
                 <div class="card-info">
@@ -295,9 +301,11 @@
                 </div>
             </div>
         </section>
-        <h1 class="description">Exercícios</h1>
-        <p class="description paragraph">Nível 3. Repetições em JavaScript</p>
         <section class="conteiner" id="exercicios">
+            <div class="title">
+                <h1>Exercícios</h1>
+                <p>Nível 3. Repetições em JavaScript</p>
+            </div>
             <div class="card-intem">
                 <a href="exercicios/Nível 3. Repetições em JavaScript/ex21/contando.html" target="_blank"><img class="projeto-img" src="https://user-images.githubusercontent.com/88457552/169855091-b62ed2ea-c454-4683-a114-91afe584bd91.PNG" alt="Contando de 1 até 10"></a>
                 <div class="card-info">
@@ -368,20 +376,19 @@
         <p>&copy; <a href="https://github.com/jhonatasv" target="_blank">Jhonatas</a></p>
     </footer>
     <script>
-        let input = document.querySelector('#check')
-        let body = document.querySelector('body')
-        let description = document.querySelectorAll('h1, .paragraph')
-
-
+        const input = document.querySelector('#check')
+        const body = document.querySelector('body')
+        const description = document.querySelectorAll('h1, p')
+        
         input.addEventListener('change', () => {
             body.classList.toggle('modo-dark-body')
             
             for(let i = 0; i < description.length; i++) {
-                description[i].classList.toggle('modo-dark-description')
+                description[i].classList.toggle('modo-dark')
             }
-            
-        })         
-
+ 
+        })
+    
     </script>
 </body>
 </html>
