@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+:root {
+    ---background: #008080f6;
+    ---btn: #b5ecec;
+    ---hover-btn: #1d3636a2;
+}
+
+body {
+    font-family: 'PT Mono', monospace, sans-serif;
+    background-color: var(---background);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: var(---btn);
+    transition: all 0.4s ease-out;
+}
+
+.btn:hover {
+    background-color: var(---hover-btn);
+    box-shadow: 1px 2px 1px 1px black;
+    transform: scale(0.90);
+    color: rgba(255, 255, 255, 0.815);
+}
