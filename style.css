@@ -164,3 +164,7 @@ footer a:hover {
 .modo-dark {
     ---color-description: #ffffff;
 }
+
+.modo-dark-card-info {
+    ---background-card-info: #2b323bb4;
+}

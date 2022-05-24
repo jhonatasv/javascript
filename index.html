@@ -379,12 +379,17 @@
         const input = document.querySelector('#check')
         const body = document.querySelector('body')
         const description = document.querySelectorAll('h1, p')
+        const cardInfo = document.querySelectorAll('.card-info') 
         
         input.addEventListener('change', () => {
             body.classList.toggle('modo-dark-body')
             
             for(let i = 0; i < description.length; i++) {
                 description[i].classList.toggle('modo-dark')
+            }
+
+            for(let i = 0; i < cardInfo.length; i++) {
+                cardInfo[i].classList.toggle('modo-dark-card-info')
             }
  
         })
