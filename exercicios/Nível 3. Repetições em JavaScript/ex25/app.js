@@ -24,6 +24,4 @@ btn.addEventListener('click', () => {
     }
     
 
-
-
 })
