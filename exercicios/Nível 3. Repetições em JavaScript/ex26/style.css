@@ -25,8 +25,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
     text-align: center;
 }
 
@@ -69,4 +67,8 @@ input[type=number] {
 
 p {
     margin: 20px 0;
+}
+
+.res {
+    width: 85%;
 }
