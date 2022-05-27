@@ -949,4 +949,186 @@ Quando ele bate no **break**, olha o que vai acontecer com o fluxo ele vai ser d
 
 <h2>Módulo E</h2>
 
-**Aula 13 - Repetições (part 1)**
+## Aula 13 - Repetições (part 1)
+
+Essa é a primeira parte do assunto e nós vamos começar a aprender essas estruturas que a gente também pode chamar de **Laços** ou **interações.**
+
+Na nossa vida existem vários momentos em que a gente faz repetições e um dos exemplos que eu coloco aqui é por exemplo comer uma pizza, comer uma pizza é uma atividade que requer repetições, vamos supor que você é guloso ou gulosa e vai querer comer essa pizza inteira, pensando nisso eu já criei aqui embaixo a minha `function comerPizza()`, a minha function é uma função que eu faço constantemente
+
+![repeticao](https://user-images.githubusercontent.com/88457552/170758697-51dc14af-5a21-4cf1-8352-8836c342fb8c.PNG)
+
+Então vou criar uma `function comerPizza()` pra mim, essa função ela vai ter um bloco então eu abro e fecho chaves `{ }`, está vendo? Está amarelinho aqui embaixo e eu vou começar minha atividade de comer essa pizza inteira e pra começar,
+
+![function](https://user-images.githubusercontent.com/88457552/170761753-f79466e2-2c31-4783-ab12-1af3eaa67593.PNG)
+
+
+*eu tenho que fazer alguns passos:* primeiro passo que eu vou fazer aqui é comer a primeira fatia, quando eu como a primeira fatia, já não está mais lá, 
+
+![comerFatia](https://user-images.githubusercontent.com/88457552/170763177-854f94ad-5967-41ab-83ae-c88930c9865b.PNG)
+
+
+o próximo passo da minha atividade é comer outra fatia, então ele já comeu a segunda fatia ali,
+
+![comerFatia](https://user-images.githubusercontent.com/88457552/170764773-c267487a-0fd3-4b51-984a-c3f0a2da350e.PNG)
+
+
+vamos fazer mais um comando que é comer mais uma fatia
+
+![comerFatia](https://user-images.githubusercontent.com/88457552/170765782-3d2c904c-762a-4777-912b-9191cf25ab19.PNG)
+
+e assim sucessivamente até a pizza acabar. Eu vou fazer a minha função de comer a pizza é exatamente essa daqui de baixo, você percebe que a minha pizza tinha oito pedaços, então aqui embaixo eu tenho oito comandos, *comer pizza.* Então assim minha atividade é partir e do primeiro comando até o último comando para cumprir a minha missão que foi comer essa pizza inteira.
+
+![comerPizza](https://user-images.githubusercontent.com/88457552/170766102-6a38004d-fbd0-4ad7-acd8-402e080e5e28.PNG)
+
+
+e com a programação também é assim, a gente parte de um ponto **A** e vai até um ponto **B**, a sua tarefa na hora de programar é conseguir escrever os programas pra que você saia do ponto *A* e chegue ao ponto *B* que é o seu objetivo e para conseguir atingir os nossos objetivos
+
+![pontoAeB](https://user-images.githubusercontent.com/88457552/170767632-e934a116-3de4-4e13-accd-891df74ebfe1.PNG)
+
+
+existem várias formas que a gente chama de **Estrururas de Controle**. <br>
+A primeira estrutura de controle, a mais simples de todas é a sequência onde eu vou desde o ponto **A** até o ponto **B** executando tarefas sequencialmente até chegar ao objetivo que foi exatamente o que aconteceu na hora de comer pizza eu coloquei um passo depois do outro várias vezes até o momento em que eu comia a pizza inteira, só que nem tudo é uma maravilha como isso daqui, ás vezes existem desvios 
+
+![sequencias](https://user-images.githubusercontent.com/88457552/170769028-7b8b149e-b1d2-446a-a19a-4ea6a3025ff9.PNG)
+
+existem possibilidades e então a gente viu lá durante a *aula 12 do Módulo D* e todos os exercícios as condições onde eu tenho um teste lógico que e representado por esse losango aqui e esse teste ele tem
+
+![1](https://user-images.githubusercontent.com/88457552/170771373-1f1b8897-f079-411a-91b7-12e1a574ac47.PNG)
+
+duas possibilidades: **verdade** ou **falso**. E de acordo com esse valor vão ser executadas tarefas específicas, você vê aqui do lado por exemplo: imagina que eu tenho uma pizza de oito pedaços, mas existe um pedaço de pizza de Margherita e eu não gosto de Margherita, então se a pizza não for de Margherita eu como
+
+![2](https://user-images.githubusercontent.com/88457552/170771380-22de6540-49b2-4d22-a2dd-6f9c9404a802.PNG)
+
+se não eu não como, e eu consigo também chegar de um ponto a outro, nem tudo na programação é feita de uma sequência como a gente viu anteriormente, ás vezes é necessário isso daqui, mas o nosso assunto não é as condições, caso tenha dificuldade volte para O *Módulo D*, porque nessa a gente vai ver um novo tipo de *estrutura de controle*
+
+![3](https://user-images.githubusercontent.com/88457552/170775596-21005b3f-3ce2-4092-a878-c0ec840fabdf.PNG)
+
+
+
+que são as Repetiçôes ou como eu chamei anteriormente os laços. Um laço ele começa exatamente como uma condiçâo ele vai testar uma expressão e assim como acontecia nas expressões de condição eu tenho duas possibilidades: ou esse teste é verdadeiro ou ele é falso, só que o comportamento aqui é um pouquinho diferente. 
+
+
+![repetições](https://user-images.githubusercontent.com/88457552/170777018-e6372c37-6ce6-4b2d-9ada-619caf509446.PNG)
+
+
+se esse condição, se esse teste lógico for verdade ele vai executar um bloco só que ele não vai seguir desse bloco para o ponto final que está embaixo, ele vai volta ele vai fazer um looping,
+
+![a](https://user-images.githubusercontent.com/88457552/170778237-df139b3a-bd9b-4af1-89c5-d2d607ceb64a.PNG)
+
+ele vai fazer um laço, uma repetiçao. Voltando para
+o losango ele vai testar de novo essa condição, se essa condição for verdadeira de novo,
+
+
+![b](https://user-images.githubusercontent.com/88457552/170778241-03a72413-87a0-42bf-8e7c-0b325c6dbcff.PNG)
+
+ele vai executar tarefa e fazer outro laço como acabou de acontecer e vai testar mais uma vez, 
+
+![c](https://user-images.githubusercontent.com/88457552/170778249-c56dd004-7d53-4ffc-b622-b123bc9df998.PNG)
+
+testando e sendo verdadeiro, ele vai executar esse bloquinho de novo e mais uma vez vai voltar e ele vai fazer isso enquanto essa condição for verdadeira, 
+<br> percebe na minha frase: *"enquanto essa condição (que é esse losango) for verdade,* 
+
+![estrutura](https://user-images.githubusercontent.com/88457552/170782626-7542cc3a-595d-49db-886f-e6a1cdf84ca8.PNG)
+
+a partir do momento em que esse losango" não for verdade, for mentira o laço é quebrado e eu sigo o meu fluxo natural,   
+
+
+![estrutura](https://user-images.githubusercontent.com/88457552/170783626-655a8172-3fbc-493d-a775-3a93a5fd3853.PNG)
+
+
+então essa estrutura daqui de cima é a nossa estrutura de laço principal, ela é a primeira que a gente sempre vê quando vai estudar programação, existem outras? Existem, mas essa é a mais comum de todas.
+
+> Se você já tem conhecimento em outra linguagens de programação principalmente liguagem *C* ou liguagem *Java* é exatamente da mesma maneira
+
+
+Lembra que quando eu li essa estrutura eu coloquei: *"enquanto alguma coisa for verdade",* essa palavra *"enquanto"* em inglês ela se escreve `while`, ela se diz While.
+
+
+![while](https://user-images.githubusercontent.com/88457552/170785167-387fd1f9-a5ad-48b0-9177-40dce8968560.PNG)
+
+
+Então eu vou colocar While e uma condição que é exatamente a condição que eu testari aqui dentro desse losango, 
+
+![while 2](https://user-images.githubusercontent.com/88457552/170785173-a51939a2-b110-4644-bc39-d0c83654f506.PNG)
+
+
+quando eu escrevo um while eu tenho que colocar um bloco, lembrando em JavaScript, bloco são sinais de chaves `{}`, tudo que estiver entre chaves é um bloco,
+
+![while 3](https://user-images.githubusercontent.com/88457552/170785308-1f7bdd0a-cd05-4d5d-b61f-4cdc0053f8b7.PNG)
+
+
+
+então esse bloco que está relacionado a esse enquanto, vai acontecer enquanto esse condição for verdadeira, sendo ela verdadeira, todo o comando que foi escrito aqui dentro vai ser executado,
+
+![while 4](https://user-images.githubusercontent.com/88457552/170785314-7ebf273e-cf44-42aa-aa31-6ce1870176ff.PNG)
+
+depois que esse bloco foi executado, chegando na chave aqui de baixo ele vai voltar pro while, e vai testar de novo a condição, se ela for veradeira, mais uma vez ele vai executar esse bloco e voltar. É assim que funciona,
+
+E a partir do momento em que essa condição deixar de ser verdadeira e passa a ser falsa, o fluxo e desviado pelo lado de fora.
+
+
+![while 5](https://user-images.githubusercontent.com/88457552/170789202-c7c1a4ad-beaf-405b-9b1c-bf5256214cad.PNG)
+
+
+Compara essa parte daqui de baixo com a parte de cima é exatamente o mesmo diagrama, é exatamente a mesma estrutura de laço
+
+
+
+![comerFatia](https://user-images.githubusercontent.com/88457552/170790003-0e5f4b1b-b96e-4679-b403-b3eb3943b542.PNG)
+
+
+
+mas vamos voltar a nossa história de comer pizza, comer pizza é uma repetição e vamos montar a nossa estrutura da função mais uma vez, lembra que antigamente era comer fatia 8 vezes 
+e se eu dividir essa pizza em 16 ou 20 vezes? 
+<br>
+Aquele meu algoritmo anterior, aquele meu programa onde tinha comer fatia 8 vezes já não serve mais e isso sem falar que tem uma repetição de comandos desnecessária, na verdade desnecessária não, chata de fazer, mas agora que você conhece a estrutura `while` tudo vai ficar mais fácil.
+
+> Sempre que você encontrar a palavra `while`, leia como **enquanto**, então dá uma olhada aqui:
+
+
+![while 6](https://user-images.githubusercontent.com/88457552/170792086-80b03445-0374-4061-9292-4b63011a87eb.PNG)
+
+enquanto tem fatia, fiz um teste, dá uma olhada em cima tem fatia? sim, tem fatia
+
+
+
+![while](https://user-images.githubusercontent.com/88457552/170792754-f94e1a8f-ecf5-48c5-8ef5-d434e1c09901.PNG)
+
+então eu vou criar um bloco e dentro desse bloco eu vou colocar o comando *comer fatia*, então olhando aqui em cima tem fatia? Tem
+
+![while 7](https://user-images.githubusercontent.com/88457552/170792096-c4f227fb-707d-47b1-87d7-8404ec6a84b5.PNG)
+
+
+então ele come uma fatia e chegando no final do bloco
+
+![while 8](https://user-images.githubusercontent.com/88457552/170792097-d80567a8-5e40-4d73-9aef-982db570e0f1.PNG)
+
+ele vai fazer o nosso looping, ele vai fazer a repetição como a gente representou aqui agora, o teste vai ser feito de novo, ainda tem fatia em cima? Tem, então ele come a fatia e volta de novo, então esse mesmo processo de repetição está acontecendo, enquanto tem fatia ele está comendo as fatis
+
+
+![while9](https://user-images.githubusercontent.com/88457552/170792098-1c3e4108-7a2b-4301-9bc3-4cabb103f30c.PNG)
+
+
+até chegar o momento em que só tem uma fatia. Vamos fazer o teste de novo enquanto tem fatia, tem fatia? Tem uma fatia.
+
+
+![while10](https://user-images.githubusercontent.com/88457552/170792092-39359d4a-3527-472d-a4c5-fa00f58eeb5d.PNG)
+
+ele vai comer a fatia e voltar de novo, pergunta mais uma vez, tem fatia? agora não tem fatia, ficou **falso** então ele vai sair e terminou a minha função de comer pizza.
+
+
+> Então a primeira coisa que a gente vai fazer é esse programa é muito mais eficiente que o anterior, eu vou colocar o anterior na tela só para você comparar
+
+![comparacao](https://user-images.githubusercontent.com/88457552/170795464-43470ef1-f657-4f19-a1b8-b094ca35dbce.PNG)
+
+
+
+
+
+dá uma olhada na parte de cima e dá uma olhada na parte de baixo 
+
+> <br>e mais importante: o de baixo só serve para eu comer oito fatias, o de cima serve para qualquer tamanho de pizza. esse programa de cima é mais eficiente.
+
+
+E se nesse momento você está pensando: "ah Guanabara é só pegar o debaixo dar um (CTRL + C) e (CRTL + V) se for 20 fatias" e for por exemplo 50 fatias, 
+<br> você vai ter que pegar o *comer fatias* e copiar 50 vezes, aqui em cima funciona sem alterações, para 1, 2, 50, 500 fatias,  Deu para entender a ultilidae de uma estrutura de pepetição como essa que a gente tá acabando de ver?
