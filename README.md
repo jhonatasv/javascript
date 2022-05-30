@@ -976,7 +976,7 @@ vamos fazer mais um comando que é comer mais uma fatia
 
 ![comerFatia](https://user-images.githubusercontent.com/88457552/170765782-3d2c904c-762a-4777-912b-9191cf25ab19.PNG)
 
-e assim sucessivamente até a pizza acabar. Eu vou fazer a minha função de comer a pizza é exatamente essa daqui de baixo, você percebe que a minha pizza tinha oito pedaços, então aqui embaixo eu tenho oito comandos, *comer pizza.* Então assim minha atividade é partir e do primeiro comando até o último comando para cumprir a minha missão que foi comer essa pizza inteira.
+e assim sucessivamente até a pizza acabar. Eu vou fazer a minha função de comer a pizza é exatamente essa daqui de baixo, você percebe que a minha pizza tinha oito pedaços, então aqui embaixo eu tenho oito comandos, *comer Fatia.* Então assim minha atividade é partir do primeiro comando até o último comando para cumprir a minha missão que foi comer essa pizza inteira.
 
 ![comerPizza](https://user-images.githubusercontent.com/88457552/170766102-6a38004d-fbd0-4ad7-acd8-402e080e5e28.PNG)
 
@@ -1130,5 +1130,5 @@ dá uma olhada na parte de cima e dá uma olhada na parte de baixo
 > <br>e mais importante: o de baixo só serve para eu comer oito fatias, o de cima serve para qualquer tamanho de pizza. esse programa de cima é mais eficiente.
 
 
-E se nesse momento você está pensando: "ah Guanabara é só pegar o debaixo dar um (CTRL + C) e (CRTL + V) se for 20 fatias" e for por exemplo 50 fatias, 
+> E se nesse momento você está pensando: "ah Guanabara é só pegar o debaixo dar um **(CTRL + C)** e **(CRTL + V)** se for 20 fatias" e se for por exemplo 50 fatias, 
 <br> você vai ter que pegar o *comer fatias* e copiar 50 vezes, aqui em cima funciona sem alterações, para 1, 2, 50, 500 fatias,  Deu para entender a ultilidae de uma estrutura de pepetição como essa que a gente tá acabando de ver?
