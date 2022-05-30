@@ -1132,3 +1132,101 @@ dá uma olhada na parte de cima e dá uma olhada na parte de baixo
 
 > E se nesse momento você está pensando: "ah Guanabara é só pegar o debaixo dar um **(CTRL + C)** e **(CRTL + V)** se for 20 fatias" e se for por exemplo 50 fatias, 
 <br> você vai ter que pegar o *comer fatias* e copiar 50 vezes, aqui em cima funciona sem alterações, para 1, 2, 50, 500 fatias,  Deu para entender a ultilidae de uma estrutura de pepetição como essa que a gente tá acabando de ver?
+
+
+Forma de fazer no **JavaScript**
+
+<a href="https://www.youtube.com/watch?v=5rZqYPKIwkY"> exemplo de forma visual em (minuto 12:05):</a>
+
+```
+let c = 1
+
+while (c <= 6) {
+  console.log(`passos ${c}`)
+  c++
+}
+
+
+// resultado
+  passos 1 
+  passos 2
+  passos 3 
+  passos 4 
+  passos 5
+  passos 6
+```
+
+<a hrf="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while">Saiba mais sobre: [while] em (developer mozilla)</a>
+
+
+
+
+![loop](https://user-images.githubusercontent.com/88457552/171040275-21df998c-2d51-433b-99da-29f97203bd96.PNG)
+
+Sendo assim essa estrutura daqui de cima que é o `while`, ela é classificada como **estrutura de repetição com teste lógico no início**, isso porque ele faz o teste sendo verdadeiro ele faz o bloco, só que existe uma outra possibilidade, existe também a possibiidade em vez de fazer o teste lógico no início que é testa, executa e faz looping
+
+
+![loop 2](https://user-images.githubusercontent.com/88457552/171040254-af5551f7-b576-43e6-b066-7ac9ba79e5ef.PNG)
+
+
+eu posso fazer também a estrutura ao contrario, primeiro eu executo bloco e depois eu faço teste, exatamente como acabou de aparecer aqui, 
+e a linha de raciocínio igual,
+
+
+![loop 3](https://user-images.githubusercontent.com/88457552/171040283-5a6e60c7-5410-4b1b-8013-b430e83da285.PNG)
+
+se o teste lógico for verdadeiro, ele faz o looping e executa o bloco de novo e ele vai ficar nesse looping enquanto esse teste for verdade.
+
+![loop 4](https://user-images.githubusercontent.com/88457552/171040286-61ea171b-c764-4c68-b340-49b9f8a35a44.PNG)
+
+a partir do momento em que esse teste não é mais verdade é mentira o fluxo sai da estrutura de repetição.
+
+> Compare esse diagrama de cima com o debaixo, eles são essencialmente estruturas de repetição mas eles têm comportamentos diferentes: **o bloco de cima ele primeiro testa e depois executa o bloco**, 
+<br> **aqui embaixo ele primeiro executa o bloco e depois ele testa**
+
+![loop7](https://user-images.githubusercontent.com/88457552/171049139-015fd70b-86bc-4ec7-869b-1df6c8a0f899.PNG)
+
+
+e para fazer essa estrutura aqui debaixo é muito simples em vez de `while` alguma coisa, você vai fazer `do`, "do" quer dizer "faça" então escrever `do`, abre e fecha bloco `{}` faça. esse bloco que acabei de desenhar aqui enquanto a codição,
+
+![loop 5](https://user-images.githubusercontent.com/88457552/171040297-a15256c2-117e-4b48-a816-328c9c7d6041.PNG)
+
+enquanto essa condição for verdadeira ele vai fazendo o bloco exatamente como acabou de representar aqui em cima, vai ficar repetindo
+
+![lopp6](https://user-images.githubusercontent.com/88457552/171040300-f5cb0ee4-860d-4775-9592-513c01b80e0b.PNG)
+
+e partir do momento em que aquela condição passar a ser falsa, ele sai do bloco e segue sua vida normal na execução do programa.
+
+
+![estrutura de repetição](https://user-images.githubusercontent.com/88457552/171050937-04a69eba-aa1d-423b-bd19-1fdefe87521c.PNG)
+
+
+Dessa maneira essas duas estruturas que estão representadas aqui em cima são as minhas duas primeiras estruturas de repetição dentro do JavaScript, 
+<br>
+a de cima que é a `while`, **a gente chama de estrutura de repetição com teste lógico no início** a de baixo que é `do while` **a gente chama de estrutura de repetição com teste lógico no final.**
+
+<a href="https://www.youtube.com/watch?v=5rZqYPKIwkY"> exemplo de forma visual em (minuto 17:00):</a>
+
+
+```
+let c = 1
+
+do{
+  console.log(`passos ${c}`)
+  c ++
+} while (c <= 6)
+
+
+// resultado
+  passos 1 
+  passos 2
+  passos 3 
+  passos 4 
+  passos 5
+  passos 6
+```
+
+
+* <a href="https://github.com/jhonatasv/javascript/tree/master/aulas/aula13">Código dessa aula de estrutura Repetições</a>
+
+* <a hrf="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while">Saiba mais sobre:  (do...while) em developer mozilla</a>
