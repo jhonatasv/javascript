@@ -1229,4 +1229,4 @@ do{
 
 * <a href="https://github.com/jhonatasv/javascript/tree/master/aulas/aula13" target="_blank">Código dessa aula de estrutura Repetições</a>
 
-* <a hrf="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while" target="_blank">Saiba mais sobre:  (do...while) em developer mozilla</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while" target="_blank">Saiba mais sobre:  (do...while) em developer mozilla</a>
