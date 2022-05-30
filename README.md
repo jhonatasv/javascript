@@ -60,7 +60,7 @@ var o = new Object();
 
 ```
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/ToString">Mais Exemplo em developer mozilla</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/ToString" target="_blank">Mais Exemplo em developer mozilla</a>
 
 
 <hr>
@@ -79,7 +79,7 @@ alert(`A soma enter é,  ${}`)
 alert('a soma dos Números é, ' +(soma))
 ```
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals">Exemplo em developer mozilla</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals" target="_blank">Exemplo em developer mozilla</a>
 
 ---
 
@@ -122,7 +122,7 @@ A string original não é modificada.
 
 ---
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace">String.prototype.replace()
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace" target="_blank">String.prototype.replace()
 em developer mozilla</a>
 
 
@@ -151,7 +151,7 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
 
 *No __node__ ele não faz a inversão da vígula e o ponto mas no Navegador ele faz corretamente*
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString">Number.prototype.toLocaleString() em developer mozilla</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString" target="_blank">Number.prototype.toLocaleString() em developer mozilla</a>
 
 ---
 
@@ -206,9 +206,9 @@ quando você for precisar colocar vírgula, você para de dividir.
 
 basicamente é assim, __5 % 2__, que é o próximo operador, ele não é usado para calcular porcentagem, ele é o operador de resto da divisão inteira.
 
-<a href="https://www.youtube.com/watch?v=hZG9ODUdxHo&ab_channel=CursoemV%C3%ADdeo">exemplo de cálculo no minuto 6:25</a>
+<a href="https://www.youtube.com/watch?v=hZG9ODUdxHo&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de cálculo no minuto 6:25</a>
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_aritmeticos">Expressões e operadores em developer mozilla</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_aritmeticos" target="_blank">Expressões e operadores em developer mozilla</a>
 
 
 E o último operador, ele surgiu no javaScript nas últimas versões, Ele é a potência.
@@ -240,7 +240,7 @@ em vez de fazer
 5 + 1.5 = *6.5* <br>
 que é o resultado
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">Precedência de Operadores em developer mozilla</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operator_Precedence" target="_blank">Precedência de Operadores em developer mozilla</a>
 
 
 se você quise fazer <br>**5 + 3 / 2**, <br>e eu quero fazer *5 + 3* primeiro e depois dividir por dois, Nesse caso é só você colocar parêntenses extamente como a matemática faz <br>(5 + 3) / 2 <br>
@@ -407,7 +407,7 @@ __(>) maior <br>
 (==) igual <br>
 (!=) diferente__
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">Dica para saber a diferença entre o maior e menor <br>(minuto 2:30)</a>
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">Dica para saber a diferença entre o maior e menor <br>(minuto 2:30)</a>
 
 vou colocar valores qualquer, vou usar só valores inteiros, mas tambèm serve em valores reais, que são aquele valores que tenha vírgula <br>
 
@@ -459,7 +459,7 @@ a, que é 8, è menor ou igual a b-10? você percebe que quando eu tenho operado
 
 
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 4:14)</a>
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 4:14)</a>
 
 
 
@@ -480,7 +480,7 @@ Entâo, eu posso testar tambèm variáveis **string**. A string curso è igual a
 `n1 != n2`
 O Primeiro número è diferente do segundo?
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 7:13)</a>
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 7:13)</a>
 
 ---
 
@@ -535,7 +535,7 @@ vamos começa pelo operador de *negação* `!` , o **"não"**, Ele é tratado co
 
 segundo operador de conjunção são os dois `&&` comerciais. Esse operadores, assim como o de *disjunção* também, ele é um operador binário. isto é eu tenho dois valores lógicos, um de cada lado
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 13:00)</a>
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 13:00)</a>
 
 
 E por fim, a **disjunção** que são os dois pipes `||` também um operador binário que tem dois valores lógicos, um de cada lado. Dependendo da posição deles e do resultado lógico, eu tenho tambèm o valor lógico de resultado. E na **disjunção** basta que um deles seja verdadeiro para o resultado ser verdadeiro.
@@ -550,7 +550,7 @@ vamos entender o seguinte, quando eu tenho operadores aritméticos, relacionais 
 
 E por acaso numa mesma expressão eu tiver um __"e"__, um __"ou"__ e um __"não"__, a ordem de execução é sempre essa, <br> primeiro o __"não" `!`__, <br> depois o __"e" `&&`__, <br> e por ultimo __"ou" `||`__.
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 16:56)</a>
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 16:56)</a>
 
 <hr>
 
@@ -566,7 +566,7 @@ operadores ternário é composto por dois símbolos que aparecem na mesma expres
 
 esses três blocos são os blocos de teste, o bloco verdaeiro e o bloco false. È por isso, que esse operador se chama ternário, porque juna três operandos.
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo">mais exemplos no (minuto 19:15)</a>
+<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 19:15)</a>
 
 <hr>
 
@@ -588,7 +588,7 @@ e o `history` que vai guardando de onde você veio para onde você vai, isso fac
 
 dentro do `document` no nosso caso exite outros objeto muito importante é o bjeto `HTML`, que é exatamente a parte **HTML** do meu site, dentro de HTML eu tenho basicamnte dois objetos ou filhos que a gente chama, o *child* que é o head e o body que é a cabaçalho e a parte de corpo.
 
-<a href="https://www.youtube.com/watch?v=WWZX8RWLxIk&ab_channel=CursoemV%C3%ADdeo">Complemento (minuto 10:08)</a>
+<a href="https://www.youtube.com/watch?v=WWZX8RWLxIk&ab_channel=CursoemV%C3%ADdeo" target="_blank">Complemento (minuto 10:08)</a>
 
 <hr>
 
@@ -600,12 +600,12 @@ dentro do `document` no nosso caso exite outros objeto muito importante é o bje
 em primeiro lugar vamos como selecionar por *Marca* ou *tag name*
 `getElementsByTagName()`
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByTagName">Exemplo: getElementsByTagName </a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByTagName" target="_blank">Exemplo: getElementsByTagName </a>
 
 **por ID** <br>
 `getElementById()`
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById">Exemplos: getElementById</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById" target="_blank">Exemplos: getElementById</a>
 
 **por Nome** <br>
 se eu tenho uma propriedade name então vou utilizar o **getElementsByName**, pecebe aqui que ele tem o **s** no plura, então eu preciso usar o colchete [ ], quando eu tenho mais de um objeto da mesma *classe* ou *Nome* eu vou usar muito **por marca** e tabem por <br>
@@ -613,25 +613,25 @@ se eu tenho uma propriedade name então vou utilizar o **getElementsByName**, pe
 
 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByName"> Exemplos: getElementsByName</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByName" target="_blank"> Exemplos: getElementsByName</a>
 
 
 **por Classe** <br>
 `getElementsByClassName`
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByClassName">Exemplo: getElementsByClassName</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByClassName" target="_blank">Exemplo: getElementsByClassName</a>
 
 **por Seletor** <br>
 `querySelector()`
 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector">Exemplos: querySelector</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector" target="_blank">Exemplos: querySelector</a>
 
 <hr>
 
 Aula 10 - Eventos *Dom*
 
-<a href="https://www.youtube.com/watch?v=wWnBB-mZIvY"> exemplo de forma visual em (minuto 06:26):</a>
+<a href="https://www.youtube.com/watch?v=wWnBB-mZIvY" target="_blank"> exemplo de forma visual em (minuto 06:26):</a>
 
 evento é tudos aquilo que possa acontecer com qualquer elemento, mas no nosso exemplo essa **div** e se você começar a analisar, o que pode acontecer com essa **div** um monte de coisas, o mais comum: *eventos de mouse, então eu posso por exemplo chegar com curso do mouse e mover o mouse até encostar, até chegar dentro da* **div**, quando chega o mouse dentro da **div** vai disparar um evento o **mouseenter** que o mouse entrou na **div**, 
 
@@ -641,11 +641,11 @@ evento é tudos aquilo que possa acontecer com qualquer elemento, mas no nosso e
 
 <br>eu também tem o movimento do click inteiro, apertar e solta rapidamente eu tenho o evento **click** e da mesma maneira que com o **mouseenter**, quando eu mover o mouse para fora dessa **div** ele vai disparar evento **mouseout**. Então olha só a gente viu seis métodos, seis eventos que podem ser disparados só com o movimento do mouse, existem outros esses não são os únicos e se por acaso você dá uma pesquisa nos eventos que podem acontecer dentro de elementos em javascript 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/Events">Event reference em developer mozilla:</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/Events" target="_blank">Event reference em developer mozilla:</a>
 
 Só como curiosidade, agora com o eventos dos celulares, você tem os **"Touch events"** que sâo diferentes dos **Mouse events**
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Touch_events">Touch events em developer mozilla:</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Touch_events" target="_blank">Touch events em developer mozilla:</a>
 
 porem para disparar um evento, para tratar um evento, eu preciso te explicar antes o que é uma função ou uma funcionalidade.
 
@@ -685,11 +685,11 @@ function ação(parâmetros) {
 
 ```
 
-<a href="https://www.youtube.com/watch?v=wWnBB-mZIvY"> exemplo de forma visual em (minuto 10:43):</a>
+<a href="https://www.youtube.com/watch?v=wWnBB-mZIvY" target="_blank"> exemplo de forma visual em (minuto 10:43):</a>
 
 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions">Funções em developer mozilla:</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions" target="_blank">Funções em developer mozilla:</a>
 
 <hr>
 
@@ -697,7 +697,7 @@ function ação(parâmetros) {
 
 **Aula 11 - Condições (part 1)**
 
-<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 2:56</a>
+<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de forma visual em 2:56</a>
 
 Antes de falar das nossas condiçôes, precisamos fala de  **sequências**, porque todos os código feito até o momento foram código sequenciais. Entâo, veja o exemplo, o meu primeiro comando que aparecer aqui
 ```
@@ -726,7 +726,7 @@ window.alert(n)
 
 **Codiçôes**
 
-<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 3:43</a>
+<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de forma visual em 3:43</a>
 
 Veja começa na primeira bolinha e termina na última bolinha.
 
@@ -799,7 +799,7 @@ Essa é uma maneira mais completa de representar as condições. O conceito é e
 
 <hr>
 
-<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 8:16</a>
+<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de forma visual em 8:16</a>
 
 *Existe dois tipos de condição*
 e eu vou te explicar a diferença entre eles. Na verdade, exitem mais tipos. Nessa aula, a gente vai ver dois tipos de condição, Aqui embaixo a gente vai ter uma condição bem Simple, que ela só tem um tipo de bloco. 
@@ -1136,7 +1136,7 @@ dá uma olhada na parte de cima e dá uma olhada na parte de baixo
 
 Forma de fazer no **JavaScript**
 
-<a href="https://www.youtube.com/watch?v=5rZqYPKIwkY"> exemplo de forma visual em (minuto 12:05):</a>
+<a href="https://www.youtube.com/watch?v=5rZqYPKIwkY" target="_blank"> exemplo de forma visual em (minuto 12:05):</a>
 
 ```
 let c = 1
@@ -1156,7 +1156,7 @@ while (c <= 6) {
   passos 6
 ```
 
-<a hrf="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while">Saiba mais sobre: [while] em (developer mozilla)</a>
+<a hrf="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while" target="_blank">Saiba mais sobre: [while] em (developer mozilla)</a>
 
 
 
@@ -1205,7 +1205,7 @@ Dessa maneira essas duas estruturas que estão representadas aqui em cima são a
 <br>
 a de cima que é a `while`, **a gente chama de estrutura de repetição com teste lógico no início** a de baixo que é `do while` **a gente chama de estrutura de repetição com teste lógico no final.**
 
-<a href="https://www.youtube.com/watch?v=5rZqYPKIwkY"> exemplo de forma visual em (minuto 17:00):</a>
+<a href="https://www.youtube.com/watch?v=5rZqYPKIwkY" target="_blank"> exemplo de forma visual em (minuto 17:00):</a>
 
 
 ```
@@ -1227,6 +1227,6 @@ do{
 ```
 
 
-* <a href="https://github.com/jhonatasv/javascript/tree/master/aulas/aula13">Código dessa aula de estrutura Repetições</a>
+* <a href="https://github.com/jhonatasv/javascript/tree/master/aulas/aula13" target="_blank">Código dessa aula de estrutura Repetições</a>
 
-* <a hrf="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while">Saiba mais sobre:  (do...while) em developer mozilla</a>
+* <a hrf="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while" target="_blank">Saiba mais sobre:  (do...while) em developer mozilla</a>
