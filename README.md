@@ -1230,3 +1230,105 @@ do{
 * <a href="https://github.com/jhonatasv/javascript/tree/master/aulas/aula13" target="_blank">Código dessa aula de estrutura Repetições</a>
 
 * <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while" target="_blank">Saiba mais sobre:  (do...while) em developer mozilla</a>
+
+<hr>
+
+## Aula 14 – Repetições (Parte 2)
+
+A partir de agora. A estrutura de repetição com variável de controle, que é representada polo hexágono irregular.
+
+![est-1](https://user-images.githubusercontent.com/88457552/171210389-4059f146-2f5b-40dc-9e2e-a2f2d5f2a55d.PNG)
+
+basicamente, nesta hexágono, são feitas três coisas: inicialização, um teste lógico e o incremento. Na primeira passagem, exatamente como está aqui, ele faz a inicialização e o teste lógico. Sendo esse  teste lógico verdadeiro.
+
+![est-2](https://user-images.githubusercontent.com/88457552/171210763-c5d40c3a-3889-4edb-879a-29896c6e28ae.PNG)
+
+ele vai executar
+o bloco, exatamente como acabou de acontecer, e nesse bloco pode ter um ou vários comandos, como a gente já viu. E feito o bloco, ele vai automaticamente
+
+![est-3](https://user-images.githubusercontent.com/88457552/171210770-2787148b-e907-40e2-81bc-60d9648dcf92.PNG)
+
+
+voltar. Exatamente como a gente tinha feito nas estruturas `while` e `do..while`, só que dessa vez, no momento do looping, ele também vai fazer o incremento, uma das três partes que estão aqui em cima nesse hexágono irregular. O teste lógico, então é feito mais uma vez, E sendo verdadeiro.
+
+
+![est-4](https://user-images.githubusercontent.com/88457552/171215162-f093219c-79e7-44f8-9efb-474c3f4615c1.PNG)
+
+mais uma vez esse bloco vai ser executado e o looping acontecerá novamente. Essa estrutura vai ficar acontecendo. Cada vez que voltar, eu incremento e faço o teste lógico. Quando esse teste lógico ficar **falso**.
+
+![est-5](https://user-images.githubusercontent.com/88457552/171215158-edd5d492-7e03-47d9-b6f4-c1e40e52b15e.PNG)
+
+
+ele vai seguir esse caminho, que é o caminho de encerramento. 
+
+Então essa estrutura está aqui em cima é o que a gente chama de **estrutura de repetição com variável de controle.** E se essa explicação ficou meio confusa, é porque a gente não viu na prática.
+
+
+![est-6](https://user-images.githubusercontent.com/88457552/171228950-fd0e2f46-b4fd-4366-9833-8dd0c2627fe9.PNG)
+
+O comando que a gente vai utilizar, é o comando `for`, a estrutura `for`, exatamante como está representada aqui abaixo.
+
+como eu disse anteriormente, a estrutura `for` tem três partes: o início (a inicialização), um teste lógico e um incremento. E, tem um bloco, que você viu, abre chave e fecha a chave. 
+
+<br>Então, explicando mais uma vez:
+
+> na primeira passagem pelo `for`, ele vai fazer a inicialização e o teste.
+
+![est-7](https://user-images.githubusercontent.com/88457552/171257032-83e5fe1d-1384-45e1-bb37-8bc8733844f0.PNG)
+
+Sendo esse teste verdadeiro, ele vai executar um bloco com quantidade de comandos que ele tiver. 
+
+> inclusive eu posso colocar dentro de `for`, um `while`, um `do..while`, um `if` ou um `switch` eu posso colocar qualquer estrutura que a gente viu das aulas anteriores até aqui. Não existe limitação nenhuma para programação.
+
+![est-8](https://user-images.githubusercontent.com/88457552/171259026-514a0942-f645-4d84-8a55-bd487e62897b.PNG)
+
+Uma vez executado esse bloco, ele vai voltar para cima, exatamente, como você acabou de ver. Só que enquanto ele está voltando, ele vai fazer aquele incremento que está ali no final, e de novo vai fazer o teste lógico. Sendo esse teste lógico verdadeiro, ele executa o bloco de novo e volta. Nessa volta, ele faz um incremento de novo e faz o teste lógico mais uma vez.
+
+isso vai acontecer enquanto esse teste lógico for verdadeiro. 
+
+
+![est-9](https://user-images.githubusercontent.com/88457552/171261461-8f619be4-4b48-4fb8-99c3-c48cccbc0058.PNG)
+
+
+Se por acaso esse teste lógico for *falso*, ele vai sair da estrutura e segue se o fluxo natural de execução do nosso script.
+
+
+> e se caso ainda não tenha ficando tão claro para você o funcionamento desse incremento, dessa teste lógico e inicialização, com certeza vou conseguir te provar agora. Eu vou escrever um código que é muito familiar á você, se você viu a aula anterior pricipalmente, que é um código que utiliza a estrutura `while`, que é enqunto.
+
+
+![est-10](https://user-images.githubusercontent.com/88457552/171269361-c5443769-8bce-43fa-a024-22197f5a135e.PNG)
+
+Comecei com variável **c**, que recebe *1.* Exatamente como está escrito aqui em cima, Vou colocar um `while` que é "enquanto", uma estrutura enquanto, e vou colocar o teste lógico, `c <= 10`. isto é, o **"c"** começa com *1*. Enqunato **"c"** for menor ou igual a 10, ele vai fazer uma determinada coisa, vai fazer um bloco. e eu vou colocar `c++`. 
+
+> Lembrando que `c++` significar `c + 1`. O *"c"* que estava valando *1*, vai passar a valer *2*. Vai voltar. voltando ele teste, `c <= 10` ? Sim. Ele vai fazer, vai virar *3* e vai voltar. Ele vai fazer isso até passar de *10*, quando ele passar de *10*, ele sai. 
+
+agora vamos ver como reescreve esse mesmo código só que utilizando a estrutura `for`. 
+
+
+
+![est-11](https://user-images.githubusercontent.com/88457552/171273370-40953d48-3393-4052-9c1a-71b7080a3d04.PNG)
+
+Lembrando que `for`, como está em cima, tem três áreas pricipais. A primeira área é a inicialização. 
+
+![est-10](https://user-images.githubusercontent.com/88457552/171273380-3e07dda3-30bc-46a0-9d54-2f39882f94ea.PNG)
+
+E a inicialização do código de cima está ali. Acabei de mascar pra você. `var c = 1`. Sendo assim, a minha inicialização sendo essa, eu escrevo na linha do `for`, na **primeira parte:** o primeiro elemento é a inicialização.
+
+> Então eu inicializei o **"c"** com valor *1*.
+
+![est-12](https://user-images.githubusercontent.com/88457552/171279088-c2d3f53c-9e0c-444a-a596-d5fa3fccd1d6.PNG)
+
+
+**A segunda parte:** do bloco é o *teste lógico*. Exatamente esse teste lógico. aqui em cima. `c <= 10`. Vou pegar esse mesmo elemento. vou escrever aqui embaixo. Então, `c <= 10` para a segunda parte. 
+
+
+![est-13](https://user-images.githubusercontent.com/88457552/171280169-17a8aad9-629f-4942-b0e6-490994f97a01.PNG)
+
+
+**A terceira parte:** é o  incremento. No nosso caso do código de cima do meu incremento é o `c++`. Então vou pegar exatamente esse `c++` e vou escrever aqui em baixo, no `for` como sendo a terceira parte. 
+
+> O que estou tentando explicar é que o código de cima e o código de baixo tem exatamente a mesm funcionalidade. Elas vão começar no *1*, e vão terminar no *10*. Então, tanto faz escrever da maneira de cima, quanto da maneira de baixo.
+
+
+* saiba mais sobre: <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for">(for) em developer mozilla</a>
+
