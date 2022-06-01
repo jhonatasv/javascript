@@ -570,7 +570,9 @@ esses três blocos são os blocos de teste, o bloco verdaeiro e o bloco false. �
 
 <hr>
 
-## Aula 9 - Entendendo o *DOM*
+<h2>Módulo C: Entendendo o DOM</h2>
+
+<h3>Aula 9 – Introdução ao *DOM*<h3>
 
 Dom é um acrônimo para *Document Object Model* que é modelo de objetos para documentos, basicamente é um conjunto de objetos dentro do seu navegador que vai dar acesso aos componentes internos do seu website. O *Dom* ele não funciona dentro do *node js* por exemplo, O Dom está presente quando estou rodando JavaScript dentro do meu navegador.
 é uma coisa importante que você deve conhecer e deve saber fazer é a sua *ávore Dom* do seu site, basicamente a ávore *Dom* começa da raiz e essa raiz dentro do navedaor é chamada de **windows**, então tudo dentro do javaScript está dentro de um objeto chamado window que quer dizer janela então aquela janela do seu navegador é um objeto Dom e ele se chama **window**,
@@ -629,7 +631,7 @@ se eu tenho uma propriedade name então vou utilizar o **getElementsByName**, pe
 
 <hr>
 
-## Aula 10 - Eventos *Dom*
+<h3>Aula 10 - Eventos *Dom*</h3>
 
 <a href="https://www.youtube.com/watch?v=wWnBB-mZIvY" target="_blank"> exemplo de forma visual em (minuto 06:26):</a>
 
@@ -693,9 +695,9 @@ function ação(parâmetros) {
 
 <hr>
 
-<h2>Módulo D</h2>
+<h2>Módulo D: Condições em JavaScript</h2>
 
-## Aula 11 - Condições (part 1)
+<h3>Aula 11 - Condições (part 1)</h3>
 
 <a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de forma visual em 2:56</a>
 
@@ -817,7 +819,7 @@ já a da direita tem o **if** e o **else** e os dois blocos relacionados.
 
 <hr>
 
-## Aula 12 - Condições (part 1)
+<h3>Aula 12 - Condições (part 2)</h3>
 
 **Condições Aninhadas**
 
@@ -888,8 +890,6 @@ a gente não vai adicionar muitos níveis. Mas sim, eles são possíveis dentro 
 
 <hr>
 
-## Aula 13 - Condições (part 2)
-
 
 **Condição múltipla** 
 que serve para valores fixos. È muito útil no mundo da programação principalmente quando eu quero trabalhar com valores fixos, como acabei de falar. Ela não serve muito para intervalo de valores como tinhamos visto,
@@ -947,9 +947,9 @@ Quando ele bate no **break**, olha o que vai acontecer com o fluxo ele vai ser d
 
 <hr>
 
-<h2>Módulo E</h2>
+<h2>Módulo E: Repetições em JavaScript</h2>
 
-## Aula 13 - Repetições (part 1)
+<h3> Aula 13 - Repetições (part 1)</h3>
 
 Essa é a primeira parte do assunto e nós vamos começar a aprender essas estruturas que a gente também pode chamar de **Laços** ou **interações.**
 
@@ -1233,7 +1233,7 @@ do{
 
 <hr>
 
-## Aula 14 – Repetições (Parte 2)
+<h3> Aula 14 – Repetições (Parte 2) </h3>
 
 A partir de agora. A estrutura de repetição com variável de controle, que é representada polo hexágono irregular.
 
