@@ -40,6 +40,7 @@ Curso em video Aula - 3</a>
 Curso em video Aula - 4</a>
 
 <br>
+<br>
 na primeira aula apredemos que os scripts JS devem ser incluídos no final do corpo do documento __HTML__,<br>
 posicionando a tag  `<script></script>` logo acima da tag de fechamento `</body>`
 
@@ -58,14 +59,13 @@ Dentro dos parêntes do método `alert()`, temos uma __string__ entre aspas (que
 <br>
 <hr>
 
-<h2>Módulo B</h2>
-
-
+<h2>Módulo B: Comandos Básicos do JavaScript</h2>
 
 
 <h3>Aula 5 – Variáveis e Tipos Primitivos</h3>
 
-anteriormente a gente aprendeu a disparar três tipos de janelas bem simples:
+<a href="https://www.youtube.com/watch?v=Vbabsye7mWo&ab_channel=CursoemV%C3%ADdeo">
+Curso em video Aula - 5</a>
 
 
 <br>
