@@ -12,7 +12,7 @@
 
 <h3>Aula 1 – O que o JavaScript é capaz de fazer?</h3>
 
-<a hrfe="https://www.youtube.com/watch?v=uzEhd3Lugik&ab_channel=CursoemV%C3%ADdeo">
+<a href="https://www.youtube.com/watch?v=uzEhd3Lugik&ab_channel=CursoemV%C3%ADdeo">
 Curso em video Aula - 1</a>
 
 <br>
@@ -20,7 +20,7 @@ Curso em video Aula - 1</a>
 
 <h3>Aula 2 – Como chegamos até aqui?</h3>
 
-<a hrfe="https://www.youtube.com/watch?v=rUTKomc2gG8&ab_channel=CursoemV%C3%ADdeo">
+<a href="https://www.youtube.com/watch?v=rUTKomc2gG8&ab_channel=CursoemV%C3%ADdeo">
 Curso em video Aula - 2</a>
 
 <br>
@@ -28,7 +28,7 @@ Curso em video Aula - 2</a>
 
 <h3>Aula 3 – Dando os primeiros passos</h3>
 
-<a hrfe="https://www.youtube.com/watch?v=FdePtO5JSd0">
+<a href="https://www.youtube.com/watch?v=FdePtO5JSd0">
 Curso em video Aula - 3</a>
 
 <br>
@@ -36,7 +36,7 @@ Curso em video Aula - 3</a>
 
 <h3>Aula 4 – Criando o seu primeiro script</h3>
 
-<a hrfe="https://www.youtube.com/watch?v=OmmJBfcMJA8&ab_channel=CursoemV%C3%ADdeo">
+<a href="https://www.youtube.com/watch?v=OmmJBfcMJA8&ab_channel=CursoemV%C3%ADdeo">
 Curso em video Aula - 4</a>
 
 <br>
