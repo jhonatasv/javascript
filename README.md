@@ -1,13 +1,50 @@
 # Primeiros passos com JS.
 
-<h2>Módulo A</h2>
+> **Nota**: quando estáva fazendo o Curso de **JavaScript** do <a href="https://github.com/gustavoguanabara"> Gustavo Guanabara</a>, Eu resolvi transcrever o Curso para Revisa e melhorar nos estudos de *javaScript*. 
+
+<br>
+
+> Caso queira fazer o Curso pelo <a href="https://www.cursoemvideo.com/curso/javascript/">Curso em Video</a> e ganhar o Certificado, recomendo muito.
 
 
----
+
+<h2>Módulo A: Conhecendo o JavaScript</h2>
+
+<h3>Aula 1 – O que o JavaScript é capaz de fazer?</h3>
+
+<a hrfe="https://www.youtube.com/watch?v=uzEhd3Lugik&ab_channel=CursoemV%C3%ADdeo">
+Curso em video Aula - 1</a>
+
+<br>
+<hr>
+
+<h3>Aula 2 – Como chegamos até aqui?</h3>
+
+<a hrfe="https://www.youtube.com/watch?v=rUTKomc2gG8&ab_channel=CursoemV%C3%ADdeo">
+Curso em video Aula - 2</a>
+
+<br>
+<hr>
+
+<h3>Aula 3 – Dando os primeiros passos</h3>
+
+<a hrfe="https://www.youtube.com/watch?v=FdePtO5JSd0">
+Curso em video Aula - 3</a>
+
+<br>
+<hr>
+
+<h3>Aula 4 – Criando o seu primeiro script</h3>
+
+<a hrfe="https://www.youtube.com/watch?v=OmmJBfcMJA8&ab_channel=CursoemV%C3%ADdeo">
+Curso em video Aula - 4</a>
+
+<br>
 na primeira aula apredemos que os scripts JS devem ser incluídos no final do corpo do documento __HTML__,<br>
 posicionando a tag  `<script></script>` logo acima da tag de fechamento `</body>`
 
-Nosso Primiero comando é
+Nosso Primiero comando é.
+
 ```
 window.alert('Olá, Mundo!')
 ```
@@ -18,10 +55,21 @@ A palavra `window` (opctional) é um objeto que indica uma referência á janela
 
 Dentro dos parêntes do método `alert()`, temos uma __string__ entre aspas (que podem ser __´aspas simples´__, __"aspas dupla"__ ou __crases__  para delimitar as palavras que efetivamente aparecerão na janela de alerta.
 
+<br>
+<hr>
 
 <h2>Módulo B</h2>
 
----
+
+
+
+<h3>Aula 5 – Variáveis e Tipos Primitivos</h3>
+
+anteriormente a gente aprendeu a disparar três tipos de janelas bem simples:
+
+
+<br>
+<hr>
 
 <h3> Aula 6 - tratramento de dados </h3>
 
@@ -631,7 +679,7 @@ se eu tenho uma propriedade name então vou utilizar o **getElementsByName**, pe
 
 <hr>
 
-<h3>Aula 10 - Eventos *Dom*</h3>
+<h3>Aula 10 - Eventos Dom</h3>
 
 <a href="https://www.youtube.com/watch?v=wWnBB-mZIvY" target="_blank"> exemplo de forma visual em (minuto 06:26):</a>
 
