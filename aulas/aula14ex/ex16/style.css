@@ -1,11 +1,23 @@
+@charset "UTF-8";
+
 body {
     background: rgb(70, 142, 236);
     font: normal 16px  Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 header {
     color: white;
     text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px 1px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
 }
 
 .conteiner {
@@ -14,24 +26,22 @@ header {
     align-items: flex-start;
 }
 
-.menu {
-    display: flex;
-    align-items: center;
+.items {
+    margin: 10px;
 }
 
-.conteiner-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#numberend {
+    margin-left: 18px;
 }
 
-section {
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
+#numberstart {
+    margin-left: 6px;
+}
+
+.btn {
+    font-size: 17px;
+    padding: 4px;
+    margin-top: 15px;
 }
 
 footer {

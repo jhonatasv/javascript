@@ -10,25 +10,30 @@
 </head>
 <body>
     <header>
-        <h1>Verificador de Idade</h1>
+        <h1>Vamos contar</h1>
     </header>
-    <section>
-        <div class="conteiner">
-            <div class="menu">
-                <p>Ano de Nascimento:</p>
-                <input type="number" name="" id="">
+    <main>
+        <section>
+            <div class="conteiner">
+                <div class="items">
+                    <label for="numberstart">início:</label>
+                    <input type="number" name="numberstart" id="numberstart">
+                </div>
+                <div class="items">
+                    <label for="numberend">Fim:</label>
+                    <input type="number" name="" id="numberend">
+                </div>
+                <div class="items">
+                    <label for="numberpasso">Passo:</label>
+                    <input type="number" name="" id="numberpasso">
+                </div>
+                <button class="btn" id="verificar">contar</button>
             </div>
-            <div class="menu">
-                <p>Sexo:</p>
-                <input type="radio" name="" id="">Masculino
-                <input type="radio" name="" id="">Feminino
+            <div id="res">
+                <p>Preparando a contagem...</p>
             </div>
-            <button id="verificar">verificar</button>
-        </div>
-        <div class="conteiner-img">
-            <p>Preencha os dados acima para ver o resultado!</p>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <p>&copy; by Jhonatas</p>
     </footer>
