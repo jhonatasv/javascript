@@ -23,7 +23,7 @@ Dentro dos parêntes do método `alert()`, temos uma __string__ entre aspas (que
 
 ---
 
-Aula 6 - tratramento de dados
+<h3> Aula 6 - tratramento de dados </h3>
 
 conversão de __String__ para __number__ e para isso exites várias maneiras.
 
@@ -65,7 +65,7 @@ var o = new Object();
 
 <hr>
 
-(Template strings)
+**(Template strings)**
 
 Dentro de uma __Template strings__ podemos usar __placeholders__ no seu interior. um placeholder é representado pelos símbolos `${}` e podem ser usados para facilitar a exibição de conteúdos de variáveis ou expressões.
 
@@ -155,7 +155,7 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
 
 ---
 
-Aula 7 - Operadores (Parte 1)
+## Aula 7 - Operadores (Parte 1)
 
 Opedadores logicos
 
@@ -378,7 +378,7 @@ Essa parte você entedeu, só que nas linguagens de programação quando a gente
 
 ---
 
-Aula 8 - Operadores(Parte 2)
+## Aula 8 - Operadores(Parte 2)
 
 no javaScript exite Operadores
 
@@ -570,7 +570,7 @@ esses três blocos são os blocos de teste, o bloco verdaeiro e o bloco false. �
 
 <hr>
 
-Aula 9 - Entendendo o *DOM*
+## Aula 9 - Entendendo o *DOM*
 
 Dom é um acrônimo para *Document Object Model* que é modelo de objetos para documentos, basicamente é um conjunto de objetos dentro do seu navegador que vai dar acesso aos componentes internos do seu website. O *Dom* ele não funciona dentro do *node js* por exemplo, O Dom está presente quando estou rodando JavaScript dentro do meu navegador.
 é uma coisa importante que você deve conhecer e deve saber fazer é a sua *ávore Dom* do seu site, basicamente a ávore *Dom* começa da raiz e essa raiz dentro do navedaor é chamada de **windows**, então tudo dentro do javaScript está dentro de um objeto chamado window que quer dizer janela então aquela janela do seu navegador é um objeto Dom e ele se chama **window**,
@@ -592,7 +592,7 @@ dentro do `document` no nosso caso exite outros objeto muito importante é o bje
 
 <hr>
 
-(Selecionar elementos no Dom)
+**(Selecionar elementos no Dom)**
 
  dentro da ávore Dom exitem vários métos para isso, alguns exemplo deles
 
@@ -629,7 +629,7 @@ se eu tenho uma propriedade name então vou utilizar o **getElementsByName**, pe
 
 <hr>
 
-Aula 10 - Eventos *Dom*
+## Aula 10 - Eventos *Dom*
 
 <a href="https://www.youtube.com/watch?v=wWnBB-mZIvY" target="_blank"> exemplo de forma visual em (minuto 06:26):</a>
 
@@ -652,7 +652,7 @@ porem para disparar um evento, para tratar um evento, eu preciso te explicar ant
 
 <hr>
 
-- *Função*
+- **Função**
 
 Uma função é um procedimento de JavaScript - um conjunto de instruções que executa uma tarefa ou calcula um valor. Para usar uma função, você deve defini-la em algum lugar no escopo do qual você quiser chamá-la.
 
@@ -695,7 +695,7 @@ function ação(parâmetros) {
 
 <h2>Módulo D</h2>
 
-**Aula 11 - Condições (part 1)**
+## Aula 11 - Condições (part 1)
 
 <a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de forma visual em 2:56</a>
 
@@ -817,7 +817,7 @@ já a da direita tem o **if** e o **else** e os dois blocos relacionados.
 
 <hr>
 
-**Aula 12 - Condições (part 1)**
+## Aula 12 - Condições (part 1)
 
 **Condições Aninhadas**
 
@@ -888,7 +888,7 @@ a gente não vai adicionar muitos níveis. Mas sim, eles são possíveis dentro 
 
 <hr>
 
-**Aula 13 - Condições (part 2)**
+## Aula 13 - Condições (part 2)
 
 
 **Condição múltipla** 
