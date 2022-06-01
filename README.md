@@ -155,7 +155,7 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
 
 ---
 
-## Aula 7 - Operadores (Parte 1)
+<h3> Aula 7 - Operadores (Parte 1) </h3>
 
 Opedadores logicos
 
@@ -378,7 +378,7 @@ Essa parte você entedeu, só que nas linguagens de programação quando a gente
 
 ---
 
-## Aula 8 - Operadores(Parte 2)
+<h3> Aula 8 - Operadores(Parte 2) </h3>
 
 no javaScript exite Operadores
 
@@ -572,7 +572,7 @@ esses três blocos são os blocos de teste, o bloco verdaeiro e o bloco false. �
 
 <h2>Módulo C: Entendendo o DOM</h2>
 
-<h3>Aula 9 – Introdução ao *DOM*<h3>
+<h3>Aula 9 – Introdução ao DOM</h3>
 
 Dom é um acrônimo para *Document Object Model* que é modelo de objetos para documentos, basicamente é um conjunto de objetos dentro do seu navegador que vai dar acesso aos componentes internos do seu website. O *Dom* ele não funciona dentro do *node js* por exemplo, O Dom está presente quando estou rodando JavaScript dentro do meu navegador.
 é uma coisa importante que você deve conhecer e deve saber fazer é a sua *ávore Dom* do seu site, basicamente a ávore *Dom* começa da raiz e essa raiz dentro do navedaor é chamada de **windows**, então tudo dentro do javaScript está dentro de um objeto chamado window que quer dizer janela então aquela janela do seu navegador é um objeto Dom e ele se chama **window**,
