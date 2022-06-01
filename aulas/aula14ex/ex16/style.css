@@ -14,7 +14,7 @@ header {
 section {
     background-color: white;
     border-radius: 10px;
-    padding: 15px 15px 1px;
+    padding: 15px 15px;
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
@@ -42,6 +42,17 @@ section {
     font-size: 17px;
     padding: 4px;
     margin-top: 15px;
+}
+
+.msg-erro {
+    color: #050000;
+    background-color: #ff000061;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0.85;
+    box-shadow: 2px 3px 6px 0px #5f5b5b85;
+    transition: all 0.5s ease;
+    /* width: 310px; */
 }
 
 footer {
