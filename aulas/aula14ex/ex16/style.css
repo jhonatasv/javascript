@@ -41,7 +41,7 @@ section {
 .btn {
     font-size: 17px;
     padding: 4px;
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 .msg-erro {

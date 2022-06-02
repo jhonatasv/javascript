@@ -17,23 +17,26 @@ btn.addEventListener('click', () => {
         res.innerHTML = `<p class="msg-erro">passo iválido, Considerando o Passo 1</p>`
 
         setTimeout(() => {
-            res.innerHTML = `<p>vuala</p>`;
+            res.innerHTML = '';
+           
+            while (numberStar <= numberEnd) {
+                res.innerHTML += `${numberStar} &#128073`
+                numberStar ++
+            }
+            res.innerHTML += `&#127937`
         }, 4000)
 
     } else {
         res.innerHTML = `<p>Contado:</p>`
-
-        for(numberStar; numberStar < numberEnd; numberStar++) {
-         // res.innerHTML += `${numberStar} &#128073`
-         // res.innerHTML += `${numberStar + numberPasso}&#128073 `
         
+
+        while (numberStar <= numberEnd) {
+            // res.innerHTML = `${numberStar} &#128073`
+            // res.innerHTML += `${numberStar } &#128073`
+            // numberStar ++
         }
-
         res.innerHTML += `&#127937`
-
 
     }
     
-
-   
 })
