@@ -8,23 +8,6 @@ header {
     text-align: center;
 }
 
-.conteiner {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-}
-
-.conteiner-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 section {
     background-color: white;
     border-radius: 10px;
@@ -33,6 +16,51 @@ section {
     margin: auto;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
 }
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu {
+    margin: 15px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input:nth-child(2) {
+    padding: 3px 3px 3px 8px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 2px;
+}
+
+.tabu {
+    background-color: rgba(11, 47, 47, 0.157);
+    border: 1px solid;
+    padding: 3px 5px;
+    margin: 0;
+    overflow: scroll;
+    /* height: 300px; */
+}
+
+p {
+    opacity: 65%;
+}
+
+/* input:nth-last-child(1) {
+    text-align: center;
+    background-color: aqua;
+    /* height: 100px; 
+    padding: 5px 0 50px;
+    overflow: scroll;
+} 
+*/
 
 footer {
     color: white;
