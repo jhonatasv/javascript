@@ -4,31 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Tabuada</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Verificador de Idade</h1>
+        <h1>Tabuada</h1>
     </header>
-    <section>
-        <div class="conteiner">
-            <div class="menu">
-                <p>Ano de Nascimento:</p>
-                <input type="number" name="" id="">
+    <main>
+        <section>
+            <div class="conteiner">
+                <div class="menu">
+                   <label for="txtnumr">Número:</label>
+                    <input type="number" name="txtnumr" id="txtnumr">
+                    <button class="btn" id="verificar">Gerar tabuada</button>
+                </div>
+                <div class="menu">
+                    <input type="text" name="txttabuada" id="txttabuada" placeholder="Digite um número acima">
+                </div>
             </div>
-            <div class="menu">
-                <p>Sexo:</p>
-                <input type="radio" name="" id="">Masculino
-                <input type="radio" name="" id="">Feminino
-            </div>
-            <button id="verificar">verificar</button>
-        </div>
-        <div class="conteiner-img">
-            <p>Preencha os dados acima para ver o resultado!</p>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <p>&copy; by Jhonatas</p>
     </footer>
