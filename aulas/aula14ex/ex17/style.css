@@ -43,24 +43,14 @@ input:nth-child(2) {
 .tabu {
     background-color: rgba(11, 47, 47, 0.157);
     border: 1px solid;
-    padding: 3px 5px;
-    margin: 0;
+    padding: 5px 15px;
     overflow: scroll;
-    /* height: 300px; */
+    border-radius: 2px;
 }
 
 p {
     opacity: 65%;
 }
-
-/* input:nth-last-child(1) {
-    text-align: center;
-    background-color: aqua;
-    /* height: 100px; 
-    padding: 5px 0 50px;
-    overflow: scroll;
-} 
-*/
 
 footer {
     color: white;
