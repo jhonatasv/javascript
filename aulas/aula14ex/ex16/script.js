@@ -29,14 +29,12 @@ btn.addEventListener('click', () => {
     } else {
         res.innerHTML = `<p>Contado:</p>`
         
-        
-
-         while(numberStar <= numberEnd) {
+        while(numberStar <= numberEnd) {
             
-            res.innerHTML += `<mark>${numberStar} </mark> &#128073`
+            res.innerHTML += `${numberStar} &#128073`
            
             numberStar = numberStar + numberPasso
-         }
+        }
         res.innerHTML += `&#127937`
 
     }
