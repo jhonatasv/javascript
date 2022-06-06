@@ -52,6 +52,16 @@ p {
     opacity: 65%;
 }
 
+.msg-erro {
+    color: #050000;
+    background-color: #ff000061;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0.85;
+    box-shadow: 2px 3px 6px 0px #5f5b5b85;
+    transition: all 0.5s ease;
+}
+
 footer {
     color: white;
     text-align: center;

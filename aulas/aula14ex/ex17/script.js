@@ -6,7 +6,8 @@ btn.addEventListener('click', () => {
     let iputNumero = Number(inpuText.value) 
 
     if(inpuText.value === '') {
-        res.innerHTML = `<p>Por favor Digite um Numero!</p>`
+        res.innerHTML = `<p class="msg-erro">Por favor Digite um Numero!</p>`
+
     } else {
 
         res.innerHTML = '';
@@ -16,3 +17,4 @@ btn.addEventListener('click', () => {
     }
 
 })
+
