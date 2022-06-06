@@ -13,6 +13,7 @@ btn.addEventListener('click', () => {
 
     if(inputStart.value === '') {
         res.innerHTML = `<p class="msg-erro">erro, por favor preencha o campo ìnicio!</p>`
+    
     } else if(numberPasso === 0 || inputPasso.value === '') {
         res.innerHTML = `<p class="msg-erro">passo iválido, Considerando o Passo 1</p>`
 
@@ -24,6 +25,7 @@ btn.addEventListener('click', () => {
                 numberStar ++
             }
             res.innerHTML += `&#127937`
+
         }, 4000)
 
     } else {
@@ -32,20 +34,17 @@ btn.addEventListener('click', () => {
         if(numberStar <= numberEnd) {
            
             while(numberStar <= numberEnd) {
-            
                 res.innerHTML += `${numberStar} &#128073`
-               
                 numberStar = numberStar + numberPasso
             }
 
         } else if(numberStar >= numberEnd) {
            
             while(numberStar >= numberEnd) {
-                
                 res.innerHTML += `${numberStar} &#128073`
-
                 numberStar = numberStar - numberPasso
             }
+
         }
         res.innerHTML += `&#127937`
 
