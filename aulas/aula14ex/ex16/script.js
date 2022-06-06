@@ -28,12 +28,24 @@ btn.addEventListener('click', () => {
 
     } else {
         res.innerHTML = `<p>Contado:</p>`
-        
-        while(numberStar <= numberEnd) {
-            
-            res.innerHTML += `${numberStar} &#128073`
+
+        if(numberStar <= numberEnd) {
            
-            numberStar = numberStar + numberPasso
+            while(numberStar <= numberEnd) {
+            
+                res.innerHTML += `${numberStar} &#128073`
+               
+                numberStar = numberStar + numberPasso
+            }
+
+        } else if(numberStar >= numberEnd) {
+           
+            while(numberStar >= numberEnd) {
+                
+                res.innerHTML += `${numberStar} &#128073`
+
+                numberStar = numberStar - numberPasso
+            }
         }
         res.innerHTML += `&#127937`
 
