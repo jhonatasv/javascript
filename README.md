@@ -338,13 +338,13 @@ se na próxima linha eu fiz <br> `n = n + 4` <br>
 agora vou somar o que está depois do recebe, vou soma <br> **n + 4**
 e o resultado vou jogar dentro de **n.** <br> agora _n + 4_ passar a vale **7**
 
-Lembre-se, A variavel e como se fosse a vaga de um carro, para colocar um segundo carro eu teho que tirar o primeiro, foi exatamente isso que aconteceu.
+Lembre-se, A variavel e como se fosse a vaga de um carro, para colocar um segundo carro eu tenho que tirar o primeiro, foi exatamente isso que aconteceu.
 
 eu tinha 3, deixou de valer 3 e passou a valer 7. isso é a auto-atribuiçâo
 
 eu posso fazer coisas do tipo
 `n = n - 5` que está valendo 7 agora, -5 dá 2
-então o *n* deixar de valer 7 e passa a valer *2*.
+então o **n** deixar de valer 7 e passa a valer *2*.
 
 E eu posso fazer qualquer tipo de atribuição
 `n = n * 4`
