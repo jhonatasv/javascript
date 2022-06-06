@@ -5,7 +5,6 @@ let res = document.querySelector('#res')
 const btn = document.querySelector('#contar')
 
 
-
 btn.addEventListener('click', () => {
     let numberStar = Number(inputStart.value)
     let numberEnd = Number(inputEnd.value)
@@ -13,33 +12,50 @@ btn.addEventListener('click', () => {
 
     if(inputStart.value === '') {
         res.innerHTML = `<p class="msg-erro">erro, por favor preencha o campo ìnicio!</p>`
-    
+
     } else if(numberPasso === 0 || inputPasso.value === '') {
         res.innerHTML = `<p class="msg-erro">passo iválido, Considerando o Passo 1</p>`
 
-        setTimeout(() => {
-            res.innerHTML = '';
-           
-            while (numberStar <= numberEnd) {
-                res.innerHTML += `${numberStar} &#128073`
-                numberStar ++
-            }
-            res.innerHTML += `&#127937`
+        if(numberStar <= numberEnd) {
 
-        }, 4000)
+            setTimeout(() => {
+                res.innerHTML = '';
+
+                while(numberStar <= numberEnd) {
+                    res.innerHTML += `${numberStar} &#128073`
+                    numberStar = numberStar + numberPasso
+                }
+                res.innerHTML += `&#127937`
+
+            }, 4000)
+
+        } else if(numberStar >= numberEnd) {
+
+            setTimeout(() => {
+                res.innerHTML = '';
+
+                while(numberStar >= numberEnd) {
+                    res.innerHTML += `${numberStar} &#128073`
+                    numberStar = numberStar - 1
+                }
+                res.innerHTML += `&#127937`
+
+            }, 4000)
+
+        }
 
     } else {
         res.innerHTML = `<p>Contado:</p>`
 
         if(numberStar <= numberEnd) {
-           
+        
             while(numberStar <= numberEnd) {
                 res.innerHTML += `${numberStar} &#128073`
                 numberStar = numberStar + numberPasso
             }
 
         } else if(numberStar >= numberEnd) {
-           
+        
             while(numberStar >= numberEnd) {
                 res.innerHTML += `${numberStar} &#128073`
                 numberStar = numberStar - numberPasso
