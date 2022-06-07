@@ -2,7 +2,7 @@ function tabuada() {
     let num = document.getElementById('txtn')
     let tab = document.getElementById('seltab')
     
-    if(num.value.length == '') {
+    if(num.value.length == 0) {
         alert('Por favor, Digite um Número!')
         
     } else {
@@ -13,6 +13,7 @@ function tabuada() {
         while(c <= 10) {
             let item = document.createElement('option')
             item.text = `${n} x ${c} = ${n * c}`
+            item.value = `tab${c}`
             tab.appendChild(item)
             c++
         }
