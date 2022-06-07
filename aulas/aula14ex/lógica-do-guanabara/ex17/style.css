@@ -8,23 +8,6 @@ header {
     text-align: center;
 }
 
-.conteiner {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-}
-
-.conteiner-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 section {
     background-color: white;
     border-radius: 10px;
