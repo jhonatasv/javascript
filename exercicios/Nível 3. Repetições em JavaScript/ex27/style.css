@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none; 
+}
+
+:root {
+    ---background: #1b0b4e50;
+    ---background-hover-btn: #3c2e69e3;
+    ---hover-color: white;
+}
+
+body {
+    font-family: 'PT Mono', Verdana, sans-serif;
+    background-color:var(---background);
+}
+
+main, header {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.content {
+    margin: 15px 0;
+    padding: 15px 0;
+}
+
+input:nth-last-child(2) {
+    padding: 3px 3px 3px 4px;
+    width: 170px;
+    border-radius: 3px;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 4px ;
+    background-color: #160e4d3f;
+    transition: all 0.5s ease-out;
+}
+
+.btn:hover {
+    background-color: var(---background-hover-btn);
+    color: var(---hover-color);
+    box-shadow: 1px 1px 3px #00000017;
+}
