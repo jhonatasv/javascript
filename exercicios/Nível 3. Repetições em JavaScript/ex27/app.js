@@ -6,7 +6,7 @@ btn.addEventListener('click', () => {
     let num = Number(inpuTxt.value)
 
     if(inpuTxt.value === '') {
-        res.innerHTML = `<p class="msg-erro">Por Favor, insira um Número</p>`
+        res.innerHTML = `<p class="msg-erro">[Erro], Por Favor, Insira um Número</p>`
     } else {
         res.innerHTML = `<h2>Tabuada do ${num}</h2>`
 
