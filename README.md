@@ -1380,3 +1380,82 @@ E a inicialização do código de cima está ali. Acabei de mascar pra você. `v
 
 * saiba mais sobre: <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for">(for) em developer mozilla</a>
 
+<hr>
+
+<h2>Módulo F: Avançando os estudos em JavaScript</h2>
+
+
+<h3>Aula 15 – Variáveis Compostas</3>
+
+Vamos entender a diferença entre variáveis simples  e variáveis compostas.
+
+como a gente já viu durante as aulas anteriores, toda aula a gente usou variáveis
+
+variáveis simples só consegue armazenar um valor por vez, então quando você cria uma variável com *var* ou *let*, você criou uma variável *N* e essa variável *N* recebe *5* por exemplo, sua variável está valendo 5, se por acaso você tentar atribuir 8 a ela, ela perder o *5* isso porque é uma variável simples e variáveis simples só guarda um valor por vez e você não precisa nem pensar muito para a conclusão que uma variável composta
+
+
+
+![variáveis-simples](https://user-images.githubusercontent.com/88457552/173413980-7c67e0d2-50d2-4c41-aee4-6f4650763111.PNG)
+
+
+
+uma variável composta deve ser capaz de armazenar vários valores em uma mesma estrutura, isso é você colocou 5 ela guarda, colocou 8 ela guarda também, e colocou um 12 ela guarda também, isso é, ela não vai perder os valores anteriores para poder guardar os proximos valores, esse é um conceito fundamental de variáveis compostas.
+
+![variáveis composta](https://user-images.githubusercontent.com/88457552/173416406-a6c03ab1-851c-4d83-a396-52fcd1564ce1.PNG)
+
+mas para te explicar direito daquele jeito que a gente sempre faz, e para dar uma relembrada num conceito ou num exemplo prático que eu te dei lá anteriormente na aula de variáveis.
+
+você deve se lembrar muito bem do exemplo que a gente viu anteriormente naquele lance do terreno para fazer um estacionamento, agente tinha um terreno exatamente como está aqui e a gente colocava várias vagas de automóveis, agente delimita para poder caber dentro de uma vaga apenas um automóvel
+
+![va](https://user-images.githubusercontent.com/88457552/173420213-f4ed4e4f-cd6b-4756-9b97-23be74f6c627.PNG)
+
+nós fizemos isso durante as aulas de variáveis e para facilitar para eu saber onde que eu guardei o carro, eu coloco um identificador, um nome para cada uma dessas vagas, eu coloquei aqui do lado do **a0** até o **a5**, só que isso consumia muito código na hora que a gente programava, quando a gente precisa de muitas varáveis em um programa, ela consome muito código,
+a gente tem que escrever muito então por exemplo para declara essas vagas que estão aqui em baixo
+
+
+![a5](https://user-images.githubusercontent.com/88457552/173421764-b91afc5d-f3b7-4615-b88e-160fbaa2327c.PNG)
+
+eu tenho que colocar vaga  várias vezes que seria o nosso var ou let e eu tenho que colocar o nome de cada um dos indecadores de **a0** até **a5**, agora você imagina que sejam 200 vagas, imagina o tamanho do código que iria aparecer aqui do meu lado
+
+![v6](https://user-images.githubusercontent.com/88457552/173422860-19dbcf2c-82a5-4cb9-a08f-fa0b6eb764e7.PNG)
+
+
+a partir do momento em que eu declarei essas variáveis, que declarei essas vagas de estacionamento, eu consigo colocar automóveis ali dentro sem problema nenhum e a gente viu durante as aulas de de váráveis, A gente naquele momento utilizou o código maior e eu nem me lembro se durante  a aula eu prometi reduzir esse código mas a gente vai reduzir a partir de agora, <br>naquela aula também eu coloquei um carro na vaga **a2**, se por acaso eu quiser colocar outro carro na vaga **a2** eu sou obrigado a tirar esse daqui, isso porque elas são variáveis simples e se eu quiser colocar em outra vaga que esteja livre por exemplo **a1**, tem uma vaga ali eu posso colocar sem problema porque a vaga está livre, mas qualquer vaga se eu quiser colocar outro carro eu tenho que tirar um carro que por ventura esteja lá.
+
+![v7](https://user-images.githubusercontent.com/88457552/173423958-e959aa20-22ce-4f81-8a13-85632526aabd.PNG)
+
+o que eu vou fazer agora é propor uma outra forma em que você vai escrever menos e vai ser muito mais fácil para você gerenciar os automóveis que estão nessas vagas.
+Eu não vou dar mais um identificador pra cada vaga, eu vou chamar elas toda pelo mesmo nome, então eu vou traçar uma linha aqui, dá uma olhada nessa linha azul que eu tracei, todas essas vagas vão se chamar a, que são vaga para automóveis, por isso que coloquei o **a**.
+
+
+![a](https://user-images.githubusercontent.com/88457552/173427659-7286b317-8d21-40d7-b3fb-223c6a96d7cb.PNG)
+
+> Nunca se esqueça pequeno Gafanhoto, coloque nomes claros para suas variáveis, não adianta ficar sendo programador alfabeto (a, b, c, d, e, f) para todas as variáveis e nem o programador contador (n1, n2, n3, n4)
+
+aqui eu utilizei **a** porque é uma vaga de automóveis poderia ser "auto" por exemplo também, você escolhe o nome contanto que ele seja claro pra você.
+
+Sendo assim eu estou com vagas **a** e você vai falar: "mas não tem a identificação de cada vaga", tem sim porque essa variável grandona é a minha variável *a* e eu vou colocar um identificador de índice, <br>
+uma chave que vai indentificar cada uma delas e para declarar essas vagas eu só vou usar uma linha, **vaga a**
+
+![va](https://user-images.githubusercontent.com/88457552/173434284-d9acccf0-fc6a-4a62-b3e5-ee029d7a4882.PNG)
+
+e para cada vaga eu coloco uma chave, um índice, exatamente o que acabou de acontecer aqui
+
+> e aí você pode estar pensando: "ah mas deu no mesmo", não é exatamente no mesmo, eu simplesmente escrevi muito menos
+
+agora eu continuo tendo do **a0** até o **a5**, só que vou escrever de uma forma um pouco difente, utilizando colchetes, já você vai ver, o que eu quero é que você entenda que antes eu utilizei um monte de linha para declarar, agora eu só utilizei uma e para que eu faça essa variável funcionar como uma variável composta que é exatamente isso que acabei de explicar, essa é uma variável única chamada **a** que guarda vários valores identificados por uma chave que é a identificação de cada vaga
+
+![va2](https://user-images.githubusercontent.com/88457552/173435055-65ca01b4-1a72-4584-845b-b40eadf92f67.PNG)
+
+pra eu declarar isso em JavaScript é muito simples! É só colocar isso aqui: **vaga a =[ ]**, e é claro que não é só colocar assim, porque se você olhar aqui eu tenho carros nas vagas como é que eu declaro uma variável desse tipo e já coloca os carros na vaga
+
+![va3](https://user-images.githubusercontent.com/88457552/173438228-27900d72-a5b9-457a-8549-6156614cc2b7.PNG)
+
+simples dá uma olhada aqui, vou colocar: vaga a = [ , , ] e vou colocar 3 áreas ali, se você identificar dentro dos colchetes eu tenho 3 espaços para colocar carros
+
+
+![v4](https://user-images.githubusercontent.com/88457552/173440016-90d1e262-df02-441d-ad8f-3e473824687d.PNG)
+
+é só eu colocar os carros ali, automaticamente quando eu faço isso ele já vai arrumando os carros nas vagas.
+
+![v5](https://user-images.githubusercontent.com/88457552/173440527-db5875ea-f241-4339-8919-98b8c928fbd6.PNG)
