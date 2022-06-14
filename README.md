@@ -1385,7 +1385,7 @@ E a inicialização do código de cima está ali. Acabei de mascar pra você. `v
 <h2>Módulo F: Avançando os estudos em JavaScript</h2>
 
 
-<h3>Aula 15 – Variáveis Compostas</3>
+<h3>Aula 15 – Variáveis Compostas</h3>
 
 Vamos entender a diferença entre variáveis simples  e variáveis compostas.
 
