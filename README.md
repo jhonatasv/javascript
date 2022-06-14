@@ -1459,3 +1459,76 @@ simples dá uma olhada aqui, vou colocar: vaga a = [ , , ] e vou colocar 3 área
 é só eu colocar os carros ali, automaticamente quando eu faço isso ele já vai arrumando os carros nas vagas.
 
 ![v5](https://user-images.githubusercontent.com/88457552/173440527-db5875ea-f241-4339-8919-98b8c928fbd6.PNG)
+
+
+Basicamente o que vai acontecer é eu vou declarar uma variável **a**, olha lá embaixo como é que tá acontecendo, só que essa variável **a** é um pouco mais espaçosa, isso porque ela vai ter que ser divida em 3 partes, no caso pela declaração ali em cima, não precisa ser sempre 3 partes, pode ser quantas partes você precisar, 
+
+quando eu faço aquela inha que está ali em cima, vaga **a** abre colchete e coloca os 3 carros, automaticamente
+
+![a](https://user-images.githubusercontent.com/88457552/173633247-453f39c9-d45f-4a8d-a9b8-9e4efbe45f62.PNG)
+
+
+os 3 carros vão para essas vagas, vão para esses espaços e cada espaço desse recebe uma identificação, recebe um número que a gente chama de chave ou índice então coloquei ali embaixo de vermelho
+
+![a1](https://user-images.githubusercontent.com/88457552/173635558-8858bf00-ccb4-4e9a-b2cf-c0cbccf9d6cd.PNG)
+
+os números, então eu tenho **a0** que está com o primeiro carro, **a1** que está com o segundo carro e **a2** que está com o terceiro carro, aquele menorzinho.
+
+> E uma observação muito important, geralmene as pessoa que estão começando se enrolam um pouco porque as variáveis compostas na maioria das linguagens de programação começam com índece 0, geralmente a gente pensa assim: a primeira vaga é a vaga 1, so que na programação, já acostume-se com isso, tem várias liguagens de programação que funcionam assim, a primeira vaga não é a vaga 1, é a vaga 0, então uma variável composta de 10 posições não vai de 1 a 10, vai de 0 a 9 acostume-se com isso.
+
+
+
+
+vamos começar a dar nome ás coisa, essa variável composta que a gente declarou, essa variável **a** ela é uma variável do tipo composta ou **array** ou em português **vetor** <br>
+*então sempre que você pensar assim: "ah, o vetor tal", vetor é uma variável com vários espaços, exatamente como está representada aqui embaixo,*
+
+![a2](https://user-images.githubusercontent.com/88457552/173638940-664af1cb-37bd-499c-8d74-7c3c75c6e49c.PNG)
+
+o **vetor** ele é composto de elementos, um elemento de um **vetor**, ele é um par que agrupa o espaço de memória, o valor colocado dentro dele e o índice.
+
+![a3](https://user-images.githubusercontent.com/88457552/173641587-c2ce0ac0-801d-4531-9646-e8db74c216e0.PNG)
+
+E por fala em índice, **índice** é esse número que está aqui embaixo também pode ser chamado de chave ou em inglês **key** 
+
+![a4](https://user-images.githubusercontent.com/88457552/173644862-9a33893a-51f8-46b9-a6c7-0366932eaf1f.PNG)
+
+
+e por último aqui nosso componente está o conteúdo de cada elemento
+
+![a5](https://user-images.githubusercontent.com/88457552/173649757-bf515402-4458-435e-8fb3-9886f4802b06.PNG)
+
+então analisando esse gráfico que tem na sua tela fica muito simples, <br>
+um **array** ou um **vetor** ou uma **variável composta** é uma variável que tem vários elementos, cada elemento é composto por seu valor e por uma chave de identificação.
+
+
+E como é que eu faço isso aqui que aconteceu com carros, acontecer em JavaScript?
+
+então vou colocar: `let num = []` é uma variável composta então ela não vai guardar um número, ela vai guardar vários números
+
+![a6](https://user-images.githubusercontent.com/88457552/173659056-15166eb1-4363-4fc9-99b8-2ef216a70d70.PNG)
+
+
+sendo assim essa linha que apareceu vai declarar uma variável **num**, que é um poquinho mais larguinha, um pouco mais gordinha, dentro dos colchetes [ ], que estão aqui embaixo, vou utiliza vírgulas para separar os elementos, nesse caso mais uma vez eu separei 3 espaços
+
+![a7](https://user-images.githubusercontent.com/88457552/173659966-5495eee2-a73e-40da-a6b3-c0c79ed49f83.PNG)
+
+quando eu separo 3 espaços automaticamente ele vai dividir variável em 3 partes e já vai dar os índices exatamente como aconteceu ali
+
+
+![a8](https://user-images.githubusercontent.com/88457552/173668715-a63360e9-a318-4c15-af11-62bb0e5fb731.PNG)
+
+
+Lembrando o primeiro índice não é 1, é 0, vou colocar o primeiro valor ali, vou escrever 5 o que vai acontecer?  O 5 vai para o primeiro espaço
+
+![a9](https://user-images.githubusercontent.com/88457552/173672417-baa54c1c-0b76-4fbb-8077-fc14136f314f.PNG)
+
+vou colocar o segundo valor 8 e 8 foi para o espaço 1. 
+
+![a10](https://user-images.githubusercontent.com/88457552/173672979-b9fe2888-0835-40fe-8663-81ec789ea555.PNG)
+
+
+vou colocar mais um valor 4 e o 4 vai pro espaço 2.
+
+![a11](https://user-images.githubusercontent.com/88457552/173673677-89a25b6a-87b5-4fe0-8457-c293ad2e08fe.PNG)
+
+sendo assim acabei de representar aqui, um vetor de 3 elementos, elementos 0, 1 e 2  que tem os valores 5, 8 e 4.
