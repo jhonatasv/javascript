@@ -1532,3 +1532,52 @@ vou colocar mais um valor 4 e o 4 vai pro espaço 2.
 ![a11](https://user-images.githubusercontent.com/88457552/173673677-89a25b6a-87b5-4fe0-8457-c293ad2e08fe.PNG)
 
 sendo assim acabei de representar aqui, um vetor de 3 elementos, elementos 0, 1 e 2  que tem os valores 5, 8 e 4.
+
+
+<br>
+
+> Como acrescentar um valor, sem perder os valores que estão lá?
+
+Então estamos aqui exatamente onde a gente parou, o vetor aqui está com 5, 8 e 4 e você percebe que os índices são 0, 1 e 2, 
+
+![a11](https://user-images.githubusercontent.com/88457552/173673677-89a25b6a-87b5-4fe0-8457-c293ad2e08fe.PNG)
+
+se eu quiser acrescentar a vaga 3, é muito simples, é só fazem assim: `num[3] = 6` <br> quando eu coloco **num** e entre colchetes eu coloco **3**, estou dizendo assim para o JavaScript: Coloque o valor **6** na posição **3**, só que a posição **3** se você olhar o gráfico, não existe. o JavaScript percebe isso e cria pra você.
+
+
+![a13](https://user-images.githubusercontent.com/88457552/173892697-be79171d-1425-4aa8-8154-27396476e616.PNG)
+
+Então essa linha que apareceu `num[3] = 6`, vou ler **3** só que você não vai escrever **num** **3** sem o colchete, não pode esquecer o colchete, quando eu digito essa linha ele vai criar mais um elemento, vai colocar o índice 3 e vai colocar o valor que está ali, o valor **6**, vai colocar dentro do elemento.
+
+
+Essa é uma maneira automatizada do JavaScript 
+
+![a14](https://user-images.githubusercontent.com/88457552/173897703-e5a71ed7-884b-4206-8a44-a444f58d8c8f.PNG)
+
+mas se você quiser colocar explicitamente olha eu quero coloque na última posição, não quero saber qual é a posição, não quero ficar preocupado com isso, é só você usar um comando muito fácil que é: `num.push(7)` que é um **método interno** que vai acrescentar valores a um **array**
+
+
+![array](https://user-images.githubusercontent.com/88457552/173905392-63cd0a1b-0e59-428f-a538-eb709b48df0c.PNG)
+
+então estou tentando acrescentar o valor **7** é só olhar aquele comando que está escrito ali, com isso o JavaScript já vai criar mais um elemento já vai automaticamente decidir que o índice, que a chave é **4** 
+
+
+![array2](https://user-images.githubusercontent.com/88457552/173907869-c60c8947-8448-4336-8568-8a5258e32030.PNG)
+
+
+e vai colocar lá dentro o valor **7** exatamente como acabou de aparecer
+
+
+![a15](https://user-images.githubusercontent.com/88457552/173904539-17c6a933-ed98-469e-bf1b-2f3ab42df09b.PNG)
+
+* <a src="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/push" target="_blank">Saiba mais sobre: [  push( ) ] em developer mozilla</a>
+
+Outra coisa que a gente pode fazer também com arrays, que a gente pode utilizar os comandos aqui é saber comprimento dele 
+<br> como que vou saber o comprimento? Simples,  `num.length`
+
+> cuidado, como se escreve a palavra length muita gente se confude e coloca "lenght", confude bastante principalmente pra gente que o inglês não é a primeira língua e outra confusão muito grande é que do lado de length não tem parênteses para o JavaScript, em outras linguagens têm, **length não é um método**, **length é um atributo** e pra que ele serve?
+
+Simple, é só você olhar o desenho que está aqui embaixo, quantas casas, quantos elemento exitem no array **num** se você respondeu que tem **5** elementos, você é bem observador e é exatamente esse valor **5** que é o `num.length` que é o comprimento do meu vetor
+
+![array4](https://user-images.githubusercontent.com/88457552/173915699-5055e91d-7aa1-422d-9651-cfbb3141469e.PNG)
+
