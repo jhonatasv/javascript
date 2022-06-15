@@ -1581,3 +1581,17 @@ Simple, é só você olhar o desenho que está aqui embaixo, quantas casas, quan
 
 ![array4](https://user-images.githubusercontent.com/88457552/173915699-5055e91d-7aa1-422d-9651-cfbb3141469e.PNG)
 
+
+vou te ensinar mais um comando, um método interno também de todo vetor que é muito útil que é o método `sort()`, então quando eu colo `num.sort()`, ele vai simplemente pegar todos esse valores, olha nesse momento como está meu vetor, os elementos são 5, 8, 4 e 6 e 7 posições 0, 1, 2, 3, 4 
+
+![array5](https://user-images.githubusercontent.com/88457552/173916319-f362f10c-e891-4081-b738-35f6e16755fb.PNG)
+
+<br>
+
+quando eu uso o  `num.sort()`, olha o que ele vai fazer, ele vai pegar todos os elementos e colocar em ordem crescente sendo assim e tenho agora 4, 5, 6, 7 e 8 ordenados
+
+![array6](https://user-images.githubusercontent.com/88457552/173921165-0a6529e0-f0ea-457a-a210-09bfa4213388.PNG)
+
+<a src="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort" target="_blank">Saiba mais sobre: [ sort( ) ] em developer mozilla</a>
+
+
