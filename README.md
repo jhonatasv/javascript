@@ -1592,6 +1592,6 @@ quando eu uso o  `num.sort()`, olha o que ele vai fazer, ele vai pegar todos os 
 
 ![array6](https://user-images.githubusercontent.com/88457552/173921165-0a6529e0-f0ea-457a-a210-09bfa4213388.PNG)
 
-<a src="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort" target="_blank">Saiba mais sobre: [ sort( ) ] em developer mozilla</a>
+* <a src="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort" target="_blank">Saiba mais sobre: [ sort( ) ] em developer mozilla</a>
 
 
