@@ -1597,3 +1597,6 @@ quando eu uso o  `num.sort()`, olha o que ele vai fazer, ele vai pegar todos os 
 * <a src="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort" target="_blank">Saiba mais sobre: [ sort( ) ] em developer mozilla</a>
 
 
+* <a src="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 15:50</a>
+
+
