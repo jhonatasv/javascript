@@ -1584,7 +1584,7 @@ Simple, é só você olhar o desenho que está aqui embaixo, quantas casas, quan
 ![array4](https://user-images.githubusercontent.com/88457552/173915699-5055e91d-7aa1-422d-9651-cfbb3141469e.PNG)
 
 
-vou te ensinar mais um comando, um método interno também de todo vetor que é muito útil que é o método `sort()`, então quando eu colo `num.sort()`, ele vai simplemente pegar todos esse valores, olha nesse momento como está meu vetor, os elementos são 5, 8, 4 e 6 e 7 posições 0, 1, 2, 3, 4 
+vou te ensinar mais um comando, um método interno também de todo vetor que é muito útil que é o método `sort()`, então quando eu coloco `num.sort()`, ele vai simplemente pegar todos esse valores, olha nesse momento como está meu vetor, os elementos são 5, 8, 4 e 6 e 7 posições 0, 1, 2, 3, 4 
 
 ![array5](https://user-images.githubusercontent.com/88457552/173916319-f362f10c-e891-4081-b738-35f6e16755fb.PNG)
 
@@ -1599,4 +1599,63 @@ quando eu uso o  `num.sort()`, olha o que ele vai fazer, ele vai pegar todos os 
 
 * <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 15:50</a>
 
+
+Outra coisa que é muito comum da gente fazer com o vetor é mostrar ele na tela sem a formatação padrão, porque geralmente ele mostra aquela formatação padrão com colchetes é bem bagunçado, <br>
+se você quiser mostrar da maneira que você preferir, vou te mostrar como fazer isso
+
+
+aqui na tela está o vetor que a gente criou anteriormente, ele tem 5 elementos, de 0 a 4 e ele está la com 4, 5, 6, 7 e 8 já está ordenado porque a gente deu `sort()` nele, 
+
+![0](https://user-images.githubusercontent.com/88457552/174298992-db42d199-03ad-4ce9-81e4-08dba599f25a.PNG)
+
+para eu escrever esse vetor como a gente acabou de ver, a gente pode fazer isso por exemplo eu coloco: `console.log(num[0])`, quando eu colocar `num[0]`, ele vai mostrar o valor **4** que é o primeiro elemento,
+
+![1](https://user-images.githubusercontent.com/88457552/174301769-c231c61e-904d-4fd7-938c-38114061ae8b.PNG)
+
+
+se eu quise mostrar o segundo é só colocar: `console.log(num[1])` e eu posso fazer a mesma coisa pra todos os elementos eu dou um `console.log()` para cada um deles e dentro de cada um dos parentes eu colo `num[2]` `num[3]` `num[4]` e assim sucessivamente.
+
+![3](https://user-images.githubusercontent.com/88457552/174303670-00070c73-30d0-4db6-8664-8680745e7f34.PNG)
+
+
+Da só uma olhada no tamanho do código que eu gerei só pra mostrar um vetor de 5 posições, imagina agora se ele tivesse por exemplo 200 posições, seria um grande trabalho de código e não é assim que a gente trabalha, mas a solução para isso é muito simple e a resposta está nas aulas anteriores, por isso que eu perguntei no início, você praticou o suficiente o uso `while`, `do...while` e do `for`, pricipalmente o do `for`? pois esse conhecimento vai ser extremamente útil para você agora, 
+<br> dá uma analisada nessas linhas que estão aqui `console.log(num[0])` e etc, o que tem de diferente dentro de cada uma dessas linhas? A unica diferença entre elas é isso aqui que eu acabei de marcar, são os índeces, então eu tenho 0 na primeira, 1 na segunda, na terceira e assim sucessivamente.
+
+
+![4](https://user-images.githubusercontent.com/88457552/174320720-1b07bc27-7e7e-4f27-b81c-bb3af37abcd3.PNG)
+
+Pois esses números que estão marcados aqui são exatamente as minhas chaves, ela indicam a posição  dentro de cada vetor, agora você imagina que eu possa utilizar, criar variável chamada "pos" e essa variável **pos** começar valendo 0 e for valendo até 4, que é exatamente o limite do meu vetor, se eu fizer uma repetição para isso eu escrevo essas linha de `consolo.log()` apenas uma vez e coloco dentro de uma estrutura de repetição <br>
+
+> e se por acaso você tem problemas em estrutura de repetição, volte e assistar aulas 12, 13 e 14 porque a grande dificuldade dos vetores não é o vetor, é a estrutura de repetição. 
+
+![5](https://user-images.githubusercontent.com/88457552/174322064-8a0cdd7e-abdc-4fa0-9de6-d4d1c91965b7.PNG)
+
+
+Sendo assim eu vou substituir esse código todo que está aqui em cima, por apenas duas linha, vou criar uma estrutura chamada `for` que a gente já viu nas anteriores, vou fazer um for aqui, você viu durante a aula que o `for` tem 3 elementos, o primeiro elemento é a inicialização, o segundo teste lógico e o terceiro incremento.
+
+
+![6](https://user-images.githubusercontent.com/88457552/174338486-313ef843-7674-41e5-8c89-1fbcb1a763ea.PNG)
+
+
+vou colocar aqui dentro do `for` o `console.log` e vou escrever alguma coisa ali dentro e vamos comerçar, e vamos preencher aqui o nosso `for` em primeiro luar a inicialização, como eu disse há alguns segundos atrás, eu vou criar uma variável `let pos = 0` 
+<br>
+ela vai se inicializar, variável **pos** vai se inicializa com **0**, o meu teste lógico é fazer o **pos** chegar até 4, só que chegar até **4** pra um vetor de 4 posições e se o vetor tiver 200? ou se tiver 50? Tem como eu saber quantas as posições têm? Tem, eu acabei de ensinar!
+
+![7](https://user-images.githubusercontent.com/88457552/174341243-f455a92a-3d1d-40c9-8fbb-f5cd65bfe5fb.PNG)
+
+È só fazer isso aqui: `pos < num.length` isso é enquanto ele não chega no final do meu vetor, que é o comprimento dele
+
+
+![teste](https://user-images.githubusercontent.com/88457552/174345997-35b8a3d5-7812-4837-afed-5a67dfed9854.PNG)
+
+
+
+vou fazer: `pos++` pra ele adicionar um cada vez que ele fizer um looping.
+
+![8](https://user-images.githubusercontent.com/88457552/174345291-b153ae90-e529-4ad9-b7b7-8ab1bc632391.PNG)
+
+então acabamos de montar o `for` aqui do lado, sendo assim eu tenho uma variável **pos** que vai começar **0** e vai até o tamanho do vetor.
+Então eu vou ter 0, 1, 2, 3, 4 e 5 até chegar no final do vetor, para escrever na tela é só substituir aquele pedaço do `console.log()` por `num[pos]` em vez de **num[0]**, **num[1]**, e **num[2]** eu coloco **num** no índece **pos**
+
+![9](https://user-images.githubusercontent.com/88457552/174349040-a7b9afd4-3544-4d60-8ba9-7c3dc262ff43.PNG)
 
