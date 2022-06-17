@@ -1534,9 +1534,10 @@ vou colocar mais um valor 4 e o 4 vai pro espaço 2.
 sendo assim acabei de representar aqui, um vetor de 3 elementos, elementos 0, 1 e 2  que tem os valores 5, 8 e 4.
 
 * <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">
-exemplo de forma visual em 10:45</a>
+testando o código de forma visual no minuto (10:45)</a>
 
 <br>
+
 
 > Como acrescentar um valor, sem perder os valores que estão lá?
 
@@ -1597,7 +1598,8 @@ quando eu uso o  `num.sort()`, olha o que ele vai fazer, ele vai pegar todos os 
 * <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort" target="_blank">Saiba mais sobre: [ sort( ) ] em developer mozilla</a>
 
 
-* <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 15:50</a>
+* <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">testando o código de forma visual no minuto (15:50)</a>
+
 
 
 Outra coisa que é muito comum da gente fazer com o vetor é mostrar ele na tela sem a formatação padrão, porque geralmente ele mostra aquela formatação padrão com colchetes é bem bagunçado, <br>
@@ -1659,3 +1661,35 @@ Então eu vou ter 0, 1, 2, 3, 4 e 5 até chegar no final do vetor, para escrever
 
 ![9](https://user-images.githubusercontent.com/88457552/174349040-a7b9afd4-3544-4d60-8ba9-7c3dc262ff43.PNG)
 
+* <a href="">testando o código de forma visual no minuto (22:22)</a>
+
+> Essa não é a unica de maneira de fazer, tem uma um poquinho mais simples e é que a gente gosta mais de utilizar!
+
+Esse código que está em cima é o código tradicinal do percurso em vetores isso é o que a gente chama de percuso para exibição no vetor e o JavaScript a partir das versões mais recentes do ECMAScript tem um jeito mais fácil, mais simplificado para fazer.
+
+Vou criar uma estrutura que a gente chama de `for` só que utilizando o `in` dentro, Então vou utilizar o `for..in` e ele não tem 3 elementos como está aqui no primeiro `for`, ele é um `for` um pouco mais simplificado e ele é otimizado para variável compostas e objetos, isso porque vetores e objetos são muito importantes para a linguagem JavaScript.
+
+
+![8](https://user-images.githubusercontent.com/88457552/174357969-8f07079c-30c2-4505-9f86-26820f080c7f.PNG)
+
+vou colocar aqui dentro o mesmo `consolo.log()` exatamente como está aqui em cima e olha como vai ficar pequeno: a primeira coisa que vou botar aqui dentro do `for` é o meu índice, é a variável que eu criei aqui em cima `let pos = 0`, só vouc colocar `let pos`  ou `var pos`
+
+
+![10](https://user-images.githubusercontent.com/88457552/174375732-345954a5-457e-4b92-a39f-ede84fdc04db.PNG)
+
+e do lado `in` basta colocar o nome da variável composta, olha que simples, no nosso caso aqui, a minha variável composta se chama **num**, então eu vou colocar: para cada podição dentro de `num`
+<br>
+
+![11](https://user-images.githubusercontent.com/88457552/174386123-d43b483b-f3a6-420b-a15a-215701269ce2.PNG)
+
+
+è assim que a gente vai ler, o `for` a gente lê para, o `in` a gente lê dentro ou "em" em português.
+Então vamos ler essa frase em português: para cada posição em **num**, para cada posição na variável composta, eu vou mostar o **num** **pos**, simples, olhar que simplicidade
+
+
+>Lembrando que essa sintaxe do `for` ela só funciona para arrarys e objetos, que s verdade são a "mesma coisa" porque todo array em JavaScript é um object.
+
+![12](https://user-images.githubusercontent.com/88457552/174387245-9dbbd282-1b21-4c95-a88d-586d1bb592e7.PNG)
+
+
+* <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">testando o código de forma visual no minuto (26:48)</a>
