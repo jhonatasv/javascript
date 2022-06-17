@@ -1533,7 +1533,7 @@ vou colocar mais um valor 4 e o 4 vai pro espaço 2.
 
 sendo assim acabei de representar aqui, um vetor de 3 elementos, elementos 0, 1 e 2  que tem os valores 5, 8 e 4.
 
-* <a src="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">
+* <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">
 exemplo de forma visual em 10:45</a>
 
 <br>
@@ -1572,7 +1572,7 @@ e vai colocar lá dentro o valor **7** exatamente como acabou de aparecer
 
 ![a15](https://user-images.githubusercontent.com/88457552/173904539-17c6a933-ed98-469e-bf1b-2f3ab42df09b.PNG)
 
-* <a src="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/push" target="_blank">Saiba mais sobre: [  push( ) ] em developer mozilla</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/push" target="_blank">Saiba mais sobre: [  push( ) ] em developer mozilla</a>
 
 Outra coisa que a gente pode fazer também com arrays, que a gente pode utilizar os comandos aqui é saber comprimento dele 
 <br> como que vou saber o comprimento? Simples,  `num.length`
@@ -1594,9 +1594,9 @@ quando eu uso o  `num.sort()`, olha o que ele vai fazer, ele vai pegar todos os 
 
 ![array6](https://user-images.githubusercontent.com/88457552/173921165-0a6529e0-f0ea-457a-a210-09bfa4213388.PNG)
 
-* <a src="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort" target="_blank">Saiba mais sobre: [ sort( ) ] em developer mozilla</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort" target="_blank">Saiba mais sobre: [ sort( ) ] em developer mozilla</a>
 
 
-* <a src="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 15:50</a>
+* <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">exemplo de forma visual em 15:50</a>
 
 
