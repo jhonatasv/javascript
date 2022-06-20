@@ -1687,7 +1687,7 @@ e do lado `in` basta colocar o nome da variável composta, olha que simples, no 
 Então vamos ler essa frase em português: para cada posição em **num**, para cada posição na variável composta, eu vou mostar o **num** **pos**, simples, olhar que simplicidade
 
 
->Lembrando que essa sintaxe do `for` ela só funciona para arrarys e objetos, que s verdade são a "mesma coisa" porque todo array em JavaScript é um object.
+>Lembrando que essa sintaxe do `for` ela só funciona para arrarys e objetos, que na verdade são a "mesma coisa" porque todo array em JavaScript é um object.
 
 ![12](https://user-images.githubusercontent.com/88457552/174387245-9dbbd282-1b21-4c95-a88d-586d1bb592e7.PNG)
 
