@@ -1696,3 +1696,36 @@ Então vamos ler essa frase em português: para cada posição em **num**, para 
 
 * <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...in">Saiba mais sobre: (for...in) em developer mozilla</a>
 
+---
+
+como buscar valores dentro de um vetor, dá pra fazer isso com comandos bem simples dá uma olhadinha.
+coloquei aqui mais uma vez o mesmo vetor que a gente estava trabalhando aqui como exemplo, nosso vetor **num**, e vou fazer o seguinte: eu quero buscar o valor lá dentro
+
+![index](https://user-images.githubusercontent.com/88457552/174664569-6263edde-ebdd-4487-bf74-13ef0477c93f.PNG)
+
+vou utilizar o método `indexOf()`, lembrando, que o **O** de **Of** com letra maiúscula senão não vai funcionar.
+
+o que é `indexOf(7)`? Ele vai procurar lá no vetor embaixo onde está o valor 7, se você é observador(a), você percebeu que o 7 está ali, essa função então vai me retornar a chave onde esse valor se encontra
+
+
+![index 2](https://user-images.githubusercontent.com/88457552/174668952-5c1a3b44-5d7e-4398-85b0-8d2db45174e5.PNG)
+
+
+então por exemplo mandei aqui com esse comando `num.indeOf(7)`, pesquisar  "JavaScript tem o valor 7 dentro do vetor?" Ele vai me responder "tem e está na posição 3", então é exatamente dessa maneira que o `indexOf()` funciona e você pode estar pergutando: "tá Guanabara e se eu der um `num.indeOf(3)`?" 
+
+![Capturar](https://user-images.githubusercontent.com/88457552/174670728-aee36320-29a5-43e2-9bb7-d444f7eff4f1.PNG)
+
+
+
+dá uma procurada ali existe 3? E se você está dizendo que existe presta atenção, não é o número vermelho lá debaixo é o valor, não é a chave, não existe o valor 3, 
+ele vai procurar e vai falar: "3 não tem",
+
+![inde](https://user-images.githubusercontent.com/88457552/174672045-2a2e204a-4464-4850-9511-b8592aa3a528.PNG)
+
+ele deu uma olhada no vetor e não tem, sendo assim ele retorna o valor (**-1**), <br>
+(**- 1**) significar para o JavaScript que **Ele pesquisou dentro do vetor e não encontrou nenhuma ocorrência**
+
+![indexOf](https://user-images.githubusercontent.com/88457552/174672489-47a3cf5f-2142-445f-b543-457f49740b89.PNG)
+
+
+* <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">testando o código de forma visual no minuto (29:48)</a>
