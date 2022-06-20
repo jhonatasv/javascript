@@ -1693,3 +1693,6 @@ Então vamos ler essa frase em português: para cada posição em **num**, para 
 
 
 * <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">testando o código de forma visual no minuto (26:48)</a>
+
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...in">Saiba mais sobre: (for...in) em developer mozilla</a>
+
