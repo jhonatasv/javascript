@@ -1866,3 +1866,77 @@ E por fim você tem esse comando `return` que é usado no JavaScript que é o re
 
 ![return](https://user-images.githubusercontent.com/88457552/174892256-e7964cc5-6cf6-440b-b379-1fb03c8717f7.PNG)
 
+Vamos fazer um exemplo aqui, que esse está meio genérico, vou fazer um exemplo de uma funcionalidade bem simples que é verificar se o número é par ou ímpar, dá uma olhada aqui, eu criei uma **function**, o nome dessa function é parimp (par e ímpar) e ela recebe um parâmetro que é um número **"n"** ali representado nessa primeira linha, eu abro e fecho chaves e dentro dele eu vou verificar se esse **n** que ele recebeu como parâmetro é par ou ímpar, para verificar se o número é par ou ímpar é só eu verificar se ele é divisível por dois, a gente viu lá nas aulas de operadores,
+
+
+![parimpa](https://user-images.githubusercontent.com/88457552/174895481-e76468a2-7036-4e6d-b6b8-17018f5c28e6.PNG)
+
+
+Então o que eu vou fazer é o seguinte: dentro da `function` vou criar um `if`, se (n % 2 == 0), 
+
+
+
+![if](https://user-images.githubusercontent.com/88457552/174898551-434d5060-b378-452a-8251-0a88fc6fd847.PNG)
+
+
+se o **n** dividido por 2 for resto 0 é sinal que o **n** é par, então vai retornar 'par',
+
+![res1](https://user-images.githubusercontent.com/88457552/174897276-3e44cc36-ebed-4c2f-80b6-b12990b52213.PNG)
+
+
+se não, isso é se não for divisível por **2** eu retorno 'ímpar', eu posso ter mais de um `return` dentro de function sem problemas nehum, o que eu preciso é que apenas um deles seja executado, como aqui está dentro de um `if` sem problema nenhum, 
+<br>
+se eu deixar meu código assim ele não vai ser executado, eu posso executar o programa que ele não vai funcionar isso porque eu não tive uma coisa simples: a chamada
+
+![else](https://user-images.githubusercontent.com/88457552/174898951-418b3806-bb58-4a58-a3c9-0ea2464f852d.PNG)
+
+
+para fazer a chamada eu tenho que faze aqui, eu criei uma variável chamada **res** e chamei **parimp(11)**
+
+![res](https://user-images.githubusercontent.com/88457552/174900652-89ebb657-7b76-4c03-aeee-5b58e0a6df1e.PNG)
+
+
+isso é **11** é o meu parâmetro, vou pegar esse **11** e vou jogar lá pra cima no **n**
+
+![n](https://user-images.githubusercontent.com/88457552/174901731-14b72b27-490a-40c9-9ddc-10be2a851764.PNG)
+
+
+
+então o **n** está valendo **11**, na próxima linha do `if` se (n % 2 == 0), <br> 11 divido por 2 dá resultado 5 e resta **1**
+
+então o meu resto (que é a porcentagem) não é 0, é 1, então ele não vai fazer o `return` 'par',
+ele vai vir pra baixo e vai fazer o `return` 'ímpar', 
+
+![res](https://user-images.githubusercontent.com/88457552/174903495-12c835a5-0800-401e-9675-8f0717c1b0b3.PNG)
+
+
+quando eu pegar esse
+`return` 'ímpar', essa palavra ímpar vai vir pra dentro de **res**, se eu mandar mostrar o **res** na tela, ele vai mostrar a palavra **ímpar**, 
+<br> dá um olhada nesse código aqui, dá uma analisada nele, vou tirar as linhas, análise eles e você vai ver como a coisa funciona.
+
+
+![res 4](https://user-images.githubusercontent.com/88457552/174903994-8ce70a2a-8195-4dac-9333-ec24637acbdb.PNG)
+
+
+> Se por acaso ainda não entrou na sua cabeça, não tem problema, a gente já vai abrir o Visual Studio Code e colocar esse código para rodar 
+
+mas nesse código aqui a gente também consegue identificar os elementos que a gente fez lá na história da sua mãe querendo que você trouxesse leite, olha só a gente tem a chamada <br>
+que é essa chamada daqui que é a linha que vai fazer o disparo da **ação**
+
+![chamada](https://user-images.githubusercontent.com/88457552/174904952-94d212ae-0a21-47e8-98a5-3324a3fc0481.PNG)
+
+eu tenho o parâmetro que nesse caso aqui é o **n**, 
+
+![parâmetro](https://user-images.githubusercontent.com/88457552/174904958-c12d72b6-ea28-4288-9788-47a432447a80.PNG)
+
+
+eu tenho a minha **ação** que é esse `if` completo, esse código todo dentro da função
+
+![ação](https://user-images.githubusercontent.com/88457552/174905778-c3ef6737-1dc6-4d0d-94cf-24a966c1e50a.PNG)
+
+é a minha ação e eu tenho um retorno, só tive dois retornos, eu tenho duas linhas que têm o `return`, só que nesse caso somente uma delas que foi o **ímpar** que vai ser meu retorno, uma função em JavaScript
+
+![retorno](https://user-images.githubusercontent.com/88457552/174906455-d7bc99a4-2632-4c81-9bcb-ba77a33038dc.PNG)
+
+
+* <a href="https://www.youtube.com/watch?v=mc3TKp2XzhI&ab_channel=CursoemV%C3%ADdeo">testando o código de forma visual no minuto (13:45)</a>
