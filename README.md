@@ -1731,3 +1731,61 @@ ele deu uma olhada no vetor e não tem, sendo assim ele retorna o valor (**-1**)
 * <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">testando o código de forma visual no minuto (29:48)</a>
 
 * <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">Saiba mais sobre: ( indexOf( ) ) em developer mozilla</a>
+
+---
+
+<h3>Aula 16 – Funções</h3>
+
+![fun](https://user-images.githubusercontent.com/88457552/174826468-a3eddd64-b019-4c59-be7c-114bf206ad50.PNG)
+
+
+e agora a gente vai dar continuidade a um conceito que a gente já começou anteriormente, lá na aula 10 que é o uso de funções em JavaScript, a gente aprendeu a fazer funcionalidades simples, mas a gente não falou sobre passagem de parâmentros, sobre retorno de reultados e isso a gente deixou aqui para o finalzinho da parte básica do seu curso de JavaScript. 
+<br>
+E como eu acabei de falar **JavaScript é uma linguagem que funciona sob o paradigma funcional**, ela é uma linguagem que funciona como uma linguagem funcional, então função é algo muito importante.
+<br>
+È claro que a gente vai ver as funcionalidades simples, bem básicas, mas esse básico é extremamente importante para todo tipo de linguagem.
+
+> Então companha essa aula até o final, assiste esse vídeo até o finalzinho, prática porque logo depois dessa aula vem uma sequência de exercícios, na verdade um grande exercício para que a gente possa resolver isso juntado os conceitos de Array, de função, todo junto em um exemplo só envolvendo HTML, você não perde por esperar! 
+<br>
+mas você prencisa de conhecimentos que você vai adquirir aqui nessa aula e antes de começar a aula
+
+Vamos imaginar a seguinte situção do dia a dia, normal coisa que poderia acontecer na sua vida, você tem funções na sua vida, a sua mãe te dá varias funções na sua vida, todo filho tem um conjunto de tarefas que ele tem que fazer, seja ele varrer o quintal, arrumar o quarto isso tudo são tarefas, são rotinas e as linguagens de programação também chamam isso de funções ou funcionalidades.
+
+
+![fun](https://user-images.githubusercontent.com/88457552/174826047-dc85d454-58b1-45a2-98e8-63507337881d.PNG)
+
+
+Vamos imaginar a seguinte situação: olha só a sua mãe chega pra você constantemente, toda semana chega pra você pega um dinheiro e entrega e fala assim: olha só pega esse dinheiro e vai na mercearia para comprar "lete", <br>
+qual é a sua função?
+
+![fun 2](https://user-images.githubusercontent.com/88457552/174826061-7fb251c6-334f-4189-abef-7184cd1611c7.PNG)
+
+Você pega esse dinheiro, vai até a mercearia, vai chegar lá da maneira que for, vai andando, vai pegar um trem, vai pegar um ônibus, enfim você vai chegar até a mercearia, vai fazer os procedimentos lá dentro, vai fazer o passo-a-passo pegar o leite, ir lá no caixa e entregar o dinheiro,
+
+![fun 3](https://user-images.githubusercontent.com/88457552/174830124-000faad5-d876-4605-81a5-154406cddec6.PNG)
+
+
+vai pegar a sua garrafa de leite e vai entregar pra sua mãe, a sua mão vai receber essa garrafa de leite, talvez um troquinho, e uma vez que a sua funcionalidade terminou, ela se encerrou e entende o seguinte para sua mãe não importa o que você fez, como você chegou, quanto estava o leite, o que importa a ela é o seguinte: ela tem que te entregar o dinheiro, te passar a ordem, "quero o leite", você vai ter que trazer leite, como você vai fazer, o que você precisa fazer para chegar lá, qual mercearia você vai, não importa, o que importa é que ela quer esse resultado, ela quer esse retorno.
+
+
+![fun 4](https://user-images.githubusercontent.com/88457552/174831692-e544acb5-06ed-4580-a80f-975975adef75.PNG)
+
+Vamos nessa cena dar alguns nomes as coisas que aparecem nessa cena: em primeiro lugar nós vamos dizer o seguinte, quando a sua mãe te chama e te passa a ordem a gente chama isso de (um nome óbvio) **chamada**, então toda função precisa ter uma chamada ás vezes a sua mãe te chamando pra comprar leite e ás vezes você pode ter uma funcionalidade que acontece toda quarta feira de manhã, você não precisa de um disparo da sua mãe, o disparo é o seu relógio, toda a quarta feira 8 horas da manhã você tem que ir na mercearia, pegar o dinheiro na estante e comprar leite.
+
+![chamada](https://user-images.githubusercontent.com/88457552/174837126-8760b1e8-d364-468a-83bf-2fa23aa76031.PNG)
+
+A chamada nem sempre ela é vocal, nem sempre ela é verbalizada, ela pode ser automatizada outra coisa que você precisa: você não pode ir á mercearia pra comprar leite sem o dinheiro, sem alguma coisa de entrada que a gente chama de **parâmetro** e nessa história que contei existem dois *parâmetros o dinheiro que você precisa para poder comprar e o que a sua mãe queria*, qual foi o produto que ela quer também é um parâmetro de entrada, isso faz parte da chamada também.
+quando você pega o dinheiro e de posse da informação de que sua mãe quer leite, ir á mercearia chega da maneira que for, 
+
+![chamada 2](https://user-images.githubusercontent.com/88457552/174840854-d63f8470-9872-4077-94cd-a9935d3fe2ea.PNG)
+
+
+o processo todo que acontece lá dentro, o que você tem que fazer para conseguir leite a gente chama de **ação**, então toda a função também tem uma ação envolvida
+
+![chamada 2](https://user-images.githubusercontent.com/88457552/174844193-7ae7f7ba-2065-4c86-8403-92fe5f9b386f.PNG)
+
+
+e no final quando você volta pra casa e entrega o leite para sua mãe, você tem o que a gente chama de retorno,
+<br> então preste atenção, toda função pode ter os seguintes fatores: **uma chamada, um conjunto de parâmetros, uma ação e um retorno.** Nem toda função usa parâmetros, nem toda função tem retornos mas essas que a gente vai ver agora elas têm isso sim e elas são muito importantes para dar mais funcionalidades as nossas tarefas. 
+
+![retorno](https://user-images.githubusercontent.com/88457552/174844211-f5b3823c-aaf0-4c88-b410-08feda064136.PNG)
