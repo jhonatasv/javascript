@@ -1847,4 +1847,22 @@ esse retorno de resultado vai ser voltado lá de novo para a chamada, quem fez a
 
 ![re](https://user-images.githubusercontent.com/88457552/174885756-1f94a1ec-f9a1-4658-900d-4580ec67ac31.PNG)
 
-Vamos fazer a mesma coisa aqui com esse código que está aparecendo aqui em baixo, a minha chamada 
+Vamos fazer a mesma coisa aqui com esse código que está aparecendo aqui em baixo, a minha chamada, ela não está em cima, a minha chamada aqui embaixo é ela que vai disparar a execução dessa função aqui de cima, no caso do DOM que a gente usou anteriormente a chamada era o **onclick** do botão, só que a gente pode chamar ele pulado de fora e a gente já vai ver como funciona isso.
+
+![chamada](https://user-images.githubusercontent.com/88457552/174887097-ec422230-c189-45ef-addc-33f5198c0e63.PNG)
+
+Eu tenho também os parâmetros, parâmetro está aqui em cima, na verdade esse **5** aqui debaixo também é um parâmetro que a gente chama de parâmetro real `ação`**(parâmetro real)**, aqui em cima a gente chama de parâmetro formal `function ação`**(parâmetro formal)**, mas isso como o próprio nome sugere é só uma formalidade, 
+
+> quando você for aprender isso em tecnologia de programação, você vai se aprofundar um pouco mais sobre isso a gente aqui está com curso básico.
+
+
+![parâmetro](https://user-images.githubusercontent.com/88457552/174888466-fe98aaae-2666-4791-89c4-179b6039464a.PNG)
+
+**A ação** é essa daqui, é esse retângulo todo, tudo que pode ser feito durante a execução da sua função
+
+![ação](https://user-images.githubusercontent.com/88457552/174891029-5277d19c-93d6-409d-a85c-abcb5021a1d5.PNG)
+
+E por fim você tem esse comando `return` que é usado no JavaScript que é o retorno de um resultado,
+
+![return](https://user-images.githubusercontent.com/88457552/174892256-e7964cc5-6cf6-440b-b379-1fb03c8717f7.PNG)
+
