@@ -1788,4 +1788,63 @@ o processo todo que acontece lá dentro, o que você tem que fazer para consegui
 e no final quando você volta pra casa e entrega o leite para sua mãe, você tem o que a gente chama de retorno,
 <br> então preste atenção, toda função pode ter os seguintes fatores: **uma chamada, um conjunto de parâmetros, uma ação e um retorno.** Nem toda função usa parâmetros, nem toda função tem retornos mas essas que a gente vai ver agora elas têm isso sim e elas são muito importantes para dar mais funcionalidades as nossas tarefas. 
 
+Agora a gente vai para definição técnica coloca na sua cabeça essa cena, lembra sempre sua mãe faz uma chamada, passou parâmetro pra você, você foi lá e executou uma ação e de um retorno, isso é função, função na vida real,<br>
+
 ![retorno](https://user-images.githubusercontent.com/88457552/174844211-f5b3823c-aaf0-4c88-b410-08feda064136.PNG)
+
+
+função pra programação tem essas definições aqui presta atenção: **Funções são ações executadas assim que são chamadas ou em decorrência de um evento.** Foi aquilo que eu falei você executar alguma coisa quando a sua mãe te chamar ou quando acontecer algum evento, quarta feira 8 horas da manhã, todo dia que chover você tem que tirar a roupa do varal, você não precisa que sua mãe te peça, começou a chover, tira a roupa do varal. isso são funções que são executados automaticamente, outras precisam de uma chamada, 
+
+![fun](https://user-images.githubusercontent.com/88457552/174860925-aaf24ff2-c54a-45fd-a248-a2dfbea05292.PNG)
+
+outra coisa sobre funções: **Uma função pode receber parâmetros (no nosso caso é o dinheiro lá na nossa cena) e pode  retornar um resultado (que no caso é a garrada de leite),** então para a programação esses dois conceitos que estão embaixo, eles servem e eles se encaixam perfeitamente naquela história que a gente acabou de contar aqui para você
+
+
+![retorno](https://user-images.githubusercontent.com/88457552/174863400-ee47aedb-a48f-4d6b-9fde-3a09b265e4a5.PNG)
+
+
+na verdade, na prática a gente já executou funções, você deve se lembrar quando a gente fez o estudo do DOM no modelo de objetos por documento, a gente criou um botão e esse botão você podia fazer coisas com ele inclusive clicar sobre ele
+
+![bot](https://user-images.githubusercontent.com/88457552/174866240-f3de5cf8-5503-486b-a8a5-8ff8f88fe209.PNG)
+
+
+e quando você clicava ele disparava um evento, que é o **onclick** do HTML, o onclick você vai dizer qual é o método que vai ser utilizado, qual é a função que vai ser disparada quando você clicar no botão
+
+![onclick](https://user-images.githubusercontent.com/88457552/174866880-fce9da8a-3e73-49e5-a666-6500eac76403.PNG)
+
+
+então você colocava lá no *HTML* o onclick e colocava na época, na aula 10 (se não me engano) uma chamada para uma função, essa função tem um nome, que geralmente é o nome da ação e a gente tinha colocado lá naquela época abre parênteses, e fecha parêntesses, a gente não tinha passado os parâmentro ali no meio daqueles parentes é onde a gente vai passar os parâmetros, eu vou executar uma ação que é esse retângulozinho que apareceu e ele não tinha retorno, na época quando eu usava o *DOM* e eu não tinha retorno. 
+<br>
+A partir de agora a gente vai dar um upgrade nesse conceito de função que a gente está vendo aqui
+
+
+![fun parâ](https://user-images.githubusercontent.com/88457552/174868148-535572f7-2ccb-4d8f-9351-b7ec8eef52b4.PNG)
+
+
+O que vou fazer agora é isso daqui olha eu vou dentro dos parentes, eu sou capaz de adicionar parâmetros, e esses parâmetros vão ser processados pela ação e podem ter um resultado, essa ação ela não executa por padrão,
+
+![parame](https://user-images.githubusercontent.com/88457552/174871939-49595c44-24ed-467f-af57-afbe52d43688.PNG)
+
+
+eu tenho que ter uma chamada, lembra disso? Essa chamada eu vou colocar aqui na linha debaixo, eu vou colocar ali "**ação(5)**", o que significa **ação(5)**? Eu estou chamando a ação, que é o nome da minha função, é só você olhar aqui em cima, então estou fazendo nessa linha a chamada, então na hora que eu executar esse código está aqui debaixo, ele vai pular parte da função e vai executar só esse comando aqui de debaixo, a ação e vou executar esse ação passando um valor, 
+<br>
+
+![chama](https://user-images.githubusercontent.com/88457552/174873201-b707cf2c-0183-44a3-aa8c-59ba046d48e9.PNG)
+
+
+passando **5**, esse valor **5** dessa linha aqui vai pra cima, vai para o parâmetro. Então o parâmetro vai valer 5 neste caso aqui nesse exemplo, vou fazer as contas, 
+
+![proce](https://user-images.githubusercontent.com/88457552/174875602-589a5fc8-6f17-4a17-8cd1-6c2d46a36d41.PNG)
+
+
+vou fazer o processamento neste retângulo que está aparecendo aqui e no final eu posso dar um retorno de um resultado, 
+
+![re](https://user-images.githubusercontent.com/88457552/174879415-d4604a48-a6d9-4bad-b59d-da0d5b512e29.PNG)
+
+
+esse retorno de resultado vai ser voltado lá de novo para a chamada, quem fez a chamada, na verdade a sua mãe no exemplo, então eu tinha identificado 4 componentes básicos lá da minha função: **a chamada**, **os parâmetros**, **a ação** e o **retorno.** 
+
+
+![re](https://user-images.githubusercontent.com/88457552/174885756-1f94a1ec-f9a1-4658-900d-4580ec67ac31.PNG)
+
+Vamos fazer a mesma coisa aqui com esse código que está aparecendo aqui em baixo, a minha chamada 
