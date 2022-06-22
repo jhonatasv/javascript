@@ -1,6 +1,6 @@
 # Primeiros passos com JS.
 
-> **Nota**: quando estáva fazendo o Curso de **JavaScript** do <a href="https://github.com/gustavoguanabara"> Gustavo Guanabara</a>, Eu resolvi transcrever o Curso para Revisa e melhorar nos estudos de *javaScript*. 
+> **Nota**: estou fazendo o Curso de **JavaScript** do <a href="https://github.com/gustavoguanabara"> Gustavo Guanabara</a>, Eu resolvi transcrever o Curso para Revisa e melhorar nos estudos de *javaScript*. 
 
 <br>
 
@@ -12,32 +12,28 @@
 
 <h3>Aula 1 – O que o JavaScript é capaz de fazer?</h3>
 
-<a href="https://www.youtube.com/watch?v=uzEhd3Lugik&ab_channel=CursoemV%C3%ADdeo">
-Curso em video Aula - 1</a>
+* <a href="https://www.youtube.com/watch?v=uzEhd3Lugik&ab_channel=CursoemV%C3%ADdeo">Curso em video Aula - 1</a>
 
 <br>
 <hr>
 
 <h3>Aula 2 – Como chegamos até aqui?</h3>
 
-<a href="https://www.youtube.com/watch?v=rUTKomc2gG8&ab_channel=CursoemV%C3%ADdeo">
-Curso em video Aula - 2</a>
+* <a href="https://www.youtube.com/watch?v=rUTKomc2gG8&ab_channel=CursoemV%C3%ADdeo">Curso em video Aula - 2</a>
 
 <br>
 <hr>
 
 <h3>Aula 3 – Dando os primeiros passos</h3>
 
-<a href="https://www.youtube.com/watch?v=FdePtO5JSd0">
-Curso em video Aula - 3</a>
+* <a href="https://www.youtube.com/watch?v=FdePtO5JSd0">Curso em video Aula - 3</a>
 
 <br>
 <hr>
 
 <h3>Aula 4 – Criando o seu primeiro script</h3>
 
-<a href="https://www.youtube.com/watch?v=OmmJBfcMJA8&ab_channel=CursoemV%C3%ADdeo">
-Curso em video Aula - 4</a>
+* <a href="https://www.youtube.com/watch?v=OmmJBfcMJA8&ab_channel=CursoemV%C3%ADdeo">Curso em video Aula - 4</a>
 
 <br>
 <br>
@@ -64,8 +60,7 @@ Dentro dos parêntes do método `alert()`, temos uma __string__ entre aspas (que
 
 <h3>Aula 5 – Variáveis e Tipos Primitivos</h3>
 
-<a href="https://www.youtube.com/watch?v=Vbabsye7mWo&ab_channel=CursoemV%C3%ADdeo">
-Curso em video Aula - 5</a>
+* <a href="https://www.youtube.com/watch?v=Vbabsye7mWo&ab_channel=CursoemV%C3%ADdeo">Curso em video Aula - 5</a>
 
 
 <br>
@@ -75,7 +70,7 @@ Curso em video Aula - 5</a>
 
 conversão de __String__ para __number__ e para isso exites várias maneiras.
 
- Aprimeira delas é utilizar o
+Aprimeira delas é utilizar o
 `Number.parseint()`
 ou simplimente `parseint()`
 
@@ -97,7 +92,7 @@ Eu posso utilizar o `String()` Assim como eu utilizei "Number", número, eu poss
 
 (Exemplo) 
 ```
- alert('a soma dos Números é, ' + String(soma))
+alert('a soma dos Números é, ' + String(soma))
 ```
 
 Todo objeto possui um método `.toString()`  que é chamado automaticamente quando o objeto precisa ser representado como um valor em texto ou quando o objeto é referenciado de uma maneira que requeira uma string. Por padrão, o método toString() é herdado de todo objeto descendente de  Object. Se e o método não é sobrescrito em um objeto personalizado, toString() retorna "[object type]", onde type é o tipo do objeto. O código a seguir ilustra isso:
@@ -108,7 +103,7 @@ var o = new Object();
 
 ```
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/ToString" target="_blank">Mais Exemplo em developer mozilla</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/ToString" target="_blank">Mais Exemplo em developer mozilla</a>
 
 
 <hr>
@@ -127,7 +122,7 @@ alert(`A soma enter é,  ${}`)
 alert('a soma dos Números é, ' +(soma))
 ```
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals" target="_blank">Exemplo em developer mozilla</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals" target="_blank">Exemplo em developer mozilla</a>
 
 ---
 
@@ -170,7 +165,7 @@ A string original não é modificada.
 
 ---
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace" target="_blank">String.prototype.replace()
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace" target="_blank">String.prototype.replace()
 em developer mozilla</a>
 
 
@@ -199,7 +194,7 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
 
 *No __node__ ele não faz a inversão da vígula e o ponto mas no Navegador ele faz corretamente*
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString" target="_blank">Number.prototype.toLocaleString() em developer mozilla</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString" target="_blank">Number.prototype.toLocaleString() em developer mozilla</a>
 
 ---
 
@@ -254,9 +249,9 @@ quando você for precisar colocar vírgula, você para de dividir.
 
 basicamente é assim, __5 % 2__, que é o próximo operador, ele não é usado para calcular porcentagem, ele é o operador de resto da divisão inteira.
 
-<a href="https://www.youtube.com/watch?v=hZG9ODUdxHo&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de cálculo no minuto 6:25</a>
+* <a href="https://www.youtube.com/watch?v=hZG9ODUdxHo&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de cálculo no minuto 6:25</a>
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_aritmeticos" target="_blank">Expressões e operadores em developer mozilla</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_aritmeticos" target="_blank">Expressões e operadores em developer mozilla</a>
 
 
 E o último operador, ele surgiu no javaScript nas últimas versões, Ele é a potência.
@@ -288,7 +283,7 @@ em vez de fazer
 5 + 1.5 = *6.5* <br>
 que é o resultado
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operator_Precedence" target="_blank">Precedência de Operadores em developer mozilla</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operator_Precedence" target="_blank">Precedência de Operadores em developer mozilla</a>
 
 
 se você quise fazer <br>**5 + 3 / 2**, <br>e eu quero fazer *5 + 3* primeiro e depois dividir por dois, Nesse caso é só você colocar parêntenses extamente como a matemática faz <br>(5 + 3) / 2 <br>
@@ -302,8 +297,8 @@ Se você utilizar os parênteses Você muda a ordem de procedência, isso é, vo
 
 **( )** <br>
 __(**)__ <br>
- __(*) ( / )  ( % )__ <br>
- __(+) (-)__
+__(*) ( / )  ( % )__ <br>
+__(+) (-)__
 
 
 em qualquel linguagem  de programação, tudo, em primeiro lugar, é analisado todos os **parêntes**, depois dos parênteses vai fazer as **potências**, em seguida das potências, nòs termos a **multiplicaçâo** a **divisâo** e o **resto da divisão**
@@ -415,11 +410,11 @@ ele vai tira uma unidade. Então, se ele está valendo *6* nesse exato momento e
 `x = x - 1` / `x -=1`
 
 Essa parte você entedeu, só que nas linguagens de programação quando a gente vai avançando, você vai ver que  a gente  vai fazer muti **x = x + 1**
- A variável recebe a variável + 1
+A variável recebe a variável + 1
 
- então, exite um simplicador ainda maior que é o **operador de incremento** e eu posso simplificar **x +=1**, que já estava simplificado, para **x++**, o mesmo acontece com o **-=1** e eu posso simplificar para **x--**
+então, exite um simplicador ainda maior que é o **operador de incremento** e eu posso simplificar **x +=1**, que já estava simplificado, para **x++**, o mesmo acontece com o **-=1** e eu posso simplificar para **x--**
 
- (Simplificação ainda maior) <br>
+(Simplificação ainda maior) <br>
 `x = x + 1` / `x++` <br>
 
 `x = x - 1` / `x--`
@@ -455,7 +450,7 @@ __(>) maior <br>
 (==) igual <br>
 (!=) diferente__
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">Dica para saber a diferença entre o maior e menor <br>(minuto 2:30)</a>
+* <a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">Dica para saber a diferença entre o maior e menor <br>(minuto 2:30)</a>
 
 vou colocar valores qualquer, vou usar só valores inteiros, mas tambèm serve em valores reais, que são aquele valores que tenha vírgula <br>
 
@@ -483,11 +478,11 @@ No proximo
 `9 <= 7 ` O 9 é menor ou igual a 7? nâo. O 9 è maior. Ele nem é menor, e nem é igual. Então é **false**. 
 
 aqui embaixo tem o sinal de igual e percebe o seguinte:
- a igualdade no JavaScript não é *1 sinal de igual*. nos já vimos várias vezes durante a aulas que um símbolo de igual no JavaScript é a mesma coisa que muitas outras lingugens de programação, a gente lê como **recebe**. Ele é um operador de atribuição. Ele não é um operador de igualdade.  o operador de igualdade do JavaScript é esse aqui. `5 == 5` sendo assim *5* è igual a *5*? sim. Então é **true**
+a igualdade no JavaScript não é *1 sinal de igual*. nos já vimos várias vezes durante a aulas que um símbolo de igual no JavaScript é a mesma coisa que muitas outras lingugens de programação, a gente lê como **recebe**. Ele é um operador de atribuição. Ele não é um operador de igualdade.  o operador de igualdade do JavaScript é esse aqui. `5 == 5` sendo assim *5* è igual a *5*? sim. Então é **true**
 
 
- E por último,  `4 != 4`,<br>
-  4 Esse **!=** quer dizer __"não igual"__. E uma coisa que não é igual, è **diferente** Então, 4 é difente de 4 ? não. 4 é igual a qutro. Então é **false**
+E por último,  `4 != 4`,<br>
+4 Esse **!=** quer dizer __"não igual"__. E uma coisa que não é igual, è **diferente** Então, 4 é difente de 4 ? não. 4 é igual a qutro. Então é **false**
 
 Resultados:
 
@@ -507,7 +502,7 @@ a, que é 8, è menor ou igual a b-10? você percebe que quando eu tenho operado
 
 
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 4:14)</a>
+* <a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 4:14)</a>
 
 
 
@@ -528,7 +523,7 @@ Entâo, eu posso testar tambèm variáveis **string**. A string curso è igual a
 `n1 != n2`
 O Primeiro número è diferente do segundo?
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 7:13)</a>
+* <a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 7:13)</a>
 
 ---
 
@@ -537,13 +532,13 @@ O Primeiro número è diferente do segundo?
 operadores relacionais que a gente chama de operadores de identidade.
 
 por exemplo
- `5 == 5`
- 5 é igual a 5? sim. Então é **true**
+`5 == 5`
+5 é igual a 5? sim. Então é **true**
 
- agora, se eu tiver `5 =='5'`? è a mesma frase, foi exatamente igual
- Esse 5 é igual ao outro '5'?
+agora, se eu tiver `5 =='5'`? è a mesma frase, foi exatamente igual
+Esse 5 é igual ao outro '5'?
 
- para o JavaScript, 5 é, sim igual a '5'.
+para o JavaScript, 5 é, sim igual a '5'.
 isso porque o sinal de igualdade não testa o tipo. Eu tenho **valor 5 inteiro** lá no início, E eu tenho  **valor '5' em string**
 
 O que o javaScript faz é analisar se esse cinco tem o mesmo valor que o valor que o outro, e são valores de tipo difenrentes. Mas, eles têm a mesma Grandeza.
@@ -583,7 +578,7 @@ vamos começa pelo operador de *negação* `!` , o **"não"**, Ele é tratado co
 
 segundo operador de conjunção são os dois `&&` comerciais. Esse operadores, assim como o de *disjunção* também, ele é um operador binário. isto é eu tenho dois valores lógicos, um de cada lado
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 13:00)</a>
+* <a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 13:00)</a>
 
 
 E por fim, a **disjunção** que são os dois pipes `||` também um operador binário que tem dois valores lógicos, um de cada lado. Dependendo da posição deles e do resultado lógico, eu tenho tambèm o valor lógico de resultado. E na **disjunção** basta que um deles seja verdadeiro para o resultado ser verdadeiro.
@@ -598,7 +593,7 @@ vamos entender o seguinte, quando eu tenho operadores aritméticos, relacionais 
 
 E por acaso numa mesma expressão eu tiver um __"e"__, um __"ou"__ e um __"não"__, a ordem de execução é sempre essa, <br> primeiro o __"não" `!`__, <br> depois o __"e" `&&`__, <br> e por ultimo __"ou" `||`__.
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 16:56)</a>
+* <a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 16:56)</a>
 
 <hr>
 
@@ -614,7 +609,7 @@ operadores ternário é composto por dois símbolos que aparecem na mesma expres
 
 esses três blocos são os blocos de teste, o bloco verdaeiro e o bloco false. È por isso, que esse operador se chama ternário, porque juna três operandos.
 
-<a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 19:15)</a>
+* <a href="https://www.youtube.com/watch?v=BP63NhITvao&ab_channel=CursoemV%C3%ADdeo" target="_blank">mais exemplos no (minuto 19:15)</a>
 
 <hr>
 
@@ -638,24 +633,24 @@ e o `history` que vai guardando de onde você veio para onde você vai, isso fac
 
 dentro do `document` no nosso caso exite outros objeto muito importante é o bjeto `HTML`, que é exatamente a parte **HTML** do meu site, dentro de HTML eu tenho basicamnte dois objetos ou filhos que a gente chama, o *child* que é o head e o body que é a cabaçalho e a parte de corpo.
 
-<a href="https://www.youtube.com/watch?v=WWZX8RWLxIk&ab_channel=CursoemV%C3%ADdeo" target="_blank">Complemento (minuto 10:08)</a>
+* <a href="https://www.youtube.com/watch?v=WWZX8RWLxIk&ab_channel=CursoemV%C3%ADdeo" target="_blank">Complemento (minuto 10:08)</a>
 
 <hr>
 
 **(Selecionar elementos no Dom)**
 
- dentro da ávore Dom exitem vários métos para isso, alguns exemplo deles
+dentro da ávore Dom exitem vários métos para isso, alguns exemplo deles
 
 **por Marca** <br>
 em primeiro lugar vamos como selecionar por *Marca* ou *tag name*
 `getElementsByTagName()`
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByTagName" target="_blank">Exemplo: getElementsByTagName </a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByTagName" target="_blank">Exemplo: getElementsByTagName </a>
 
 **por ID** <br>
 `getElementById()`
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById" target="_blank">Exemplos: getElementById</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById" target="_blank">Exemplos: getElementById</a>
 
 **por Nome** <br>
 se eu tenho uma propriedade name então vou utilizar o **getElementsByName**, pecebe aqui que ele tem o **s** no plura, então eu preciso usar o colchete [ ], quando eu tenho mais de um objeto da mesma *classe* ou *Nome* eu vou usar muito **por marca** e tabem por <br>
@@ -663,25 +658,25 @@ se eu tenho uma propriedade name então vou utilizar o **getElementsByName**, pe
 
 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByName" target="_blank"> Exemplos: getElementsByName</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByName" target="_blank"> Exemplos: getElementsByName</a>
 
 
 **por Classe** <br>
 `getElementsByClassName`
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByClassName" target="_blank">Exemplo: getElementsByClassName</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementsByClassName" target="_blank">Exemplo: getElementsByClassName</a>
 
 **por Seletor** <br>
 `querySelector()`
 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector" target="_blank">Exemplos: querySelector</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector" target="_blank">Exemplos: querySelector</a>
 
 <hr>
 
 <h3>Aula 10 - Eventos Dom</h3>
 
-<a href="https://www.youtube.com/watch?v=wWnBB-mZIvY" target="_blank"> exemplo de forma visual em (minuto 06:26):</a>
+* <a href="https://www.youtube.com/watch?v=wWnBB-mZIvY" target="_blank"> exemplo de forma visual em (minuto 06:26):</a>
 
 evento é tudos aquilo que possa acontecer com qualquer elemento, mas no nosso exemplo essa **div** e se você começar a analisar, o que pode acontecer com essa **div** um monte de coisas, o mais comum: *eventos de mouse, então eu posso por exemplo chegar com curso do mouse e mover o mouse até encostar, até chegar dentro da* **div**, quando chega o mouse dentro da **div** vai disparar um evento o **mouseenter** que o mouse entrou na **div**, 
 
@@ -691,11 +686,11 @@ evento é tudos aquilo que possa acontecer com qualquer elemento, mas no nosso e
 
 <br>eu também tem o movimento do click inteiro, apertar e solta rapidamente eu tenho o evento **click** e da mesma maneira que com o **mouseenter**, quando eu mover o mouse para fora dessa **div** ele vai disparar evento **mouseout**. Então olha só a gente viu seis métodos, seis eventos que podem ser disparados só com o movimento do mouse, existem outros esses não são os únicos e se por acaso você dá uma pesquisa nos eventos que podem acontecer dentro de elementos em javascript 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/Events" target="_blank">Event reference em developer mozilla:</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/Events" target="_blank">Event reference em developer mozilla:</a>
 
 Só como curiosidade, agora com o eventos dos celulares, você tem os **"Touch events"** que sâo diferentes dos **Mouse events**
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Touch_events" target="_blank">Touch events em developer mozilla:</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Touch_events" target="_blank">Touch events em developer mozilla:</a>
 
 porem para disparar um evento, para tratar um evento, eu preciso te explicar antes o que é uma função ou uma funcionalidade.
 
@@ -735,11 +730,11 @@ function ação(parâmetros) {
 
 ```
 
-<a href="https://www.youtube.com/watch?v=wWnBB-mZIvY" target="_blank"> exemplo de forma visual em (minuto 10:43):</a>
+* <a href="https://www.youtube.com/watch?v=wWnBB-mZIvY" target="_blank"> exemplo de forma visual em (minuto 10:43):</a>
 
 
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions" target="_blank">Funções em developer mozilla:</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions" target="_blank">Funções em developer mozilla:</a>
 
 <hr>
 
@@ -747,7 +742,7 @@ function ação(parâmetros) {
 
 <h3>Aula 11 - Condições (part 1)</h3>
 
-<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de forma visual em 2:56</a>
+* <a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de forma visual em 2:56</a>
 
 Antes de falar das nossas condiçôes, precisamos fala de  **sequências**, porque todos os código feito até o momento foram código sequenciais. Entâo, veja o exemplo, o meu primeiro comando que aparecer aqui
 ```
@@ -776,7 +771,7 @@ window.alert(n)
 
 **Codiçôes**
 
-<a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de forma visual em 3:43</a>
+* <a href="https://www.youtube.com/watch?v=cOdG4eACN2A&ab_channel=CursoemV%C3%ADdeo" target="_blank">exemplo de forma visual em 3:43</a>
 
 Veja começa na primeira bolinha e termina na última bolinha.
 
@@ -876,7 +871,7 @@ vou colocar uma condição **composta**, como a gente viu na aula anterior, ela 
 ![condições aninhadas](https://user-images.githubusercontent.com/88457552/162822605-c868a4e7-726a-4b52-b14a-80a0bf09c2cb.PNG)
 
 
- Só que exite uma possibilidade de criar o que eu escrevi aqui em baixo: **condições Aninhadas** O que seria isso? Bem simples, **eu vou pegar uma condição composta e vou colocar outras condições dentro dela.**
+Só que exite uma possibilidade de criar o que eu escrevi aqui em baixo: **condições Aninhadas** O que seria isso? Bem simples, **eu vou pegar uma condição composta e vou colocar outras condições dentro dela.**
 
 
 ![part2](https://user-images.githubusercontent.com/88457552/162823310-2b01f8a6-6a95-4daf-866c-a2201b2b6b9d.PNG)
@@ -899,31 +894,31 @@ Mas é muito mais comum você fazer desse jeito aqui. tão comum que o JavaScrip
 
 vamos fazer a sua relação ecrita em JavaScript. Então eu tenho aqui, a minha condição principal, a minha condição 1, eu tenho um **if** aqui, *vou fazer a linha de indentação.*
 
- _Lembrando que não é identação, é **indetação** que vem de indente que é recuo em ingles._ Então eu escrevo uma coisa dentro da outra, escrevo uma coisa aninhada á outra, exatamente como está aparecendo aqui em cima. 
+_Lembrando que não é identação, é **indetação** que vem de indente que é recuo em ingles._ Então eu escrevo uma coisa dentro da outra, escrevo uma coisa aninhada á outra, exatamente como está aparecendo aqui em cima. 
  
 
 
-  Se por acaso a condição 1 for verdadeira, ele faz um bloco 1.
+Se por acaso a condição 1 for verdadeira, ele faz um bloco 1.
 
- ![condições aninhadas part6](https://user-images.githubusercontent.com/88457552/162836221-52c8977e-e877-4c29-b490-a00d4c90c521.PNG)
+![condições aninhadas part6](https://user-images.githubusercontent.com/88457552/162836221-52c8977e-e877-4c29-b490-a00d4c90c521.PNG)
 
-  Agora se não, que é a parte de baixo, ele não vai fazer o bloco 2, que seria uma **condição composta.** Ele vai fazer outra condição. 
+Agora se não, que é a parte de baixo, ele não vai fazer o bloco 2, que seria uma **condição composta.** Ele vai fazer outra condição. 
   
-  ![condições aninhadas part7](https://user-images.githubusercontent.com/88457552/162836471-6375a398-b1bb-4bf0-af42-bcd3a2de7e60.PNG)
+![condições aninhadas part7](https://user-images.githubusercontent.com/88457552/162836471-6375a398-b1bb-4bf0-af42-bcd3a2de7e60.PNG)
 
 
   
-  E vai fazer um outro **if**. Então vou colocar lá, se a condição 2 for satifeita, eu faço o bloco 2. 
+E vai fazer um outro **if**. Então vou colocar lá, se a condição 2 for satifeita, eu faço o bloco 2. 
 
 
 ![condições aninhadas part8](https://user-images.githubusercontent.com/88457552/162837448-6c60808b-701b-4695-9b4c-b36ec2b586db.PNG)
 
 
-  **È importante que você perceba o seguinte: para execurta o bloco 2, a condição 1 tem que ser falsa porque se ela for verdadeira já executa o bloco 1**
+**È importante que você perceba o seguinte: para execurta o bloco 2, a condição 1 tem que ser falsa porque se ela for verdadeira já executa o bloco 1**
 
-  È uma questão de raciocínio lógico. Se a condição 1 for falsa e a condção 2 for verdadeira ele faz o bloco 2.
+È uma questão de raciocínio lógico. Se a condição 1 for falsa e a condção 2 for verdadeira ele faz o bloco 2.
   
-  ![condições aninhadas part9](https://user-images.githubusercontent.com/88457552/162838470-addcfa5f-7ac4-439a-a90a-56ffcf44cc43.PNG)
+![condições aninhadas part9](https://user-images.githubusercontent.com/88457552/162838470-addcfa5f-7ac4-439a-a90a-56ffcf44cc43.PNG)
  
 
 Agora se a condição 1 for falsa e a condição 2 for falsa, ele faz o bloco 3. *E nada me impede de no lugar do bloco 3 colocar outra condição. Eu estaria aumentando um nível no meu Aninhamento.* 
@@ -933,8 +928,8 @@ a gente não vai adicionar muitos níveis. Mas sim, eles são possíveis dentro 
 
 ![condições aninhadas part11](https://user-images.githubusercontent.com/88457552/162839447-a3e8f763-a425-40e9-83fc-c5f2d71da9c4.PNG)
 
- Então claramente 
- aqui em cima, eu tenho uma condição dentro da outra. Eu acabei de tracejar em volta da condição exatamente como tinha feito lá na gráfico anterior. E como eu já disse várias vezes a essa estrutura a gente dá o nome de **Condição Aninhada.**
+Então claramente 
+aqui em cima, eu tenho uma condição dentro da outra. Eu acabei de tracejar em volta da condição exatamente como tinha feito lá na gráfico anterior. E como eu já disse várias vezes a essa estrutura a gente dá o nome de **Condição Aninhada.**
 
 <hr>
 
@@ -967,18 +962,18 @@ Então eu tenho várias possibilidades de valor. Para cada 1 eu vou colocar um c
 
 ![condição múltipla 5](https://user-images.githubusercontent.com/88457552/163277890-c8208e4a-7257-4751-8026-36135c1ec901.PNG)
 
- E para cada um dos cases eu tenho um bloco. Então basicamente a estrutura é dessa maneira. Eu vou colocar um case para cada valor e por fim, **opcionalmente, eu posso colocar um `default` que é o padrão.** Assim se nenhum dos de cima forem satisfeitos.
+E para cada um dos cases eu tenho um bloco. Então basicamente a estrutura é dessa maneira. Eu vou colocar um case para cada valor e por fim, **opcionalmente, eu posso colocar um `default` que é o padrão.** Assim se nenhum dos de cima forem satisfeitos.
 
- **Só que eu tenho uma informação importante para te dar antes de prosseguir. Dentro da estrutura _switch isso veio lá da linguagem C._** Existe um detalhezinho que precisa ser seguido. Dentro da cada bloco.
+**Só que eu tenho uma informação importante para te dar antes de prosseguir. Dentro da estrutura _switch isso veio lá da linguagem C._** Existe um detalhezinho que precisa ser seguido. Dentro da cada bloco.
 
- ![condição múltipla 6](https://user-images.githubusercontent.com/88457552/163279678-d2e34477-2e86-43cc-a48f-f074767e452d.PNG)
+![condição múltipla 6](https://user-images.githubusercontent.com/88457552/163279678-d2e34477-2e86-43cc-a48f-f074767e452d.PNG)
  
- _Eu preciso colocar um comando `break`. Então pra cada um eu tenho um `break`. Na última é opcional mas vamos colocar sempre._ **Esse `break` é obrigatório.** 
+_Eu preciso colocar um comando `break`. Então pra cada um eu tenho um `break`. Na última é opcional mas vamos colocar sempre._ **Esse `break` é obrigatório.** 
  
 
- ![condição múltipla 7](https://user-images.githubusercontent.com/88457552/163280434-42b508ab-6349-481c-82d6-79efac92b7f7.PNG)
+![condição múltipla 7](https://user-images.githubusercontent.com/88457552/163280434-42b508ab-6349-481c-82d6-79efac92b7f7.PNG)
 
- E como é que funciona o negócio? Ele vai testar essa expressão que está aqui em cima. Vamos supor que esse expressão resulte no valor 2 que está aqui. Então ele vai desviar
+E como é que funciona o negócio? Ele vai testar essa expressão que está aqui em cima. Vamos supor que esse expressão resulte no valor 2 que está aqui. Então ele vai desviar
 
  
 ![condição múltipla 8](https://user-images.githubusercontent.com/88457552/163281061-55b6ce4d-3f61-4bdb-bde6-2419970124dc.PNG)
@@ -1184,7 +1179,7 @@ dá uma olhada na parte de cima e dá uma olhada na parte de baixo
 
 Forma de fazer no **JavaScript**
 
-<a href="https://www.youtube.com/watch?v=5rZqYPKIwkY" target="_blank"> exemplo de forma visual em (minuto 12:05):</a>
+* <a href="https://www.youtube.com/watch?v=5rZqYPKIwkY" target="_blank"> exemplo de forma visual em (minuto 12:05):</a>
 
 ```
 let c = 1
@@ -1204,7 +1199,7 @@ while (c <= 6) {
   passos 6
 ```
 
-<a hrf="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while" target="_blank">Saiba mais sobre: [while] em (developer mozilla)</a>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while" target="_blank">Saiba mais sobre: [while] em (developer mozilla)</a>
 
 
 
@@ -1253,7 +1248,7 @@ Dessa maneira essas duas estruturas que estão representadas aqui em cima são a
 <br>
 a de cima que é a `while`, **a gente chama de estrutura de repetição com teste lógico no início** a de baixo que é `do while` **a gente chama de estrutura de repetição com teste lógico no final.**
 
-<a href="https://www.youtube.com/watch?v=5rZqYPKIwkY" target="_blank"> exemplo de forma visual em (minuto 17:00):</a>
+* <a href="https://www.youtube.com/watch?v=5rZqYPKIwkY" target="_blank"> exemplo de forma visual em (minuto 17:00):</a>
 
 
 ```
