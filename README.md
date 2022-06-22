@@ -1533,8 +1533,8 @@ vou colocar mais um valor 4 e o 4 vai pro espaço 2.
 
 sendo assim acabei de representar aqui, um vetor de 3 elementos, elementos 0, 1 e 2  que tem os valores 5, 8 e 4.
 
-* <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">
-testando o código de forma visual no minuto (10:45)</a>
+* <a href="https://www.youtube.com/watch?v=XdkW62tkAgU&ab_channel=CursoemV%C3%ADdeo">testando o código de forma visual no minuto (10:45)</a>
+
 
 <br>
 
