@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    font-family: 'PT Mono';
+    background-color: rgba(0, 139, 139, 0.411);
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+h1 {
+    margin: 6px 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: all 0.4s ease;
+}
+
+.btn:hover {
+    background-color: rgba(4, 109, 109, 0.87);
+    color: rgba(255, 255, 255, 0.918);
+}
+
+input:nth-child(2) {
+    padding: 5px;
+    width: 80px;
+    border-radius: 3px;
+}
