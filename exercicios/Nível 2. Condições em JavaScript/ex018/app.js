@@ -8,7 +8,7 @@ btn.addEventListener('click', function verificar() {
     if(numeroSecreto > palpite) {
         result.innerHTML += `<p>Você falou ${palpite}. Meu número é <strong>MAIOR</strong></p>`
     } else if (palpite > numeroSecreto) {
-        result.innerHTML += `Você falou ${palpite}. Meu número é <strong>MENOR</strong></p>`
+        result.innerHTML += `<p>Você falou ${palpite}. Meu número é <strong>MENOR</strong></p>`
     } else if (palpite == numeroSecreto){
         result.innerHTML += `<p><strong>PARABÉNS</strong>, Você acertou, Eu tinha sorteado o valor <strong>${numeroSecreto}<strong>!</p>`
         document.querySelector('#btn').style.visibility = 'hidden'
