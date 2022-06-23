@@ -9,6 +9,6 @@ btn.addEventListener('click', () => {
         numero ++
         res.innerHTML += `${numero}&#128073`
     }
-    res.innerHTML += `${numero}&#128073;&#127937`
+    res.innerHTML += `&#127937`
    
 })
