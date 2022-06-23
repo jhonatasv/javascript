@@ -1,6 +1,6 @@
-function star () {
+function star() {
     let numero1 = Number(prompt('Digite um número:'))
-    let numero2 = Number(prompt('Digite um número:'))
+    let numero2 = Number(prompt('Digite outro número:'))
     let result = document.querySelector('#resultado')
 
     let maior = Math.max(numero1, numero2)
