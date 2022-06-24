@@ -49,3 +49,12 @@ input:nth-child(2) {
     width: 80px;
     border-radius: 3px;
 }
+
+.msg-error {
+    color: #050000; 
+    padding: 5px;
+    opacity: 0.85;
+    border-radius: 5px;
+    box-shadow: 2px 3px 6px 0px #5f5b5b85;
+    background-color:  #ff000061;
+}
