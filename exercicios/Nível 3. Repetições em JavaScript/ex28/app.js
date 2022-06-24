@@ -14,7 +14,7 @@ btn.addEventListener('click', () => {
         res.innerHTML += `${c} x ` 
     }
 
-    res.innerHTML += ` 1 = <stong>${fator}</strong>` 
+    res.innerHTML += `1 = <strong>${fator.toLocaleString()}</strong>` 
     
   
 })
