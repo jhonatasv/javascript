@@ -93,10 +93,6 @@ h1 {
     margin: 15px;
 }
 
-p {
-    color: var(---color-description);
-}
-
 .conteiner {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(395px, 1fr));
@@ -104,7 +100,6 @@ p {
     padding: 10px 12px 10%;
     justify-items: center;
     justify-content: center;
-
 }
     
 .card-intem {
@@ -123,10 +118,15 @@ p {
 
 .card-info p {
     padding: 10px;
+    transition: all 0.5s ease;
 } 
 
-.card-info a {
+.codigo-github {
     color: var(---color-links-github);
+} 
+
+.codigo-github:hover {
+    color: cornflowerblue;
 }
 
 .projeto-img {
@@ -159,7 +159,7 @@ footer a {
 footer a:hover {
     color: var(---color-hover-header-footer);
 }
- 
+
 .modo-dark-body {
     ---background-body: #22272E;
 }
@@ -170,6 +170,14 @@ footer a:hover {
 
 .modo-dark-card-info {
     ---background-card-info: #2b323bb4;
+}
+
+.modo-dark-codigo-github {
+    color: white;
+}
+
+.modo-dark-codigo-github:hover {
+    color: var(---color-hover-header-footer);
 }
 
 @media(max-width: 425px) {
