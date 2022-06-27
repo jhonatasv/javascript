@@ -79,7 +79,7 @@ span input img {
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    color: var(---color-description);
+    /* color: var(---color-description); */
     margin-bottom: 10px;
     text-indent: 10px;
     font-size: 1.6em;
@@ -92,6 +92,7 @@ h1 {
     color: var(---color-description);
     margin: 15px;
 }
+
 
 .conteiner {
     display: grid;
@@ -164,8 +165,8 @@ footer a:hover {
     ---background-body: #22272E;
 }
 
-.modo-dark {
-    ---color-description: #ffffff;
+.modo-dark-title {
+    color: white;
 }
 
 .modo-dark-card-info {
