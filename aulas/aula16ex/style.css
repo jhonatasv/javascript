@@ -78,6 +78,11 @@ input:nth-last-child(2) {
     margin-top: 15px;
 }
 
+p {
+    font-size: 1.1rem;
+    margin: 15px 0;
+}
+
 footer {
     text-align: center;
     margin-top: 20px;
