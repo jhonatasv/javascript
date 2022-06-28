@@ -13,13 +13,24 @@
 :root {
     ---background-body: #e6ecec8c;
     ---background-header-footer: #2D333B;
-    ---color-hover-header-footer: #1be691;
     ---background-card-intem: #c5b8b855;
     ---background-card-info: #4946462d;
-    ---color-description: #000000;
+    ---color-title: #000000;
     ---color-links-github: #020101;
+    ---color-links-github-hove: #6495ed;
+    ---color-white: #fff;
+    ---color-Green-hover: #1be691;
 }
 
+.dark-mode:root {
+    ---background-body: #22272E;
+    ---background-card-info: #2b323bb4;
+    ---color-title: #fff;
+    ---color-links-github: #fff;
+    ---color-links-github-hove: #1be691;
+    ---color-white: #fff;
+    ---color-Green-hover: #1be691;
+}
 
 html {
     scroll-behavior: smooth;
@@ -57,12 +68,12 @@ main {
 }
 
 .nav-link {
-    color: #ffffff;
+    color: var(---color-white);
     transition: all 0.5s ease;
 }
 
 .nav-link:hover {
-    color: var(---color-hover-header-footer);
+    color: var(---color-Green-hover);
 }
 
 span input {
@@ -79,7 +90,6 @@ span input img {
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    /* color: var(---color-description); */
     margin-bottom: 10px;
     text-indent: 10px;
     font-size: 1.6em;
@@ -89,10 +99,9 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: var(---color-description);
+    color: var(---color-title);
     margin: 15px;
 }
-
 
 .conteiner {
     display: grid;
@@ -127,7 +136,7 @@ h1 {
 } 
 
 .codigo-github:hover {
-    color: cornflowerblue;
+    color: var(---color-links-github-hove);
 }
 
 .projeto-img {
@@ -149,36 +158,16 @@ footer {
 }
 
 footer p {
-    color: #ffffff;
+    color: var(---color-white);
 }
 
 footer a {
-    color: #ffffff;
+    color: var(---color-white);
     transition: all 0.5s ease;
 }
 
 footer a:hover {
-    color: var(---color-hover-header-footer);
-}
-
-.modo-dark-body {
-    ---background-body: #22272E;
-}
-
-.modo-dark-title {
-    color: white;
-}
-
-.modo-dark-card-info {
-    ---background-card-info: #2b323bb4;
-}
-
-.modo-dark-codigo-github {
-    color: white;
-}
-
-.modo-dark-codigo-github:hover {
-    color: var(---color-hover-header-footer);
+    color: var(---color-Green-hover);
 }
 
 @media(max-width: 425px) {

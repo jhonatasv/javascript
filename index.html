@@ -378,25 +378,11 @@
     </footer>
     <script>
         const input = document.querySelector('#check')
-        const body = document.querySelector('body')
-        const description = document.querySelectorAll('.title')
-        const cardInfo = document.querySelectorAll('.card-info')
-        const codigoGithub = document.querySelectorAll('#codigo-github') 
+        const modoDarkHtml = document.querySelector('html')
         
         input.addEventListener('change', () => {
-            body.classList.toggle('modo-dark-body')
             
-            for(let i = 0; i < description.length; i++) {
-                description[i].classList.toggle('modo-dark-title')
-            }
-
-            for(let i = 0; i < cardInfo.length; i++) {
-                cardInfo[i].classList.toggle('modo-dark-card-info')
-            }
-            
-            for(let i = 0; i < codigoGithub.length; i++) {
-                codigoGithub[i].classList.toggle('modo-dark-codigo-github')
-            }
+            modoDarkHtml.classList.toggle('dark-mode')
         })
     
     </script>
