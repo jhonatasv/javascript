@@ -13,7 +13,7 @@
 :root {
     ---background-body: #e6ecec8c;
     ---background-header-footer: #2D333B;
-    ---background-card-intem: #c5b8b855;
+    ---background-card-item: #c5b8b855;
     ---background-card-info: #4946462d;
     ---color-title: #000000;
     ---color-links-github: #020101;
@@ -112,11 +112,11 @@ h1 {
     justify-content: center;
 }
     
-.card-intem {
+.card-item {
     width: 400px;
     padding: 15px 0 0;
     text-align: center;
-    background-color: var(---background-card-intem);
+    background-color: var(---background-card-item);
     border-radius: 5px;
     box-shadow: 0 4px 12px 0 #0000000d;
 }
