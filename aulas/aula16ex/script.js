@@ -17,6 +17,7 @@ add.addEventListener('click', () => {
         setTimeout(()=> {
             res.innerHTML = '';
         }, 2000)
+        
 
     } else if(inputTxt.value > 100) {
         res.innerHTML = `<p class="msg-error">Valor inválido, preencha o campo (entre 1 e 100)</p>`
@@ -27,6 +28,7 @@ add.addEventListener('click', () => {
 
     } else if(lista.indexOf(inputNum) == -1) {
         res.innerHTML = '';
+        inputTxt.value = '';
        
         lista.push(inputNum)
         
@@ -45,7 +47,7 @@ add.addEventListener('click', () => {
         
         
     } else {
-        res.innerHTML = `<p class="msg-error">O valor já exite</p>`
+        res.innerHTML = `<p class="msg-error">O valor já exite.</p>`
        
         setTimeout(()=> {
             res.innerHTML = '';
@@ -152,4 +154,19 @@ finalizar.addEventListener('click', () => {
 
     
 // })
+
+
+
+// let lista = [1, 2, 3, 4]
+
+
+// let valor = 1
+
+// if(lista.indexOf(valor) == -1) {
+//     console.log('valor não encontrado')
+// } else {
+//     console.log(`O valor é ${valor}`)
+// }
+
+
 
