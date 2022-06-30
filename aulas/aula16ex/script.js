@@ -30,20 +30,35 @@ add.addEventListener('click', () => {
         res.innerHTML = '';
         inputTxt.value = '';
        
-        lista.push(inputNum)
         
-        let i = 0
+        lista.push(inputNum)
+        let i = 2
 
-        while(i < lista.length) {
+        //duplicando
+
+        do {
             let item = document.createElement('option')
-            item.setAttribute('id', 'teste')
+            // item.setAttribute('id', 'itens')
             item.text = `Valor ${inputNum} adicionado.`
-            item.value = i
-            console.log(`o i está com ${i}`)
+           // console.log(`o i está com ${i}`)
             selectTxt.appendChild(item)
+          //  console.log(lista)
+            item.value = i
             i++
-            console.log(lista)
-        }
+
+        } while( i < lista.length)
+
+        
+        // while(i < lista.length) {
+        //     let item = document.createElement('option')
+        //    // item.setAttribute('id', 'itens')
+        //     item.text = `Valor ${inputNum} adicionado.`
+        //     i++
+        //     item.value = i
+        //     console.log(`o i está com ${i}`)
+        //     selectTxt.appendChild(item)
+        //     console.log(lista)
+        // }
         
         
     } else {
