@@ -53,6 +53,7 @@ input:nth-last-child(2) {
     background-color: var(---backgroundInput);
     border-radius: 5px;
     padding: 5px 0 5px 5px;
+    font-size: 14px;
 }
 
 .displa-fex {
