@@ -5,8 +5,9 @@ let finalizar = document.querySelector('#finalizar')
 let res = document.querySelector('#res')
 
 let lista = []
+let contador = 0
 
-
+contador
 add.addEventListener('click', () => {
     let inputNum = Number(inputTxt.value)
 
@@ -32,33 +33,17 @@ add.addEventListener('click', () => {
        
         
         lista.push(inputNum)
-        let i = 2
-
-        //duplicando
+       
 
         do {
             let item = document.createElement('option')
-            // item.setAttribute('id', 'itens')
+            item.setAttribute('class', 'itens')
             item.text = `Valor ${inputNum} adicionado.`
-           // console.log(`o i está com ${i}`)
+            item.value = contador
             selectTxt.appendChild(item)
-          //  console.log(lista)
-            item.value = i
-            i++
-
-        } while( i < lista.length)
-
-        
-        // while(i < lista.length) {
-        //     let item = document.createElement('option')
-        //    // item.setAttribute('id', 'itens')
-        //     item.text = `Valor ${inputNum} adicionado.`
-        //     i++
-        //     item.value = i
-        //     console.log(`o i está com ${i}`)
-        //     selectTxt.appendChild(item)
-        //     console.log(lista)
-        // }
+            contador++
+            
+        } while(contador < lista.length)
         
         
     } else {
@@ -70,7 +55,6 @@ add.addEventListener('click', () => {
     }
     
 
-    
 })
 
 
@@ -89,99 +73,4 @@ finalizar.addEventListener('click', () => {
     res.innerHTML += `<p>Somando todos os valores, temos ${somandoTodos}.</p>`
     res.innerHTML += `<p>A média dos valores digitados é ${mediaValores}.</p>`
 })
-
-
-
-// codigo de antes
-
-// add.addEventListener('click', () => {
-//     let inputNum = Number(inputTxt.value)
-
-
-//     if(inputTxt.value.length === 0){ 
-//         res.innerHTML = `<p class="msg-error" id="">Por favor, preencha o campo</p>`
-       
-//         setTimeout(()=> {
-//             res.innerHTML = '';
-//         }, 2000)
-
-//     } else if(inputTxt.value > 100) {
-//         res.innerHTML = `<p class="msg-error">Valor inválido, preencha o campo (entre 1 e 100)</p>`
-       
-//         setTimeout(() =>{
-//             res.innerHTML = '';
-//         }, 3000)  
-
-//     } else if(lista ==) {
-//         lista.push(inputNum)
-        
-
-       
-
-//         let i = 0
-
-//         while(i < lista.length) {
-//             let item = document.createElement('option')
-//             item.setAttribute('id', 'teste')
-//             item.text = `Valor ${inputNum} adicionado.`
-//             item.value = i
-//             console.log(`o i está com ${i}`)
-//             selectTxt.appendChild(item)
-//             i++
-//             console.log(lista)
-//         }
-        
-//         // lista.forEach((num)=> {
-//         //     if(num == lista) {
-//         //         res.innerHTML = `Valor ${num} já adicionado`
-//         //     } else {
-//         //         res.innerHTML = `valor`
-//         //     }
-//         // })
-        
-       
-//     }  else if(lista == lista.indexOf(inputNum)) {
-//             re.innerHTML = `<p>já se encontra na lista.</p>`
-//         } else if(lista.indexOf(inputNum) == -1) {
-
-//         }
-
-
-//     console.log(lista)
-
-//     //    if(lista.indexOf(inputNum) == lista) {
-//     //        res.innerHTML = `valor já adicionando`
-//     //    } else {
-
-//     //     return lista
-//     //    }
-
-
-//     // for(let i = 0; i < lista.length; i++) {
-        
-//     //     let item = document.createElement('option')
-//     //     item.setAttribute('id', 'teste')
-//     //     item.text = `Você add ${inputNum}`
-//     //     item.value = i
-//     //     selectTxt.appendChild(item)
-//     //     console.log(i)
-//     //     }
-
-    
-// })
-
-
-
-// let lista = [1, 2, 3, 4]
-
-
-// let valor = 1
-
-// if(lista.indexOf(valor) == -1) {
-//     console.log('valor não encontrado')
-// } else {
-//     console.log(`O valor é ${valor}`)
-// }
-
-
 
