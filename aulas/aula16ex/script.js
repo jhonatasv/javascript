@@ -7,20 +7,21 @@ let res = document.querySelector('#res')
 let lista = []
 let contador = 0
 
-contador
+
 add.addEventListener('click', () => {
     let inputNum = Number(inputTxt.value)
 
 
     if(inputTxt.value.length === 0){ 
-        res.innerHTML = `<p class="msg-error" id="">Por favor, preencha o campo</p>`
+        res.innerHTML = `<p class="msg-error">Por favor, preencha o campo</p>`
        
         setTimeout(()=> {
             res.innerHTML = '';
         }, 2000)
         
 
-    } else if(inputTxt.value > 100) {
+    } else if(inputTxt.value < 1 || inputTxt.value > 100) {
+        inputTxt.value = '';
         res.innerHTML = `<p class="msg-error">Valor inválido, preencha o campo (entre 1 e 100)</p>`
        
         setTimeout(() =>{
