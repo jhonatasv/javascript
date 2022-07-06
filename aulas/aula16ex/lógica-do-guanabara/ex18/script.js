@@ -35,6 +35,7 @@ function adicionar() {
 
     num.value = '';
     num.focus()
+    res.innerHTML = ``
 }
 
 
@@ -42,9 +43,11 @@ function adicionar() {
 
 function finalizar() {
     if(valores.length == 0 ) {
-        window.alert = 'Adicione Valores antes de Finalizar'
+        window.alert('Adicione Valores antes de Finalizar!')
     } else {
-        res.innerHTML = `OK`
+        let tot = valores.length
+        res.innerHTML = ``
+        res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p>`
     }
 
 }
