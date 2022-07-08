@@ -21,7 +21,6 @@ add.addEventListener('click', () => {
         
 
     } else if(inputTxt.value < 1 || inputTxt.value > 100) {
-        inputTxt.value = '';
         res.innerHTML = `<p class="msg-error">Valor inválido, preencha o campo (entre 1 e 100)</p>`
        
         setTimeout(() =>{
@@ -45,7 +44,8 @@ add.addEventListener('click', () => {
             contador++
             
         } while(contador < lista.length)
-        
+      
+        inputTxt.focus()
         
     } else {
         res.innerHTML = `<p class="msg-error">O valor já exite.</p>`
@@ -82,6 +82,7 @@ finalizar.addEventListener('click', () => {
         res.innerHTML += `<p>A média dos valores digitados é ${mediaValores}.</p>`
 
     }
+
 
 })
 
