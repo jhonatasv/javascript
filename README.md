@@ -1935,3 +1935,59 @@ eu tenho a minha **ação** que é esse `if` completo, esse código todo dentro 
 
 
 * <a href="https://www.youtube.com/watch?v=mc3TKp2XzhI&ab_channel=CursoemV%C3%ADdeo">testando o código de forma visual no minuto (13:45)</a>
+
+<hr>
+
+<h3>Aula 17 – Próximos Passos</h3></h3>
+
+![Próximos Passos](https://user-images.githubusercontent.com/88457552/178325778-8b48e44c-2cf6-4e12-bfda-f43506ae73d5.PNG)
+
+Chegamos aqui na última aula do seu curso de JavaScript com uma Pergunta: 
+<br>"Quais são os meus próximos passos? Agora que eu aprendi isso eu já sei tudo de JavaScript? Eu preciso estudar mais alguma coisa? Qual é o meu próximo passo Guanabara?"
+
+Mas antes de responder quais são os nossos Próximos passos deixa a gente tentar analisar o que já vimos até o momento. Nesse módulo básico de JavaScript a gente viu os seguintes assuntos: os fundamentos da linguagem, o que é o JavaScript, como ele surgiu, a evolução dele, o seu paradigma de **linguagem client e server**, depois a envolução dele com **Node.js** para conseguir alcançar outros níveis, conquistar os servidores, então hoje você consegue rodar JavaScript no cliente e também no servidor.
+
+Nós usamos *Node.js* para rodar de forma bem simples nosso cliente, mas o *Node.js* tem muito mais potencial.
+
+![fun](https://user-images.githubusercontent.com/88457552/178330202-a64a5075-5d30-43eb-872a-c849990eb448.PNG)
+
+A gente trabalhou os conceitos fundamentais de todas as linguagens de programação como **Variáveis**, tipos de dados, como colocar esse dados dentro de uma variável, como JavaScript e trata os tipos primitivos. 
+
+![var](https://user-images.githubusercontent.com/88457552/178330274-04e6ee91-fbe7-494d-a7a8-c6a550ca618c.PNG)
+
+
+A gente viu, além de valores e variáveis, como tratar esses valores com operações.
+Vimos os **operadores** aritméticos, operadores lógicos, operadores relacionais, nós fizemos bastante exercício com isso, exercícios práticos e propostos.
+
+
+![ope](https://user-images.githubusercontent.com/88457552/178333467-2fb7b8ae-66d2-4cca-ae19-ade127dcffe8.PNG)
+
+A gente tratou as **condições**, nós vimos o **if simple**, o **if composto** e **if alinhado**, vimos também **switch**.
+
+![condi](https://user-images.githubusercontent.com/88457552/178333897-5db17062-0db4-4935-80b7-11b167356acf.PNG)
+
+
+
+A gente tratou as **repetições**, vimos `while`, `do...while`, `for`, fizemos bastante exercício também com isso.
+
+![rep](https://user-images.githubusercontent.com/88457552/178333474-6396e646-3b9a-4fc9-8f2e-d8b2b41aef68.PNG)
+
+E no último módulo a gente tratou os **arrays**, que são as variáveis compostas, mostrei pra você que não é nehum bicho de sete cabeças.
+
+![arr](https://user-images.githubusercontent.com/88457552/178333484-ca3a598a-1e19-4699-a6ff-eb788f3fa6f4.PNG)
+
+E a gente finalizou agora, nas últimas aulas, com as **funções**. falei que as funções são muito importante pro JavaScript, muito importantes mesmo, *JavaScript é uma linguagem multiparadigma e ela funciona também com paradigma funcional*, então funçõe são muito importantes pro JavaScript.
+
+![funt](https://user-images.githubusercontent.com/88457552/178333498-ff28ebdc-7275-493a-8df2-794c18929012.PNG)
+
+E  tudos isso que vimos aqui do lado, a gente viu no modo tradicional, utilizando o Node.js rodando da nossa própria máquina, vimos também utilizando rodando diretamente no navegador utilizando a engine V8 do Google e também fizemos isso rodando no nosso cliente utilizando o **Document Object Model**, que é o *DOM*, e quando pegamos os dados do formulário, os componetes Visuais da tela, alterou, manipulou e fez o JavaScript falar com HTML e CSS.
+
+
+![dom](https://user-images.githubusercontent.com/88457552/178338790-cc041207-aa9d-4bcf-b918-61a76f0c7591.PNG)
+
+> Olha a qunatidade de informações que a gente passou pra você, e para quem é iniciante e olha essa quantidade de coisa pode estar pensado:"Mas isso é tudo de JavaScript, não preciso continuar a estudar." e Eu tenho uma péssima notícia para quem pensa assim, JavaScript é uma linguagem gigante, tem muitas funcionalidades, tem muitas tecnologias envolvidas e você não vai para de estudar por aqui, o seu curso básico se encerra neste vídeos, mas os seus estudos em JavaScript não podem se encerrar.
+
+![quais](https://user-images.githubusercontent.com/88457552/178341531-7053f8ec-74cc-4f99-a47b-2688a9b7ab97.PNG)
+
+
+> E é por isso que eu vim aqui, no início desse vídeo, te responder uma pergunta que pode surgir na sua cabeça: "Quais são os meus próximos passos?"
