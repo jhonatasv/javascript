@@ -1990,4 +1990,66 @@ E  tudos isso que vimos aqui do lado, a gente viu no modo tradicional, utilizand
 ![quais](https://user-images.githubusercontent.com/88457552/178341531-7053f8ec-74cc-4f99-a47b-2688a9b7ab97.PNG)
 
 
-> E é por isso que eu vim aqui, no início desse vídeo, te responder uma pergunta que pode surgir na sua cabeça: "Quais são os meus próximos passos?"
+> E é por isso que eu vim aqui, no início desse vídeo, te responder uma pergunta que pode surgir na sua cabeça: "Quais são os meus próximos passos? Me dá um norte Guanabara.
+Depois que eu estudei isso tudo, que eu fiz esse curso, pratiquei tudo"
+
+Aquelas 4 pergutas que eu fiz no início do video, depois que você terminar isso você precisa fazer o dever de casa e continuar estudando.
+
+Primeira dica que eu te dou, antes de escrever qualquer coisa aqui de JavaScript, faça o curos de <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/">HTML 5 e CSS</a>, ele é um estudo de caso grande, ele faz um site, é bem simples, é mais tranquilo até que JavaScript, inclusive, lá dentro tem algumas aulas de JavaScript também, 
+
+![function](https://user-images.githubusercontent.com/88457552/178360166-7bd885a0-acbd-4394-85c6-28c1587f4563.PNG)
+
+
+Em seguida você vai ver aqui, estude mais sobre funções, os seus estudos de funções não acabaram aqui nesse curso, a gente viu o básico de função, você tem outros conceitos a estudar, você pode aprender coisas do tipo, 
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions">Arrow functions</a>, <br>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Callback_function">Função Callback</a>, <br>
+* <a href="https://ricardo-reis.medium.com/fun%C3%A7%C3%B5es-an%C3%B4nimas-javascript-92361075fd89#:~:text=Fun%C3%A7%C3%B5es%20an%C3%B4nimas%20s%C3%A3o%20fun%C3%A7%C3%B5es%20sem,execu%C3%A7%C3%A3o%20de%20fun%C3%A7%C3%A3o%20invocada%20imediatamente.">funções anônimas</a>,
+* <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/IIFE">iife</a>
+
+Estudar um pouco mais sobre <a href="https://www.devmedia.com.br/programacao-funcional-com-javascript/34377">JavaScript funcional</a>, Conhecer esses fundamentos é muito importante, mas eles não são fundamentos básicos, eles já são fundamentos um pouco mais avançados e não caberiam neese curso. 
+
+![objetos](https://user-images.githubusercontent.com/88457552/178365289-d0f40b6e-e6e6-48ce-b658-e960cfceb721.PNG)
+
+
+Outra coisa muito importante de você estudar <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects">objetos</a>, o **JavaScript além de ser uma linguagem funcional**, ela é também uma **linguagem orientado a objeto**, você consegue declarar objetos, utilizar objetos, e esse conceito também é muito importante para você
+
+> a gente tem aqui no Curso em vídeo, também, um curso de orientação a objeto, ele só não e em JavaScript, ele é linguagem java, que você sabe que não é a mesma coisa que JavaScript. Então, esse curso de orientação a objeto, aqui do Curos em Vídeo, ele é em linguagem java e liguagem PHP, mas ele é bom pra você ver os fundamentos da liguagem também, JavaScript também é uma linguagem orientada a o bjetos.
+
+![mod](https://user-images.githubusercontent.com/88457552/178367368-ed0f5caf-61cf-4f94-b85c-2f7787885aac.PNG)
+
+
+Agora que você já aprendeu também funções e vai continuar estudando funções, dá uma estudada também sobre <a href="https://medium.com/liferay-engineering-brazil/modulariza%C3%A7%C3%A3o-em-javascript-101-8bf5282bcc56">modularização</a>, para você modularizar o seu código, deixar código separado em arquivos separados, reutilizar códigos utilizando JavaScript, isso é um conceito muito importante também e deve estar na sua lista de próximos passos de JavaScript.
+
+
+![regEx](https://user-images.githubusercontent.com/88457552/178369429-fdd12980-4809-4c82-b2ad-5b78495a561e.PNG)
+
+
+Outra coisa muito importante, é uma dica pessoal, estude <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions">expressões regulares</a>, o JavaScript também tem compatibilidade com expressões regulares, dá uma estudada nisso, para validação de dados também é uma maravilha, economiza muito tempo e código.
+
+
+![json](https://user-images.githubusercontent.com/88457552/178369590-17826fc4-6438-49e3-9c5b-92e59acd15e8.PNG)
+
+Você também pode dar uma estudada em <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON">JSON</a>, JSON é meio que estrutura de objeto que você consegue transmitir dados, salvar dados localmente, dá uma estudada também em JSON.
+
+
+![ajax](https://user-images.githubusercontent.com/88457552/178369665-66966760-bacf-47db-a79e-91eca0cd4dc1.PNG)
+
+Como eu citei lá no início do curso, quando a gente falou do Google imagens, que você vai roalando e ele vai carregando os conteúdos para frente, não tem mais o avançar, passar página, você vai rolando quando ele chega no final da página carrega mais coisa, Facebook, O Google imagens é assim, e o Youtube, isso tudo é graça a um tecnologia, que usa JavaScript que é o <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/AJAX">AJAX</a>
+
+
+![node](https://user-images.githubusercontent.com/88457552/178373819-62ea6498-ebca-401e-af1d-b727c9e0d759.PNG)
+
+
+E outra coisa para se aprender é além de você manter essas funcionalidades do lado do cliente, que a gente aprendeu nesse curso inteiro, você dá uma aprendida em <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Node.js">Node.js</a>, para você conseguir fazer os seus scripts rodarem no servidor, isso dá um potencial muito grande para linguagem e isso sem fala em um monte de biblioteca de framework, que a gente falou lá no início do curso, aprender <br>
+* <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/jQuery">jQuery</a>
+* <a hrfe="https://www.devmedia.com.br/vue-js-tutorial/38042">Vue.js</a>
+* <a href="https://www.devmedia.com.br/implementando-servicos-com-angularjs/32715">Angular</a> <br>
+
+Enfim, tem um monte de coisa para você aprender, então seus estudos em JavaScript não param por aqui,
+
+> a gente pegou sua mão lá no início do iniciante mesmo e te trouxe até aqui e agora eu estou te deixando com essa lista de dever de casa para você conseguir aprender 
+
+![objeto](https://user-images.githubusercontent.com/88457552/178375432-26a8b951-67c9-46e5-b02f-6029a7d1e435.PNG)
+
+
+e para incentivar o seu estudo eu não vou para por aqui vou te dar uma lambuja, vou tirar desses itens aqui, vou te dar a introdução de um muito importante, funções a gente já falou o básico, vamos pegar o segundo dessa lista, vou te mostrar o básico, os fundamentos do que é um **objetos** e do que ele serve para o nosso dia dia, em que ele é últi.
