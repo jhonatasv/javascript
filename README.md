@@ -2042,7 +2042,7 @@ Como eu citei lá no início do curso, quando a gente falou do Google imagens, q
 
 E outra coisa para se aprender é além de você manter essas funcionalidades do lado do cliente, que a gente aprendeu nesse curso inteiro, você dá uma aprendida em <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Node.js">Node.js</a>, para você conseguir fazer os seus scripts rodarem no servidor, isso dá um potencial muito grande para linguagem e isso sem fala em um monte de biblioteca de framework, que a gente falou lá no início do curso, aprender <br>
 * <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/jQuery">jQuery</a>
-* <a hrfe="https://www.devmedia.com.br/vue-js-tutorial/38042">Vue.js</a>
+* <a href="https://www.devmedia.com.br/vue-js-tutorial/38042">Vue.js</a>
 * <a href="https://www.devmedia.com.br/implementando-servicos-com-angularjs/32715">Angular</a> <br>
 
 Enfim, tem um monte de coisa para você aprender, então seus estudos em JavaScript não param por aqui,
