@@ -2079,8 +2079,49 @@ O grande problema do array, das variáveis compostas, é que o índice fica fixo
 ![o](https://user-images.githubusercontent.com/88457552/178380690-ae812839-dd15-4074-b901-7d5d2c1dcb1c.PNG)
 
 
-se você quiser declarar um objeto é só você utilizar chaves, por exemplo, acabei de criar uma variável chamada *amigo* e eu atribui ele uma chave
+se você quiser declarar um objeto é só você utilizar chaves, por exemplo, acabei de criar uma variável chamada *amigo* e eu atribui ele uma chave como se fosse um bloco de código, mas não é um bloco de código. 
 
+![obj](https://user-images.githubusercontent.com/88457552/178498858-eb3a8b0a-c1a5-427e-b613-e072fb6124fb.PNG)
+
+quando eu faço essa declaração ele vai criar uma variável grande exatamente como ela fez com o *num* , eu posso da mesma maneira que fiz com array divide em partes, por exemplo, vou dividir em quatro pedaços, quando eu divido em quatro pedaços ele pega variável amigo, que está lá embaixo da tela, e divide em quatro partes, exatamente como acabou de acontecer aqui, e a grande vatagem desse tipo de estrutura, a coisa bem básica do objeto, que diferencia ele dos arrays, é que eu consigo fazer isso aqui, dá uma olhada.
+
+
+![obj-1](https://user-images.githubusercontent.com/88457552/178501803-12e575cc-d0a5-4f46-a86a-3f5acf6200c1.PNG)
+
+
+
+Eu coloquei **nome:'José',** o que será que vai acontecer quando eu faço essa declaração? È simples, a primeira casa se chama **nome**, ela não vai se chamar *0*, ela não vai ter uma *chave 0* exatamente como está no arry, ela vai ter um **nome** mesmo, ela vai ter um identificador literal, ficar mais fácil de visualizar. 
+
+![boj-2](https://user-images.githubusercontent.com/88457552/178503455-2998e424-9cb4-4d88-84c8-989002748863.PNG)
+
+
+Dentro do objeto, dentro da primeira casa do objeto, eu vou ter *José*, 
+
+![obj-3](https://user-images.githubusercontent.com/88457552/178507944-89acd1c9-e6f8-49a5-a947-9f200d620c44.PNG)
+
+em seguida eu vou colocar sexo é Masculino, o que eu vai acontecer? Eu vou criar um campo, na verdade chama isso de atributo do objeto, um atributo *sexo* com valor masculino.
+
+![obj-4](https://user-images.githubusercontent.com/88457552/178509743-1c672801-b0c9-4c3e-9044-bfac502d0d80.PNG)
+
+
+Outra coisa que eu posso colocar, o peso de *josé*, o peso é 85.4 ele vai criar um atributo peso e vai colocar o valor lá dentro. Então, até o momento, o objeto que está lá embaixo já é mais evoluído, é mais detalhado, tem mais possibilidades do que o array que está aqui em cima.
+
+>E em momento nenhum eu estou desmerecendo o array, por favor, array é uma coisa muito importante, o que estou te mostrando aqui é um próximo passo, quando você precisar fazer alguma coisa um pouco mais evoluída, você vai ter que partir para o objeto porque ele é melhor, inclusive tem uma funcionalidade muito melhor que o array não tem.
+
+![obj-5](https://user-images.githubusercontent.com/88457552/178512487-bb0f3810-f9db-4631-9ae3-d7881d32657a.PNG)
+
+
+Uma coisa que eu posso fazer, eu deixei reservado para o último espaço, eu posso colocar assim: *engordar com parãmetro p, abro e fecho chaves*, na verdade, o que estou fazendo aqui no último elemento é criar um item engordar que tem uma função dentro.
+
+Então os objetos são variáveis, variável guarda valores, só que além de guarda valores, que são os atributos, objetod podem guardar funcionalidades, que é o que a gente chama de métodos.
+
+
+![obj-6](https://user-images.githubusercontent.com/88457552/178514677-1225ea06-a802-4402-b697-9eb73fd37df3.PNG)
+
+
+Deu para ver a diferença aqui, o que eu tenho aqui *em primeiro é um array*, é um vetor o que eu tenho aqui embaixo da tela *é o objeto* e o JavaScript tem total compatibilidade com objetos.
+
+*  <a href="https://www.youtube.com/watch?v=roP93FA-NgU&ab_channel=CursoemV%C3%ADdeo">exemplo simple no minuto (14:30)</a>
 
 
 
