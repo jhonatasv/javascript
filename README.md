@@ -2053,3 +2053,34 @@ Enfim, tem um monte de coisa para você aprender, então seus estudos em JavaScr
 
 
 e para incentivar o seu estudo eu não vou para por aqui vou te dar uma lambuja, vou tirar desses itens aqui, vou te dar a introdução de um muito importante, funções a gente já falou o básico, vamos pegar o segundo dessa lista, vou te mostrar o básico, os fundamentos do que é um **objetos** e do que ele serve para o nosso dia dia, em que ele é últi.
+
+<br>
+
+---
+
+![array](https://user-images.githubusercontent.com/88457552/178376634-6bfdaf10-1696-419a-b233-5898c4a87522.PNG)
+
+para dar uma relembrada no que a gente acabou de ver algumas aulas atrás, a declaração de arrays, vou dar uma revisada rápida para você entedender o objetivo de objetos numa linguagem de programação, um dos objetivos na minha opinião o principal deles.
+
+![array-1](https://user-images.githubusercontent.com/88457552/178377514-9feecb86-5e0f-4e23-b39f-a7687b71c03d.PNG)
+
+Quando a gente declara um array no JavaScript é só você colocar qualquer valor entre colchetes e atribuir á uma variável, que essa variável vira um vetor, nós vimos isso durante aula, só dando uma recordada, quando eu faço essa declaração ele cria uma variável *num*, só que não é uma variável pequena, é uma variável com mais espaço, divido essa variável em três pedaços e eu faço a divisão da variável na memória em três pedaços, cada pedaço recebe um índice ou chave e isso é fixo, o primeiro elemento é índice *0* e assim sucessivamente até o último. 
+
+![array-2](https://user-images.githubusercontent.com/88457552/178377989-0f8f2356-fecb-4596-a8a8-e36e0df1920f.PNG)
+
+
+quando eu coloco valores 5, 8, 4, por exemplo, esses valores vão pra dentro do vetor e ponto. Uma coisa que eu não citei na aula de arrays é que eu não preciso colocar todos os números como eu coloquei aqui embaixo, se o primeiro item tem número o outro tem que ter um numero também, muitas linguagens de programação são assim, JavaScript não, se você quiser colocar o nome na primeira casa, o endereço na segunda casa, a idade do cara na terceira, não tem problema, o array no JavaScript, ele é heterogêneo, ele aceita valores de tipos diferentes, você pode colocar uma string no primeiro, um número na segunda, um valor lógico na terceira e assim sucessivamente.
+
+![array-](https://user-images.githubusercontent.com/88457552/178379381-6ee9060c-fd71-49dd-9b9f-fd21e5ea6529.PNG)
+
+
+O grande problema do array, das variáveis compostas, é que o índice fica fixo, s eeu colocar o nome na primeira casa eu não consigo chamar aquela parte de baixo de nome, a primeira casa é sempre 0, a segunda é sempre 1, então quando você usa array, ele facilita muito a sua vida, porque reduz o seu código, mas acaba que com o tempo você acaba ficando limitado na primeira casa, na segunda casa e terceira casa e índices numéricos acabam atrapalhando quando você quer fazer uma coisa mais avançada. Pra coisa simples o array serve muito bem, para coisas mais avançadas o array começa a ficar um pouco limitado e é por isso que eu coloquei isso aqui como o próximo passo, e aí vem passo da gente começar a enteder o que é um objeto. Para declarar um objeto em JavaScript, a delcaração é muito simples, array, como você vê aqui em cima declara como colchetes, 
+
+![o](https://user-images.githubusercontent.com/88457552/178380690-ae812839-dd15-4074-b901-7d5d2c1dcb1c.PNG)
+
+
+se você quiser declarar um objeto é só você utilizar chaves, por exemplo, acabei de criar uma variável chamada *amigo* e eu atribui ele uma chave
+
+
+
+
