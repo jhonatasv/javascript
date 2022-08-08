@@ -20,6 +20,7 @@
     ---color-links-github-hove: #6495ed;
     ---color-white: #fff;
     ---color-Green-hover: #1be691;
+    ---background-button-top: #2D333B;
 }
 
 .dark-mode:root {
@@ -30,6 +31,7 @@
     ---color-links-github-hove: #1be691;
     ---color-white: #fff;
     ---color-Green-hover: #1be691;
+    ---background-button-top: #2b323bb4;
 }
 
 html {
@@ -149,6 +151,28 @@ h1 {
 .projeto-img:hover {
     box-shadow: 0 4px 17px 7px #0000000d;
     transform: scale(1.01);
+}
+
+.button-top {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+    justify-content: center;
+    transition: all 0.3s ease-in;
+    box-shadow: #00000054 0px 1px 5px 1px;
+    color: var(---color-white);
+    background-color: var(---background-button-top);
+
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    transform: translate(-6px, -20px);
+}
+
+.button-top:hover {
+    padding: 6px;
 }
 
 footer {
