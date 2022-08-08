@@ -12,3 +12,18 @@ let amigo = {
 amigo.engordar(2)
 
 console.log(`${amigo.nome} pesa ${amigo.peso}`)
+
+function mostraNome(nome) {
+    return nome ? `Sr. ${nome}` : 'sem nome'
+}
+
+
+let perfil = mostraNome()
+console.log(perfil)
+
+function imprimir(nome) {
+    return nome && 'Sr. ' + nome || 'sem nome'
+}
+
+let perfil2 = imprimir('jhon')
+console.log(perfil2)
