@@ -418,6 +418,7 @@
                 </div>
             </div>
         </section>
+        <span id="button-top" class="button-top">^</span>
     </main>
     <footer>
         <p>&copy; <a href="https://github.com/jhonatasv" target="_blank" rel="author">Jhonatas</a></p>
@@ -425,11 +426,29 @@
     <script>
         const input = document.querySelector('#check')
         const modoDarkHtml = document.querySelector('html')
-        
+        const btn = document.querySelector('#button-top') 
+
+        btn.addEventListener('click', () => {
+            window.scrollTo(0,0)
+        })
+
+        function ocultar() {
+            if(window.scrollY > 390) {
+                btn.style.display = 'flex'
+            } else {
+                btn.style.display = 'none'
+            }
+        }
+        ocultar()
+
+        document.addEventListener('scroll', ocultar)
+
         input.addEventListener('change', () => {
             
             modoDarkHtml.classList.toggle('dark-mode')
         })
+
+
     
     </script>
 </body>
