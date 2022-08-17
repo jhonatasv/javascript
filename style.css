@@ -200,11 +200,36 @@ footer a:hover {
         height: auto;
     }
     
-    .card-intem {
+    .card-item {
         width: 300px;        
     }
 }
 
+
+@media (max-width: 345px) {
+    .navbar {
+        font-size: 15px;
+    }
+
+    .projeto-img {
+       width: 245px;
+    }
+   
+    .card-item {
+        width: 270px;
+    }
+    .button-top {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media(max-width: 293px) {
+    .navbar {
+        font-size: 14px;
+        column-gap: 14px;
+    }
+}
 
 @media(max-width: 320px) {
     .conteiner {
@@ -213,14 +238,6 @@ footer a:hover {
         row-gap: 30px;
         align-items: center;
         justify-content: center;
+       
     }
-
-    .projeto-img {
-        width: 220px;
-        height: auto;
-    }
-
-    .card-intem {
-        width: 250px;
-    }
-}
+} 
